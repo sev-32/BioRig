@@ -1,0 +1,25 @@
+{
+  "schema": "biorig.lucid.latency-contrast.v1",
+  "completedCases": 4,
+  "sceneIndices": [
+    1,
+    4
+  ],
+  "matchedDelayContrasts": [
+    {
+      "index": 4,
+      "lagMs": 20,
+      "actionChanged": false,
+      "newHazard": false,
+      "avoidedHazard": false,
+      "settlingChanged": false,
+      "deltaPeakArmN": 0,
+      "deltaPeakTiltDeg": 0
+    }
+  ],
+  "missingZeroDelayScenes": [
+    1
+  ],
+  "claim": "archived physical traces only; missing pairs are not inferred",
+  "researchOnly": true
+}
