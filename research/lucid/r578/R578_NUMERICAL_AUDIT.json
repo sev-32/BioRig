@@ -84,9 +84,25 @@
       30,
       40
     ],
-    "sha256": "abd3040f9e60985ef97c080c87ab1bcd2685a53e484ffe585cff02a27d481713",
+    "sha256": "7b7dfdb6ce7e4342a23bdae5100612affee36809d382c26e9daef9ef4762c5ee",
     "verifiedFinalX_m": 0.0311359047059152,
-    "verifiedFinalTilt_deg": 12.353960324397102
+    "verifiedFinalTilt_deg": 12.353960324397102,
+    "visualOnlyInspection": {
+      "headlightAmbient": 0.86,
+      "headlightDiffuse": 1,
+      "seatRGBA": [
+        0.38,
+        0.55,
+        0.75,
+        0.18
+      ],
+      "massOrContactsChanged": false,
+      "camera": {
+        "azimuth": 110,
+        "elevation": -15,
+        "distance": 1.65
+      }
+    }
   },
   "gates": {
     "r578RegressionScenesVerified": [
@@ -97,5 +113,9 @@
     "canonicalPromotion": false,
     "allSensorLoopLatencyVerified": false
   },
-  "interpretation": "Measured 40s displacement reduction without 40s settling; the stronger dose raises cumulative excitation by approximately 27% relative to R577."
+  "interpretation": "Measured 40s displacement reduction without 40s settling; the stronger dose raises cumulative excitation by approximately 27% relative to R577.",
+  "tests": {
+    "structuralAndNative": "6/6 passed",
+    "nativeReplayHorizonSeconds": 12
+  }
 }
