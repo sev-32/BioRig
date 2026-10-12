@@ -1,0 +1,41 @@
+{
+  "schema": "biorig.lucid.verification.v1",
+  "date": "2026-10-12",
+  "branch": "research/lucid-r575-goal-intent",
+  "python_version": "3.13.5",
+  "mujoco_version": "3.15.0",
+  "r574_tests": {
+    "passed": 21,
+    "failed": 0,
+    "exit_code": 0
+  },
+  "r575_evidence_tests": {
+    "passed": 5,
+    "failed": 0,
+    "exit_code": 0
+  },
+  "source_only_tests": {
+    "passed": 10,
+    "failed": 0
+  },
+  "archive_import": {
+    "r574_entries": 2505,
+    "r575_entries": 11,
+    "full_bootstrap_completed": true
+  },
+  "r575_source_git_blob_sha": "2a42bfb1750a3430dafba85bc39944c8122dd5cf",
+  "render": {
+    "native_mujoco": true,
+    "frames": [
+      0,
+      0.16,
+      0.52,
+      1.2
+    ],
+    "png_sha256": "41251b9c1202afeca8a30c9a19ca87920a9fede19a237e46a62183009f0ea0db",
+    "physics_modified": false,
+    "visualization_cosmetic_changes": true
+  },
+  "full_14_scene_latency_sweep_completed": false,
+  "production_promoted": false
+}
