@@ -1,0 +1,106 @@
+{
+  "schema": "lucid.r579.native-research-audit.v1",
+  "branch": "research/lucid-r575-goal-intent",
+  "researchOnly": true,
+  "notHeldout": true,
+  "plant": "Unmodified R574 84-muscle MuJoCo 3.15 native plant",
+  "frozenComparator": "R577 four-actor bounded tonic controller",
+  "sourceVerifiedGitBlobSHA": {
+    "r579_controller.py": "5ee89991ae83efc6d953ec6694d249125aa56ae1",
+    "r579_identify.py": "7c2f56475ffbb2765ee130e26a2c20ebdb383115",
+    "r579_render.py": "badf0387e893c810665b09f72a0f7c3dc7f79c61",
+    "test_r579.py": "b1b8ad2352d0f82e6a26c5b0b4eb4f325569c373"
+  },
+  "probe": {
+    "tS": 8,
+    "horizonS": 0.8,
+    "dose": 0.025,
+    "fullLateralDeltaX_m": -0.0003278938978023109,
+    "gluteusMediusOnlyDeltaX_m": -0.000320851079072048,
+    "extensionDeltaX_m": 0.0003450952454188867,
+    "fullReceiptSHA256": "c06bf5f3be86ccc4bc17600ed8e643816f9bbb4859502519b740bec4c524970f"
+  },
+  "longHorizon40S": [
+    {
+      "profile": "r577_full",
+      "hazard": false,
+      "settledAtEnd": false,
+      "x_m": 0.03184438305604435,
+      "tilt_deg": 12.389589650454274,
+      "sumChannelExcitationSeconds": 3.84528,
+      "source": "R577 development receipt"
+    },
+    {
+      "profile": "hip_only",
+      "hazard": false,
+      "settledAtEnd": false,
+      "x_m": 0.035089280041805296,
+      "tilt_deg": 12.459704693893473,
+      "sumChannelExcitationSeconds": 0.9613200000000008,
+      "fullTraceSHA256": "f9d946c7a9016e388996624a6702ab130e5a15f99b48998899a77785f8715262"
+    },
+    {
+      "profile": "hip_trunk_20pct",
+      "hazard": false,
+      "settledAtEnd": false,
+      "x_m": 0.03386264208713314,
+      "tilt_deg": 12.45293248030793,
+      "sumChannelExcitationSeconds": 1.5381120000000275,
+      "fullTraceSHA256": "71554ce7e63945f4738161e42bda91449047a318c9e8cb18a8a703d1bc8e405d"
+    }
+  ],
+  "nativeScene00At12S": [
+    {
+      "profile": "hip_only",
+      "hazard": false,
+      "settledAtEnd": true,
+      "x_m": 0.02747142168579468,
+      "fullTraceSHA256": "af93196efc4e916a2a96b76d1d2aa3779e059608ad1670ee753f54d3fa0b81e9"
+    },
+    {
+      "profile": "hip_trunk_20pct",
+      "hazard": false,
+      "settledAtEnd": true,
+      "x_m": 0.02745328697189052,
+      "fullTraceSHA256": "40f4e84e5183ab63becb7b12737d8711b063e5f0116f3821fbb821f2725f0826"
+    }
+  ],
+  "nativeScene04Pushed12S": [
+    {
+      "profile": "hip_only",
+      "hazard": false,
+      "settledAtEnd": true,
+      "x_m": 0.024053657885478166,
+      "fullTraceSHA256": "4d6b4545a81814840c8b43253cdda150e61a7f5cdab7bd6580dab03173db7128"
+    },
+    {
+      "profile": "hip_trunk_20pct",
+      "hazard": false,
+      "settledAtEnd": true,
+      "x_m": 0.02423619700302292,
+      "fullTraceSHA256": "3f7121654dab99787cd34e0f5da9e44995eead756b20a1ade35c98e6c0822d62"
+    }
+  ],
+  "renderer": {
+    "actualNativeEGL": true,
+    "timesS": [
+      0,
+      4,
+      8,
+      12
+    ],
+    "imageSHA256": "903c8271908484ca40341586df112e9eaaf0d467fdd8bfbe98db113f3ed34a7d",
+    "imageStoredOutsideGit": true
+  },
+  "tests": {
+    "nativeAndContract": "6 passed, 0 failed, 0 skipped",
+    "includes12sNativeReplay": true
+  },
+  "openGates": [
+    "40-second profiles remain outside lateral settling threshold (0.030m)",
+    "14-scene full held-out regression remains incomplete",
+    "No whole-loop neural latency test",
+    "Uncalibrated muscle effort is excitation integral, not metabolic energy",
+    "Controller uses scoped monkey-patching of R577 class and is not thread safe; serialize rollouts"
+  ]
+}
