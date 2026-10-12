@@ -14,7 +14,8 @@ import numpy as np
 import mujoco as mj
 
 HERE = Path(__file__).resolve().parent
-ROOT = HERE / 'runtime'
+ROOT = next((p / 'runtime' for p in (HERE, *HERE.parents)
+             if (p / 'runtime' / 'R574_INTENTION_AND_AVERSION').is_dir()), HERE / 'runtime')
 sys.path[:0] = [str(ROOT/'R574_INTENTION_AND_AVERSION'),
                str(ROOT/'R562_SETTLING_CONTROL')]
 import r574_evaluate as frozen
