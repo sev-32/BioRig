@@ -1,0 +1,8 @@
+{
+  "schema": "biorig.lucid.provenance.v1",
+  "r574_archive_sha256": "21e0c354023badd40485840296e09034809ae4eb055fd926eff39ac0b8700701",
+  "r575_addendum_sha256": "5377f998f1f05efc2de6ef1033ec2b87716703e8eb4e0d1e6d8f2e273ab6be0e",
+  "r575_source_sha256": "b420dd32b336b22b2dca7f36266d201f46e2a528d72ddd503845999314e2a5bf",
+  "r574_policy_modified": false,
+  "production_promoted": false
+}
