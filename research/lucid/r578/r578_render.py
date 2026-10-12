@@ -18,6 +18,13 @@ TUNING={**r.CONFIG,'rootTargetM':.023,'kpRootPerM':1.2,'kpComPerM':.3}
 def capture():
     sc={'seatHalfWidthM':.131,'friction':.82,'forceN':0.,'direction':1.}
     pb,ref,neu,saved=r.phys.paired_scene(.131,.82)
+    # Visual-only inspection controls: do not change physics, contacts or forces.
+    pb.model.vis.headlight.ambient[:]=[.86,.86,.86]
+    pb.model.vis.headlight.diffuse[:]=[1.,1.,1.]
+    pb.model.geom_rgba[0]=[.38,.55,.75,.18]
+    for geom in range(2,pb.model.ngeom):
+        if pb.model.geom_rgba[geom,3]>.01:
+            pb.model.geom_rgba[geom,:3]=np.clip(.28+pb.model.geom_rgba[geom,:3]*.85,.28,.91)
     d=mj.MjData(pb.model)
     mj.mj_copyData(d,pb.model,saved)
     initial=r.phys.plant.sha_state(pb.data)
@@ -25,7 +32,7 @@ def capture():
     feedback=r.SupportFeedback(pb.model,TUNING)
     cam=mj.MjvCamera();mj.mjv_defaultCamera(cam)
     cam.type=mj.mjtCamera.mjCAMERA_FREE
-    cam.lookat[:]=[.03,.53,-.1];cam.distance=1.95;cam.azimuth=110.;cam.elevation=-15.
+    cam.lookat[:]=[.02,.52,-.16];cam.distance=1.65;cam.azimuth=110.;cam.elevation=-15.
     frames=[];values=[]
     with mj.Renderer(pb.model,width=W,height=H) as render:
         for k in range(round(max(TIMES)/r.DT)+1):
