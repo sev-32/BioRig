@@ -1,0 +1,101 @@
+{
+  "schema": "lucid.r578.development-audit.v1",
+  "researchOnly": true,
+  "notHeldOut": true,
+  "trainingModified": false,
+  "initialPlantSHA256": "3baf94ca375e535d72bacccdee2c43141e7d2a3a156539257274de1862339c24",
+  "controllerModes": [
+    {
+      "id": "r577_legacy",
+      "scene": 0,
+      "seconds": 40,
+      "hazard": false,
+      "settledAtEnd": false,
+      "finalX_m": 0.03184438305604435,
+      "finalTilt_deg": 12.389589650454274,
+      "additionalDoseIntegral_excitationSeconds": 0.9613200000000008
+    },
+    {
+      "id": "r578_standard",
+      "scene": 0,
+      "seconds": 40,
+      "hazard": false,
+      "settledAtEnd": false,
+      "peakTilt_deg": 14.444386033846763,
+      "peakArm_N": 0.2653655984500943,
+      "finalX_m": 0.031700481055443944,
+      "finalTilt_deg": 12.381192062373055,
+      "additionalDoseIntegral_excitationSeconds": 1.0131910145750633,
+      "rootTarget_m": 0.026,
+      "kpRoot_perM": 0.4,
+      "kpCOM_perM": 0
+    },
+    {
+      "id": "r578_strong",
+      "scene": 0,
+      "seconds": 40,
+      "hazard": false,
+      "settledAtEnd": false,
+      "peakTilt_deg": 13.11960497449872,
+      "peakArm_N": 0.07829669912050484,
+      "finalX_m": 0.0311359047059152,
+      "finalTilt_deg": 12.353960324397102,
+      "additionalDoseIntegral_excitationSeconds": 1.2239657007877578,
+      "rootTarget_m": 0.023,
+      "kpRoot_perM": 1.2,
+      "kpCOM_perM": 0.3
+    },
+    {
+      "id": "r578_strong",
+      "scene": 4,
+      "seconds": 12,
+      "hazard": false,
+      "settledAtEnd": true,
+      "peakTilt_deg": 12.927114611221903,
+      "peakArm_N": 5.811085096775981,
+      "finalX_m": 0.02479418493143475,
+      "finalTilt_deg": 12.581722559505947,
+      "additionalDoseIntegral_excitationSeconds": 0.24486811523078633,
+      "rootTarget_m": 0.023,
+      "kpRoot_perM": 1.2,
+      "kpCOM_perM": 0.3
+    }
+  ],
+  "archivedFullTraces": {
+    "r578_standard_40s": {
+      "sha256": "0bf4c6c4e35c2945a16948edd788eef3d63c1c5a2b4b0ff60ca736e52abbdd95",
+      "bytes": 115333
+    },
+    "r578_strong_40s": {
+      "sha256": "f99ec518ff876e0f557bbde3ba34d4cbcf5f8372f1c58cad82de89bda9f029f8",
+      "bytes": 115085
+    },
+    "r578_strong_scene04_12s": {
+      "sha256": "d9a00e9483a5d243854b5f6e1fb01c6323cdd577d08ca17a985be18ef476851d",
+      "bytes": 35677
+    }
+  },
+  "nativeRenderer": {
+    "renderer": "MuJoCo 3.15 EGL",
+    "framesS": [
+      0,
+      12,
+      20,
+      30,
+      40
+    ],
+    "sha256": "abd3040f9e60985ef97c080c87ab1bcd2685a53e484ffe585cff02a27d481713",
+    "verifiedFinalX_m": 0.0311359047059152,
+    "verifiedFinalTilt_deg": 12.353960324397102
+  },
+  "gates": {
+    "r578RegressionScenesVerified": [
+      0,
+      4
+    ],
+    "otherScenesUnverified": true,
+    "canonicalPromotion": false,
+    "allSensorLoopLatencyVerified": false
+  },
+  "interpretation": "Measured 40s displacement reduction without 40s settling; the stronger dose raises cumulative excitation by approximately 27% relative to R577."
+}
