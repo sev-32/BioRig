@@ -1,0 +1,77 @@
+{
+  "schema": "lucid.r576.scene00-source-audit.v1",
+  "evidenceClass": "new-postlock-development-not-heldout",
+  "r574LockSHA256": "60e0a247213900d69393cd17a016c23690734b8bfd716bda3fada9013d9968d1",
+  "index": 0,
+  "horizonS": 12,
+  "pairedInitialSHA256": "3baf94ca375e535d72bacccdee2c43141e7d2a3a156539257274de1862339c24",
+  "action": "none",
+  "priorR574Unchanged": true,
+  "baseline": {
+    "hazard": true,
+    "settledAtEnd": false,
+    "peakRootTiltDeg": 103.88394866712606,
+    "peakArmSeatN": 1618.5305019222128,
+    "peakOtherFloorN": 1519.3152456402088,
+    "bothSupportLossSamples": 7,
+    "finalX": 0.24764012932092766,
+    "finalV": 0.05289108974584808,
+    "finalTiltDeg": 101.8032846099632
+  },
+  "guarded": {
+    "hazard": false,
+    "settledAtEnd": false,
+    "peakRootTiltDeg": 26.348197977520336,
+    "peakArmSeatN": 4.289241455518245,
+    "peakOtherFloorN": 0,
+    "bothSupportLossSamples": 0,
+    "finalX": 0.046235892574102995,
+    "finalV": 0.014380889633335643,
+    "finalTiltDeg": 26.348197977520336,
+    "postlockSupportPulses": [
+      {
+        "startS": 4.44,
+        "muscleGroup": "left_lateral",
+        "reason": "slow_support_drift",
+        "atStartPositionM": 0.02320031494999234,
+        "atStartSpeedMps": 0.010482069476593298,
+        "atStartTiltDeg": 12.410908810881688
+      },
+      {
+        "startS": 9.52,
+        "muscleGroup": "left_lateral",
+        "reason": "slow_support_drift",
+        "atStartPositionM": 0.03053328384594268,
+        "atStartSpeedMps": 0.0020957337596813337,
+        "atStartTiltDeg": 16.374302243550652
+      },
+      {
+        "startS": 10.56,
+        "muscleGroup": "left_lateral",
+        "reason": "slow_support_drift",
+        "atStartPositionM": 0.03219577641791059,
+        "atStartSpeedMps": 0.006282641914489081,
+        "atStartTiltDeg": 17.737571094103664
+      },
+      {
+        "startS": 11.64,
+        "muscleGroup": "left_lateral",
+        "reason": "slow_support_drift",
+        "atStartPositionM": 0.03761298462430351,
+        "atStartSpeedMps": 0.025334360134494985,
+        "atStartTiltDeg": 21.29733476048253
+      }
+    ]
+  },
+  "fullTraceSHA256": "604feea76ca69e8abde7ab0958500d85cb1726120689082d685bb166f5a6df84",
+  "fullTraceBytes": 170464,
+  "nativeRendererPNG_SHA256": "d790ed99b00bf75bbf48537aae68f01a83c2346c8816a843060b2abf303ffd7d",
+  "rendererBytes": 649029,
+  "caveats": [
+    "Scene00 selected after discovery of its 12s failure: this is not independent generalization evidence",
+    "12s safety is not equilibrium stability; guarded outcome not settled",
+    "R562 derived late pulses still use immediate simulator observations; full neural latency untested",
+    "Absolute contact peaks are simulator domain and not human injury estimates",
+    "Full JSON trace and native render supplied in separate offline checkpoint/inline image, not Git"
+  ]
+}
