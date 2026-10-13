@@ -1,0 +1,115 @@
+{
+  "schema": "lucid.r580.native-adaptive-synergy-audit.v1",
+  "date": "2026-10-12",
+  "branch": "research/lucid-r575-goal-intent",
+  "baseline": "Frozen R574/84-muscle MuJoCo 3.15, inherited base stabilizer unchanged",
+  "frozenModelChanged": false,
+  "promoted": false,
+  "evidenceClass": "post-hoc scene00 development tests, not blind holdout",
+  "experiments": [
+    {
+      "id": "R577-all-4-reference",
+      "scene": 0,
+      "horizonS": 40,
+      "hazard": false,
+      "settledAtEnd": false,
+      "finalRootX_m": 0.03184438305604435,
+      "channelExcitationSeconds": 3.84528,
+      "provenance": "R577 prior committed receipt"
+    },
+    {
+      "id": "R579-hip-trunk20-reference",
+      "scene": 0,
+      "horizonS": 40,
+      "hazard": false,
+      "settledAtEnd": false,
+      "finalRootX_m": 0.03386264208713314,
+      "channelExcitationSeconds": 1.5381120000000275,
+      "provenance": "R579 prior committed receipt"
+    },
+    {
+      "id": "R580-early-strong-40s",
+      "scene": 0,
+      "horizonS": 40,
+      "hazard": false,
+      "settledAtEnd": false,
+      "finalRootX_m": 0.031567315928315055,
+      "rootTilt_deg": 12.352249715291585,
+      "peakTilt_deg": 12.959814032684095,
+      "peakArmSeat_N": 4.0437486115286685,
+      "channelExcitationSeconds": 4.733226903013912,
+      "config": {
+        "triggerPositionM": 0.0268,
+        "fullRecruitAtM": 0.0292,
+        "lookaheadS": 2,
+        "hipMax": 0.037
+      },
+      "fullTraceSHA256": "f761a23909b196fe685d016d22debce7bbbbb47fea99fe2e9434c0f37c062a6c"
+    },
+    {
+      "id": "R580-lower-effort-40s",
+      "scene": 0,
+      "horizonS": 40,
+      "hazard": false,
+      "settledAtEnd": false,
+      "finalRootX_m": 0.03190630198906562,
+      "rootTilt_deg": 12.367186766365437,
+      "peakTilt_deg": 13.482950887765877,
+      "peakArmSeat_N": 0.18473376890993232,
+      "channelExcitationSeconds": 2.8498904597438215,
+      "config": {
+        "triggerPositionM": 0.0284,
+        "fullRecruitAtM": 0.0308,
+        "lookaheadS": 1,
+        "hipMax": 0.029
+      },
+      "fullTraceSHA256": "b9885e341c344715eddfc439a32225a99ec4bd2cca483182084c44d2345d982a"
+    },
+    {
+      "id": "R580-lower-effort-scene04",
+      "scene": 4,
+      "horizonS": 12,
+      "hazard": false,
+      "settledAtEnd": true,
+      "finalRootX_m": 0.024246629385171182,
+      "rootTilt_deg": 12.587663832809325,
+      "peakArmSeat_N": 5.811085096775981,
+      "channelExcitationSeconds": 0.43882074814203803,
+      "config": {
+        "triggerPositionM": 0.0284,
+        "fullRecruitAtM": 0.0308,
+        "lookaheadS": 1,
+        "hipMax": 0.029
+      },
+      "fullTraceSHA256": "57f76cebffdc99c244452c5f4815f40af6f92388326287a43bb0b742902d5fc3"
+    }
+  ],
+  "scene00InitialPlantSHA256": "3baf94ca375e535d72bacccdee2c43141e7d2a3a156539257274de1862339c24",
+  "validation": {
+    "structuralTestsPassed": 7,
+    "native12sReplayPassed": 1,
+    "totalTestsPassed": 8,
+    "sixtySecondCompleted": false,
+    "sixtySecondFailure": "180-second wall-time timeout, no result persisted",
+    "fourteenSceneSweepCompleted": false,
+    "sensorimotorFullDelayProven": false
+  },
+  "render": {
+    "method": "MuJoCo 3.15 EGL native fixed inspection camera",
+    "timesS": [
+      0,
+      20,
+      30,
+      40
+    ],
+    "imageSHA256": "a7d5597ca71412cc7ec8bf413d4fb73fbceabbce4fee37300be945a0dc6f4e3d",
+    "imagesCommittedToGit": false
+  },
+  "blockers": [
+    "No 40-second criterion pass: x remains outside |x|<=0.030 m",
+    "Longer-horizon stability unverified because 60s did not finish",
+    "Other frozen cases and broad perturbation domains not evaluated",
+    "Added excitation integral is not energy or metabolic cost",
+    "Control thresholds tuned on known R579 late-drift scene; no independent holdout"
+  ]
+}
