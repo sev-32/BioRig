@@ -1,0 +1,15 @@
+field,semantic meaning,units/frame,writer witness IDs,reader witness IDs,authority,failure mode
+data.qpos,native generalized position,mixed free-root metres/quaternion plus joint radians,R590D,"C590B,R590P",MuJoCo model qpos layout,Reset/restore writer in R590; physics step also advances position
+data.qvel,native generalized velocity,mixed metres/sec and radians/sec,R590E,"A589C,C590B",MuJoCo model qvel layout,No direct muscle influence without integration
+data.act,native actuator activation,dimensionless activation state,R590F,"R590H,C590B",MuJoCo actuator-state layout,Activation != command; velocity and length dependent response
+data.ctrl,native muscle excitation control,nominal bounded excitation (dimensionless),"A589H,A589I,A589J,R590K",N586C,Base is overwritten by arm then neck only on continuous path
+data.qfrc_applied,applied generalized force,N or N.m per generalized velocity row,"N586D,R590L","N586F,R590O",MuJoCo qfrc_applied vector,Externally supplied modeled/passive forces distinct from muscle tension
+data.xfrc_applied,externally applied world-body spatial force,N and N.m in spatial wrench representation,"N586E,A589K,R590M,R590N","S003,R590O",MuJoCo xfrc_applied body-indexed array,Push must be interpreted in world vs native body conventions
+data.subtree_com,derived center of mass,world-frame metres,"R590G,R590O",R590Q,MuJoCo forward-derived array,Not independently assigned here
+data.actuator_force,native actuator force,MuJoCo native actuator force units,"R590G,R590O",N585E,Native forward state,Only specific muscle force semantics after gain/gear mapping
+data.actuator_length,muscle path length,metres / model actuator coordinate,"R590G,R590O",A589D,MuJoCo actuator mechanism,Geometry dependent; model correctness not proven
+derived arm-seat ledger,measured arm-seat contact reaction,newtons derived from native contacts,"R590G,R590O","A589M,C590D",MuJoCo collision engine,Contact transition sampling must preserve high-frequency data
+qref,seated reference generalized pose,MuJoCo qpos schema,R590C,R590R,R551 baseline reset,qref is a reference not current qpos
+neutral,head-to-hip horizontal posture reference,"metres in world x,z",R590S,R590I,R590.setup neutral construction,Conflated with goal if not typed separately
+allocator.last_eff,memory of previous neck excitation,dimensionless per neck actuator,R590H,R590J,R586 neck controller memory,"Reconstructed from physical act, not exact prior optimizer state"
+controller sampling cadence,simulation timing and discrete control updates,s / number of physics substeps,"N586B,R590J",R590O,Native timestep .002 in source,Control updates every five steps; contact sampled on separate cadence
