@@ -1,0 +1,21 @@
+{
+  "schema": "lucid.r586.true-native-skin78-visual-receipt.v1",
+  "receiptOnly": true,
+  "reference": "Real R585 SKIN78 native MuJoCo GIF re-used from earlier physical render (not generated)",
+  "research": "Fresh continuous 12s native R586 physical run rendered from qpos",
+  "framesPerCondition": 31,
+  "frameIntervalSeconds": 0.4,
+  "originalSkinSHA256": "88b6cacd2f7ad7fad0c5c9d9c731afcbc1388e09c5f0e817d181a62f11844a10",
+  "nativeGIF_SHA256": "ffd860743e1423cb3a7250efa20767cf21167254ebeaece71ca36a4f244d0f5f",
+  "gifFilename": "R586_NATIVE_SKIN78_VS_R585_12S.gif",
+  "gifSizeBytes": 1274990,
+  "modelPhysicsChanges": "NONE relative to R585; optimizer affects only 10 neck muscle activation commands",
+  "imageFidelity": "Original mesh via CausalRig(RigConfig(realization='reference',deformation='canonical')); VTK full skin, seat/floor; no generated pictures and no interpolation",
+  "matchedStart": "R585 and R586 both use the original cold-start physical scene",
+  "visualApprovalByOwner": false,
+  "caveats": [
+    "Exact native qpos per frame hashes are archived separately in the checkpoint ZIP",
+    "The full SKIN78 animation is delivered as a separate linked conversation artifact; images are not committed to code Git",
+    "Further skin, hands, global motion, and anatomical effort acceptance remain open"
+  ]
+}
