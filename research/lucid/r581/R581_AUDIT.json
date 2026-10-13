@@ -1,0 +1,109 @@
+{
+  "schema": "lucid.r581.native-develop-audit.v1",
+  "checkpoint": "2026-10-12",
+  "branch": "sev-32/BioRig:research/lucid-r575-goal-intent",
+  "researchOnly": true,
+  "productionModified": false,
+  "notHeldOut": true,
+  "sourceArchiveR574_SHA256": "21e0c354023badd40485840296e09034809ae4eb055fd926eff39ac0b8700701",
+  "sourceArchiveR575_SHA256": "5377f998f1f05efc2de6ef1033ec2b87716703e8eb4e0d1e6d8f2e273ab6be0e",
+  "frozenScene00InitialSHA256": "3baf94ca375e535d72bacccdee2c43141e7d2a3a156539257274de1862339c24",
+  "momentProbe": {
+    "nativeMuJoCoVersion": "3.15.0",
+    "sampleAtSeconds": 8.0,
+    "horizonSeconds": 0.5,
+    "extraExcitation": 0.025,
+    "tenBranches": 9,
+    "positiveDisplacementDirection": "world +X",
+    "leftGluteusMediusDeltaRootX_m": -0.0001995625520596206,
+    "leftExternalObliqueDeltaRootX_m": -2.330054362923578e-05,
+    "rightGluteusMediusDeltaRootX_m": 0.00022274242366930944,
+    "meaning": "Local same-state causal effect; not long-horizon benefit"
+  },
+  "results": [
+    {
+      "scene": 0,
+      "horizonSeconds": 12,
+      "hazard": false,
+      "settledAtEnd": true,
+      "finalX_m": 0.02774417395662273,
+      "finalCOMMinusCOP_m": 0.0054599608564038435,
+      "muscleChannelExcitationSeconds": 0.4536708455991141
+    },
+    {
+      "scene": 4,
+      "horizonSeconds": 12,
+      "frozenChoice": "R28",
+      "hazard": false,
+      "settledAtEnd": true,
+      "finalX_m": 0.024352956629376664,
+      "muscleChannelExcitationSeconds": 0.45299644966785807
+    },
+    {
+      "scene": 0,
+      "horizonSeconds": 40,
+      "hazard": false,
+      "settledAtEnd": false,
+      "finalX_m": 0.032165671287874086,
+      "finalRootTilt_deg": 12.37981708235358,
+      "peakRootTilt_deg": 14.471748990057918,
+      "peakSeatArm_N": 0.25969363691767217,
+      "supportLossSamples": 0,
+      "finalCOMMinusCOP_m": 0.036752380033370384,
+      "finalCOMx_m": 0.039919210954492274,
+      "finalCOPx_m": 0.0031668309211218917,
+      "muscleChannelExcitationSeconds": 1.9539043924102382
+    }
+  ],
+  "previousComparators": {
+    "R577_full": {
+      "finalX_m": 0.03184438305604435,
+      "effort": 3.84528
+    },
+    "R579_hip_trunk20": {
+      "finalX_m": 0.03386264208713314,
+      "effort": 1.5381120000000275
+    },
+    "R580_lower": {
+      "finalX_m": 0.03190630198906562,
+      "effort": 2.8498904597438215
+    }
+  },
+  "effortRelativeR577_pct": 50.813058929655014,
+  "effortRelativeR580_pct": 68.56068399856589,
+  "scene00_40s_COM_COP": {
+    "0": 0.0029542138004041494,
+    "12": 0.0054599608564038435,
+    "25": 0.01015448225501156,
+    "30": 0.025956126780393763,
+    "40": 0.036752380033370384
+  },
+  "evidenceSHA256": {
+    "R581_NATIVE_MOMENT_PROBE.json": "8559bdaf001f66107ea676d17c566711c8d2c6a57dce9076112e4d9b9b69703c",
+    "R581_SCENE00_40S.json": "7afa0dacb912ca8ac17e68b0e4ce4679aa489821eec77766b6a555f57e4c3fc4",
+    "R581_SCENES00_04_12S.json": "fdbde9f14367e7f9c2422e0c6ce25a60fef4e36e9a2f51c446bac51be8d8f1bd",
+    "R581_RENDER_RECEIPT.json": "a574d0c7518726ca9be28b56b11036b7a353b7994be5a498f3f2c378e8343081"
+  },
+  "renderImageSHA256": "de17172e421ef849b2f227289423eb9cb73582ea67e5c204a6b860453d437167",
+  "testedModulesSHA256": {
+    "r581_support.py": "df51cd0625d0af27b7b96937144d775ab352b53e2d9374d91f1bcbe794d3f471",
+    "r581_moment_probe.py": "91b200b8adc8881316b07ef3d29b5a82b654a2a357f202df41f0d81d901c61c9",
+    "r581_controller.py": "cbea7fbd2781ecac543ca46b1809461c4aec0c24870c0005e660c3f9eb9d303f",
+    "test_r581.py": "baac04440a377e00546dafaf29b38b4b7e20ef753ae618e03632a8c8f4dbb63c",
+    "r581_render.py": "01c60f2b47150741a326f5d830cca4f82ab379894eabbc6761e1eba345b1aa05"
+  },
+  "tests": {
+    "structuralPassed": 7,
+    "native12sPassed": 1,
+    "totalPassed": 8
+  },
+  "unresolved": [
+    "40-second settling fails as |rootX| > 0.030 m",
+    "COP is vertical-contact-load-weighted 1D centroid, not full 2D support polygon nor calibrated dynamic ZMP",
+    "COM-minus-COP grows markedly after 25s, its clinical stability significance is uncalibrated",
+    "40-second hazard-free development outcome does not prove asymptotic stability",
+    "14-scene and full-loop delay gates not passed",
+    "Numerical excitation integrals are not physical work or metabolic cost",
+    "Local same-state probes cannot be fed as oracle outcomes to live policy"
+  ]
+}
