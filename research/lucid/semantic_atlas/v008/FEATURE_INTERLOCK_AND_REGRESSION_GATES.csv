@@ -1,0 +1,22 @@
+requirement,evidenceWitnesses,existingCapability,currentActiveR590Restart,notProvenOrUnimplemented,acceptanceRequired,status
+goal contract,G001 G002,R574 two named goals/two actions,No,general arbitrary physical task set,multiple goal/task targets w/ no hand-written motion profiles,SOURCE_PRESENT_DISCONNECTED
+current-sensor hazard veto,G003 G006 G007,R574 hazard novelty veto,No,shared live sensor projection and typed hazard propagation,injected dangerous observations veto actual effect,SOURCE_PRESENT_DISCONNECTED
+goal outcome forecast,G004 G005,R574 small-data learned forecast,No,new action/domain calibration,held-out forecasts calibration vs native outcomes,SOURCE_PRESENT_DISCONNECTED
+real goal-to-actuation step,G008 G009 R590I,R574 evaluation selects pulse,No,policy action not wired to R590 write path,same physical run traces choice to exact actuator vector,MISSING_IN_CURRENT_ENTRYPOINT
+world-space movement planner,P001,original COM/foot planning source,No,general hand-target task and native actuation binding,multiple requested targets accomplished via native muscle work,SOURCE_PRESENT_DISCONNECTED
+whole-body multi-task muscle optimization,N001 N003 N004 N005,original full-body solver source,No,integration with seat neck and arm corrections,identical scene replay with all safety gates,SOURCE_PRESENT_DISCONNECTED
+native seated balance,S002 S004 R590I,R590 posture controller called,Yes,broad support conditions/terrain/human load,measured COM/contact/skin under varied pushes,PRESENT_LIMITED_EVIDENCE
+anatomical neck attachment geometry,N585A,R585 research correction,Yes via imported model setup,patient/anatomical calibration,muscle path origin/insertion and torque audit,PRESENT_UNCALIBRATED
+native neck muscle optimization,N586A N586B R590J,bounded moment-constrained allocator,Yes,physiological effort and dynamic force validation,muscle lag and long-horizon orientation under tasks,PRESENT_LIMITED_EVIDENCE
+purposeful arm descent,A589A A589C A589F A589G,R589 one finite timed landing task,"No, restart bypasses",general arm target beyond fixed startup,"native various targets and contacts, no excessive force",SOURCE_PRESENT_DISCONNECTED
+arm-seat sustained support,A589M C590D,sampled forearm ledger,Partial passive via posture,right-hand seat support and anatomy,force continuity/skin collision/real hand posture,UNRESOLVED
+controller priority and mutual exclusion,A589H A589I A589J R590K,explicit writes ordered,Base then neck,"joint allocator, overlap numeric assertion",runtime actuator ID overlap/write trace,OPEN_INTEGRATION_GATE
+muscle activation dynamics,R590F A589D N005,native act state and gain,Yes via native step,calibrated activation-to-force lag,"time-series act, length, force, moment validation",PRESENT_UNCALIBRATED
+contact response,C590D S004,native solver with contact ledger,"Yes, inherited",slip and impact event unaliasing,full-rate contacts and frictional work,PRESENT_LIMITED_EVIDENCE
+world perturbation reactions,R590M R590N,120 ms lateral push,Yes optional,multi-direction/strength and start times,repeat stability grid with no slips/head fold,PRESENT_LIMITED_EVIDENCE
+native state rewind,R590D R590E R590F R590G R590H,qpos/vel/activation snapshot restored,Yes,not all solver and controller memory recorded,bitwise/time-matched uninterrupted vs restore replay,PARTIAL_RECONSTRUCTION
+original causal rig skinning,K001 K003,original skinned articulated pipeline,Indirect renderer only,full equivalence of native/rig snapshots,vertex checksum/frames native-state provenance,MIXED_PATHS
+inverse muscle need diagnostics,K002,inverse demand for preauthored motions,No,forward force generation from inversely estimated values,native actuation causes target without playback,NOT_FORWARD_PROOF
+native SKIN78 render provenance,R590P A589L,native qpos snapshots,Separate renderer,dense sampling of collisions and contact,per-frame source-state hash and visible native render,PRESENT_SAMPLED
+generalizable action selection,G001 A589A,bounded pulse selector and fixed arm profile,No,joint goal/space semantics,unseen goal reaches with retention of stability/contact,MISSING
+full code semantic closure,N001 P001 R590K,all-source AST + V008 manual anchors,Partial,every symbol/dynamic dispatch and every execution mode,fully verified call/data flow with runtime witnesses,IN_PROGRESS
