@@ -1,0 +1,29 @@
+{
+  "schema": "lucid.semantic-atlas.v008-package",
+  "predecessor": "BioRig_LUCID_SEMANTIC_ATLAS_V007_GOAL_MUSCLE_ONTOLOGY_CONTRACTS_2026-10-13.zip",
+  "predecessorSHA256": "430eecc3cac024dc335ca5bc7f7c273c560a97415d6742e05a8833e8648619a9",
+  "sourceRoot": "BioRig_SEMANTIC_ATLAS_008/",
+  "filesSHA256": {
+    "CONTROL_AUTHORITY_AND_STATE_LIFECYCLE_PAPER.md": "e429a60f7b2121e883fa4835b4e21503f1bea269d8c370ebf9f68e0af58879fd",
+    "CONTROL_FLOW_LINE_WITNESSES.json": "b492f932278f96f6c372de202d59ce591b17443e91b86525cf7b8ba4e19885cd",
+    "DIRECTED_RUNTIME_INTERFACE_EDGES.json": "498331b4636e6fb4f4bcde55ce13191b9ea7e5a0c682577a865b00dcecc6589d",
+    "FEATURE_INTERLOCK_AND_REGRESSION_GATES.csv": "2f909f16c6643a3e53fce52c52e6fa58dc1580bfb5e9e161a8155829a5be896c",
+    "PACKAGE_MANIFEST.json": "75645083225da7220516a670317517f464ad19f34c0613e1c7d6c64b75dd2c6a",
+    "README.md": "fa661d9e095d94e8f8cd580ebb62cd4b7ff318403b2ab11e4ca526bfb9db7b30",
+    "SOURCE_PINNED_MODULE_MANIFEST.json": "59c4147a64336dc94c42cf932a2757a3e9fc553f5778bb4ada4254824afa74ad",
+    "STATE_FIELD_OWNERSHIP_CONTRACTS.csv": "951b48a2c6fb8d334c3879fc245e45515541ab4a0aaafbee755232e0e7aa82d4",
+    "V008_TEST_OUTPUT.txt": "f0a6ad28dd36eaab1eca8e085eddab57a7073b41e4360f8779ed6895e8a14a64",
+    "V008_VERIFICATION_RECEIPT.json": "183201331cb9c03d0945b013176345980d4ab1dd4a322dd3774c09cebd406fd7",
+    "VERIFICATION_RESULT.json": "f0a6ad28dd36eaab1eca8e085eddab57a7073b41e4360f8779ed6895e8a14a64",
+    "build_v008.py": "c67909f473902f1e86109a2a28e84c8ba2418c262d93194b5d8638b2affccc04",
+    "verify_v008.py": "6d74138c9f4785c6efb75467fd38003dd8811c11198202e6af808e06b3c83ae7",
+    "write_features.py": "c8de6e1318696a172d790f30c7ef4d0c873bac1edb8f004282e2c5ea1b9855cb",
+    "package_v008.py": "526405e22034bf94a26855f395a7053a537f8e0fa5d59da9cc1af0b760c6ec08"
+  },
+  "boundaries": [
+    "Source-exact AST documentation only",
+    "No MuJoCo runtime result from V008",
+    "No rendered image claimed",
+    "No original model/controller modified"
+  ]
+}
