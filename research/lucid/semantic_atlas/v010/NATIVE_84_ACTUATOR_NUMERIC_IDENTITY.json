@@ -1,0 +1,842 @@
+[
+  {
+    "muJoCoIndex": 0,
+    "name": "m_left_biceps",
+    "activationIndex": 0,
+    "catalogSourceLine": 99,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 1,
+    "name": "m_left_brachialis",
+    "activationIndex": 1,
+    "catalogSourceLine": 103,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 2,
+    "name": "m_left_triceps",
+    "activationIndex": 2,
+    "catalogSourceLine": 107,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 3,
+    "name": "m_left_deltoid_anterior",
+    "activationIndex": 3,
+    "catalogSourceLine": 111,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 4,
+    "name": "m_left_deltoid_middle",
+    "activationIndex": 4,
+    "catalogSourceLine": 115,
+    "R589Writer": "arm-R589-overrides-base",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 5,
+    "name": "m_left_deltoid_posterior",
+    "activationIndex": 5,
+    "catalogSourceLine": 119,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 6,
+    "name": "m_left_pectoralis_major",
+    "activationIndex": 6,
+    "catalogSourceLine": 123,
+    "R589Writer": "arm-R589-overrides-base",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 7,
+    "name": "m_left_latissimus",
+    "activationIndex": 7,
+    "catalogSourceLine": 127,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 8,
+    "name": "m_left_forearm_flexors",
+    "activationIndex": 8,
+    "catalogSourceLine": 131,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 9,
+    "name": "m_left_forearm_extensors",
+    "activationIndex": 9,
+    "catalogSourceLine": 135,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 10,
+    "name": "m_left_brachioradialis",
+    "activationIndex": 10,
+    "catalogSourceLine": 139,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 11,
+    "name": "m_left_gluteus_maximus",
+    "activationIndex": 11,
+    "catalogSourceLine": 144,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 12,
+    "name": "m_left_gluteus_medius",
+    "activationIndex": 12,
+    "catalogSourceLine": 148,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 13,
+    "name": "m_left_rectus_femoris",
+    "activationIndex": 13,
+    "catalogSourceLine": 151,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 14,
+    "name": "m_left_vastus_lateralis",
+    "activationIndex": 14,
+    "catalogSourceLine": 154,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 15,
+    "name": "m_left_vastus_medialis",
+    "activationIndex": 15,
+    "catalogSourceLine": 158,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 16,
+    "name": "m_left_hamstrings_lateral",
+    "activationIndex": 16,
+    "catalogSourceLine": 162,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 17,
+    "name": "m_left_hamstrings_medial",
+    "activationIndex": 17,
+    "catalogSourceLine": 166,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 18,
+    "name": "m_left_adductors",
+    "activationIndex": 18,
+    "catalogSourceLine": 170,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 19,
+    "name": "m_left_gastrocnemius_medial",
+    "activationIndex": 19,
+    "catalogSourceLine": 174,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 20,
+    "name": "m_left_gastrocnemius_lateral",
+    "activationIndex": 20,
+    "catalogSourceLine": 178,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 21,
+    "name": "m_left_soleus",
+    "activationIndex": 21,
+    "catalogSourceLine": 182,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 22,
+    "name": "m_left_tibialis_anterior",
+    "activationIndex": 22,
+    "catalogSourceLine": 186,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 23,
+    "name": "m_left_iliopsoas",
+    "activationIndex": 23,
+    "catalogSourceLine": 190,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 24,
+    "name": "m_left_supraspinatus",
+    "activationIndex": 24,
+    "catalogSourceLine": 197,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 25,
+    "name": "m_left_infraspinatus_teres_minor",
+    "activationIndex": 25,
+    "catalogSourceLine": 200,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 26,
+    "name": "m_left_subscapularis",
+    "activationIndex": 26,
+    "catalogSourceLine": 203,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 27,
+    "name": "m_left_neck_extensors",
+    "activationIndex": 27,
+    "catalogSourceLine": 206,
+    "R589Writer": "neck-R586-overrides-base",
+    "R590Writer": "neck-R586-overrides-base",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 28,
+    "name": "m_left_suboccipitals",
+    "activationIndex": 28,
+    "catalogSourceLine": 213,
+    "R589Writer": "neck-R586-overrides-base",
+    "R590Writer": "neck-R586-overrides-base",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 29,
+    "name": "m_left_longus_colli",
+    "activationIndex": 29,
+    "catalogSourceLine": 217,
+    "R589Writer": "neck-R586-overrides-base",
+    "R590Writer": "neck-R586-overrides-base",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 30,
+    "name": "m_left_lumbar_extensors",
+    "activationIndex": 30,
+    "catalogSourceLine": 220,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 31,
+    "name": "m_left_thoracic_extensors",
+    "activationIndex": 31,
+    "catalogSourceLine": 224,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 32,
+    "name": "m_left_quadratus_lumborum_iliolumbar",
+    "activationIndex": 32,
+    "catalogSourceLine": 235,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 33,
+    "name": "m_left_quadratus_lumborum_iliocostal",
+    "activationIndex": 33,
+    "catalogSourceLine": 238,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 34,
+    "name": "m_left_quadratus_lumborum_lumbocostal",
+    "activationIndex": 34,
+    "catalogSourceLine": 241,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 35,
+    "name": "m_left_peroneals",
+    "activationIndex": 35,
+    "catalogSourceLine": 244,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 36,
+    "name": "m_left_deep_posterior_compartment",
+    "activationIndex": 36,
+    "catalogSourceLine": 249,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 37,
+    "name": "m_left_piriformis_deep_rotators",
+    "activationIndex": 37,
+    "catalogSourceLine": 253,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 38,
+    "name": "m_left_external_oblique",
+    "activationIndex": 38,
+    "catalogSourceLine": 256,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 39,
+    "name": "m_left_upper_trapezius",
+    "activationIndex": 39,
+    "catalogSourceLine": 260,
+    "R589Writer": "neck-R586-overrides-base",
+    "R590Writer": "neck-R586-overrides-base",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 40,
+    "name": "m_left_sternocleidomastoid",
+    "activationIndex": 40,
+    "catalogSourceLine": 263,
+    "R589Writer": "neck-R586-overrides-base",
+    "R590Writer": "neck-R586-overrides-base",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 41,
+    "name": "m_right_biceps",
+    "activationIndex": 41,
+    "catalogSourceLine": 99,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 42,
+    "name": "m_right_brachialis",
+    "activationIndex": 42,
+    "catalogSourceLine": 103,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 43,
+    "name": "m_right_triceps",
+    "activationIndex": 43,
+    "catalogSourceLine": 107,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 44,
+    "name": "m_right_deltoid_anterior",
+    "activationIndex": 44,
+    "catalogSourceLine": 111,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 45,
+    "name": "m_right_deltoid_middle",
+    "activationIndex": 45,
+    "catalogSourceLine": 115,
+    "R589Writer": "arm-R589-overrides-base",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 46,
+    "name": "m_right_deltoid_posterior",
+    "activationIndex": 46,
+    "catalogSourceLine": 119,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 47,
+    "name": "m_right_pectoralis_major",
+    "activationIndex": 47,
+    "catalogSourceLine": 123,
+    "R589Writer": "arm-R589-overrides-base",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 48,
+    "name": "m_right_latissimus",
+    "activationIndex": 48,
+    "catalogSourceLine": 127,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 49,
+    "name": "m_right_forearm_flexors",
+    "activationIndex": 49,
+    "catalogSourceLine": 131,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 50,
+    "name": "m_right_forearm_extensors",
+    "activationIndex": 50,
+    "catalogSourceLine": 135,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 51,
+    "name": "m_right_brachioradialis",
+    "activationIndex": 51,
+    "catalogSourceLine": 139,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 52,
+    "name": "m_right_gluteus_maximus",
+    "activationIndex": 52,
+    "catalogSourceLine": 144,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 53,
+    "name": "m_right_gluteus_medius",
+    "activationIndex": 53,
+    "catalogSourceLine": 148,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 54,
+    "name": "m_right_rectus_femoris",
+    "activationIndex": 54,
+    "catalogSourceLine": 151,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 55,
+    "name": "m_right_vastus_lateralis",
+    "activationIndex": 55,
+    "catalogSourceLine": 154,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 56,
+    "name": "m_right_vastus_medialis",
+    "activationIndex": 56,
+    "catalogSourceLine": 158,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 57,
+    "name": "m_right_hamstrings_lateral",
+    "activationIndex": 57,
+    "catalogSourceLine": 162,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 58,
+    "name": "m_right_hamstrings_medial",
+    "activationIndex": 58,
+    "catalogSourceLine": 166,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 59,
+    "name": "m_right_adductors",
+    "activationIndex": 59,
+    "catalogSourceLine": 170,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 60,
+    "name": "m_right_gastrocnemius_medial",
+    "activationIndex": 60,
+    "catalogSourceLine": 174,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 61,
+    "name": "m_right_gastrocnemius_lateral",
+    "activationIndex": 61,
+    "catalogSourceLine": 178,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 62,
+    "name": "m_right_soleus",
+    "activationIndex": 62,
+    "catalogSourceLine": 182,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 63,
+    "name": "m_right_tibialis_anterior",
+    "activationIndex": 63,
+    "catalogSourceLine": 186,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 64,
+    "name": "m_right_iliopsoas",
+    "activationIndex": 64,
+    "catalogSourceLine": 190,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 65,
+    "name": "m_right_supraspinatus",
+    "activationIndex": 65,
+    "catalogSourceLine": 197,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 66,
+    "name": "m_right_infraspinatus_teres_minor",
+    "activationIndex": 66,
+    "catalogSourceLine": 200,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 67,
+    "name": "m_right_subscapularis",
+    "activationIndex": 67,
+    "catalogSourceLine": 203,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 68,
+    "name": "m_right_neck_extensors",
+    "activationIndex": 68,
+    "catalogSourceLine": 206,
+    "R589Writer": "neck-R586-overrides-base",
+    "R590Writer": "neck-R586-overrides-base",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 69,
+    "name": "m_right_suboccipitals",
+    "activationIndex": 69,
+    "catalogSourceLine": 213,
+    "R589Writer": "neck-R586-overrides-base",
+    "R590Writer": "neck-R586-overrides-base",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 70,
+    "name": "m_right_longus_colli",
+    "activationIndex": 70,
+    "catalogSourceLine": 217,
+    "R589Writer": "neck-R586-overrides-base",
+    "R590Writer": "neck-R586-overrides-base",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 71,
+    "name": "m_right_lumbar_extensors",
+    "activationIndex": 71,
+    "catalogSourceLine": 220,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 72,
+    "name": "m_right_thoracic_extensors",
+    "activationIndex": 72,
+    "catalogSourceLine": 224,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 73,
+    "name": "m_right_quadratus_lumborum_iliolumbar",
+    "activationIndex": 73,
+    "catalogSourceLine": 235,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 74,
+    "name": "m_right_quadratus_lumborum_iliocostal",
+    "activationIndex": 74,
+    "catalogSourceLine": 238,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 75,
+    "name": "m_right_quadratus_lumborum_lumbocostal",
+    "activationIndex": 75,
+    "catalogSourceLine": 241,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 76,
+    "name": "m_right_peroneals",
+    "activationIndex": 76,
+    "catalogSourceLine": 244,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 77,
+    "name": "m_right_deep_posterior_compartment",
+    "activationIndex": 77,
+    "catalogSourceLine": 249,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 78,
+    "name": "m_right_piriformis_deep_rotators",
+    "activationIndex": 78,
+    "catalogSourceLine": 253,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 79,
+    "name": "m_right_external_oblique",
+    "activationIndex": 79,
+    "catalogSourceLine": 256,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 80,
+    "name": "m_right_upper_trapezius",
+    "activationIndex": 80,
+    "catalogSourceLine": 260,
+    "R589Writer": "neck-R586-overrides-base",
+    "R590Writer": "neck-R586-overrides-base",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 81,
+    "name": "m_right_sternocleidomastoid",
+    "activationIndex": 81,
+    "catalogSourceLine": 263,
+    "R589Writer": "neck-R586-overrides-base",
+    "R590Writer": "neck-R586-overrides-base",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 82,
+    "name": "m_rectus_abdominis",
+    "activationIndex": 82,
+    "catalogSourceLine": 268,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  },
+  {
+    "muJoCoIndex": 83,
+    "name": "m_erector_spinae",
+    "activationIndex": 83,
+    "catalogSourceLine": 271,
+    "R589Writer": "posture-base-R51",
+    "R590Writer": "posture-base-R51",
+    "controlMin": 0.0,
+    "controlMax": 1.0
+  }
+]
