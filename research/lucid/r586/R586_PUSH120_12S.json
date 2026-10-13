@@ -1,0 +1,23 @@
+{
+  "schema": "lucid.r586.native-push120-summary.v1",
+  "receiptOnly": true,
+  "fullPhysicalTraceDistributedSeparately": true,
+  "physicalInput": "120 N world +X applied to Hip for 0.12 seconds from t=0.8 seconds",
+  "model": "Frozen R574 84 native muscles, R585 SCM geometry corrected, no-slip=6, R586 activation optimizer only",
+  "seconds": 12,
+  "pushN": 120,
+  "maxHeadAngleDeg": 2.3107270660221757,
+  "endHeadAngleDeg": 0.11669658133149108,
+  "maxPelvisTiltDeg": 13.867125330501384,
+  "maxArmSeatN": 31.543056953558953,
+  "maxOtherFloorN": 0,
+  "finalPelvisX_m": 0.018306396825255793,
+  "newNeckExcitationSeconds": 27.069442739676244,
+  "referenceNeckExcitationSeconds": 41.139978325791006,
+  "maxTorqueDeviationNm": 0.040000000000004476,
+  "optimizerFallbacks": 0,
+  "optimizerInfeasibleSteps": 0,
+  "fullTraceSHA256": "6606bc7ac1fbe8c498de27e09d9d5380d690a751e83ab1dc51315c484073fc8b",
+  "visual": "Original SKIN78 native renderer, real MuJoCo frames; the source can reproduce with BIORIG_R586_PUSH_N=120",
+  "unverified": "Not whole-body long-horizon or broad contact/perception generalization and not owner-approved"
+}
