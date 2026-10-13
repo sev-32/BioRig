@@ -1,0 +1,14 @@
+{
+  "schema": "lucid.r589.render-trace-linked.v1",
+  "meshSHA256": "88b6cacd2f7ad7fad0c5c9d9c731afcbc1388e09c5f0e817d181a62f11844a10",
+  "frameCountPerRun": 31,
+  "nativeMuJoCoStateBytesVerified": true,
+  "physicsReceiptsSHA256": {
+    "R587": "02e5cec61cbba21c6ef5ba8bc008d1ae9bfaaacf6564c7321e3df4c18b785624",
+    "R589": "d6e625c50ea0f0a99458fa298529d5a97191cc833ce7722139b84975b0cec125"
+  },
+  "gif": "R589_NATIVE_SKIN78_12S_COMPARE.gif",
+  "gifSHA256": "cdbc469060a861aa424ac89d65fe2214448793b5ebabdb41e14c1b01d36b3ef7",
+  "imagesGeneratedByAI": false,
+  "poseInterpolationUsed": false
+}
