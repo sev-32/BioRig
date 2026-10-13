@@ -1,0 +1,9 @@
+# BioRig / LUCID semantic atlas V010 — native mechanical semantics
+
+**Purpose:** cross the boundary from V009 source-level 84-muscle controller ownership into **actual original MuJoCo 3.15.0 mechanical relationships**. 94 source-authentic poses; 805,392 numerical moment-arm values; exhaustive 8,568-entry muscle/DOF linkage table; full actuator and joint ID index. All R574 assets/source and R585–R590 checkpoints are unchanged.
+
+**Start:** `NATIVE_MUSCLE_TO_DOF_PHYSICS_SEMANTICS.md` (plain-language, physically typed architecture). `NATIVE_84x102_AND_94_STATE_RECEIPT.json` (native provenance and exact source hashes). `INDEPENDENT_V010_VERIFICATION.json` (fresh independent native MuJoCo model confirms all 805,392 values exactly, all 8,568 links, 31 force identities, 13 asset hashes). `NATIVE_MOMENT_GEOMETRY_94_STATES_84x102.npz` (94 complete numerical matrices); `ALL_8568_MUSCLE_TO_DOF_MECHANICAL_EDGES.csv.gz` (every ordered link including zero entries); `NATIVE_84_ACTUATOR_NUMERIC_IDENTITY.json` and `NATIVE_102_DOF_SEMANTIC_INDEX.csv` (stable model-native identities).
+
+`build_native_v010.py` and `verify_v010.py` operate on the archived original R574 runtime and the three R590 saved-state NPZs. The input original R574 ZIP (251 MB) is **not duplicated inside this compact checkpoint**. The V009 ZIP is nested byte-for-byte and contains V008 through V003. Restore the original `lucid_bcr`, `inputs`, R541/R542/R543 Python source and MuJoCo offline wheel from the pinned R574 ZIP to reproduce; hashes are recorded in the receipt. The local runtime directory and wheel are deliberately excluded from delivery.
+
+**Exact limits:** only the 94 sampled geometric states, not an infinite dimensional/behavioral relationship matrix, nor general task-planning or biological fidelity. Restart stored only qpos, so no synthetic activation or force timeline is claimed. No image generation or GitHub Actions. No source executable edits.
