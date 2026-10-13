@@ -101,5 +101,5 @@ if __name__=='__main__':
    tick=time.monotonic()
    got=run(cfg,4,change_geometry=geom)
    out[f'{name}_geom{geom}']=got
-   print(name,'geom',geom,'MAX',round(got['maxAngleDeg'],1),'last',round(got['lastAngleDeg'],1),'wall',round(time.monotonic()-tick,1))
+   print(name,'geom',geom,'MAX',round(got['maxAngleDeg'],1),'last',round(got['lastAngleDeg'],1),'wall',round(time.monotonic()-tick,1),flush=True)
  Path('/mnt/data/BioRig_R585_REPAIR/neck_allocator_results.json').write_text(json.dumps(out,indent=2))
