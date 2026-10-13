@@ -1,0 +1,37 @@
+{
+  "schema": "biorig.semantic-atlas.v008",
+  "sourceModules": 11,
+  "witnessCount": 69,
+  "stateFields": 14,
+  "qualifiedEdges": 17,
+  "sourceArchives": [
+    {
+      "archive": "LUCID_R574_GOAL_CONDITIONED_MUSCLE_INTENT_SELF_CONTAINED.zip",
+      "sha256": "21e0c354023badd40485840296e09034809ae4eb055fd926eff39ac0b8700701"
+    },
+    {
+      "archive": "BioRig_LUCID_R585_PHYSICAL_NECK_REPAIR_CHECKPOINT_2026-10-13.zip",
+      "sha256": "7f144aa10072d55d1cde75a3ab0604ad2aaf98cc1904719938f8ae7f5e89094c"
+    },
+    {
+      "archive": "BioRig_LUCID_R586_NATIVE_SKIN78_MUSCLE_EFFICIENCY_2026-10-13.zip",
+      "sha256": "7ac83e71ad160885c70e0b5d2041c4638f1205d353021e1ad7d8dd266ac52c1e"
+    },
+    {
+      "archive": "BioRig_LUCID_R589_SKIN78_MUSCLE_LANDING_NATIVE_EVIDENCE_2026-10-13.zip",
+      "sha256": "48d013e99ab967ae1584114387e5a1d334788be318fceaa5c14571e784653b27"
+    },
+    {
+      "archive": "BioRig_LUCID_R590_SETTLED_RESTART_NATIVE_EVIDENCE_2026-10-13.zip",
+      "sha256": "42c080f6a0c78042882bd27c5309d8158709a825a3fc6399ed07a5416f4679a7"
+    }
+  ],
+  "files": {
+    "CONTROL_FLOW_LINE_WITNESSES.json": "b492f932278f96f6c372de202d59ce591b17443e91b86525cf7b8ba4e19885cd",
+    "SOURCE_PINNED_MODULE_MANIFEST.json": "59c4147a64336dc94c42cf932a2757a3e9fc553f5778bb4ada4254824afa74ad",
+    "DIRECTED_RUNTIME_INTERFACE_EDGES.json": "498331b4636e6fb4f4bcde55ce13191b9ea7e5a0c682577a865b00dcecc6589d",
+    "STATE_FIELD_OWNERSHIP_CONTRACTS.csv": "951b48a2c6fb8d334c3879fc245e45515541ab4a0aaafbee755232e0e7aa82d4",
+    "CONTROL_AUTHORITY_AND_STATE_LIFECYCLE_PAPER.md": "e429a60f7b2121e883fa4835b4e21503f1bea269d8c370ebf9f68e0af58879fd"
+  },
+  "verification": "Source SHA, literal anchors, AST parsing and unique matches verified. No physical runtime tests claimed."
+}
