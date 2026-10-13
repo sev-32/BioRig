@@ -19,3 +19,6 @@ Reference remote tree: [GITHUB_BRANCH_TREE_INVENTORY.json](./GITHUB_BRANCH_TREE_
 ## Freeze rules
 
 Do not modify frozen sources or silently consolidate variants. Diff by content SHA and declared units, keep every original identity, and require native physics plus actual Skin78 renderer proof before promoting behavioral changes. No GitHub Actions.
+## Proven architecture divergence (high-priority)
+
+See [FORENSIC_ARCHITECTURE_DIVERGENCES.md](./FORENSIC_ARCHITECTURE_DIVERGENCES.md). This source-anchored analysis identifies the wider `lucid_bcr/neuro.py` muscle-control path vs the narrower `run_r551.py` seated path, the R541 head-upright curriculum gate omitted from R562 seated settling, R5.36 pre-existing friction/contact slip audits, and lost continuity between original CausalRig snapshot design and R590 native restart. These are explicit discrepancies of source *architecture/validation*, not proof that older executions were better or that a rollback is warranted.
