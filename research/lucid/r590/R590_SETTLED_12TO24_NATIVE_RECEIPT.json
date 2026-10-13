@@ -1,0 +1,345 @@
+{
+  "schema": "lucid.r590.post-settling-continuation.v1",
+  "plantSource": "R589 exact native source; no model modifications",
+  "warmupS": 12,
+  "measurementS": 12,
+  "totalPhysicalS": 24,
+  "initialArmContactN": {
+    "left": 6.989140151817152,
+    "right": 0.0
+  },
+  "measuredPeakArmN": {
+    "left": 6.990381083257871,
+    "right": 0.0
+  },
+  "contactTransitions12to24": {
+    "left": 0,
+    "right": 0
+  },
+  "full24PeakArmN": {
+    "left": 35.89629388532487,
+    "right": 10.987974917319386
+  },
+  "full24MaxHeadDeg": 4.444902693218707,
+  "full24PelvisX_m": 0.012910327676173687,
+  "12to24MaxHeadDeg": 0.11601005902560464,
+  "12to24FinalHeadDeg": 0.11586789634078185,
+  "frames": 31,
+  "npzSHA256": "fe05156ea3059385ad162c274f162d382c81bd4591545756733859ee62889178",
+  "qposSHA256": [
+    "34b915d17aa533c1226cb41ecf0d6f3baa56aed9768c200fcc3badc8e4b600c2",
+    "be185306bda94a1be7a0fad34eb20143e15e67e47812c44b64842fbfc2a9289a",
+    "6f443bfcbf93666fb96430c600348d12ade020df8d7157f04d347b8cf55d6ab4",
+    "5910123926d425dc865462862669b63de95c1071f047ba0b5a69b313bce52078",
+    "2dde5e9434b5a8ee106ed746a9bbfae9507349b3b59b06e3662476d173dc767a",
+    "022e10af41eb7c31ee4e559a938813454279c0fc4204e1550ac9b181157a5334",
+    "ba19846cb6d2f928779d2e24f708485e0428d62d49db9eb2f3a70bbdfddc2916",
+    "c0f51907ed85fe29b5c993387ef0b73fa45403862c010814105666afd53971b9",
+    "450da92252f36bdfe1586d750a4ab00d97f130868df452d7b056555852efebb6",
+    "ca9f90968eb60b6f58a6051438fbc55683caf5430529e62d1944b4dd876dd513",
+    "afc8f4eb0a9d08e4df3ddde79d6a16e1e2fdaee1400a2056b3bbfe1b42885069",
+    "d6eec15ef5ee6a1bd46d4264a61b3a84989e7e8909c7d0b871f8d3d803044bf8",
+    "1dda7d7953161eac22c6fcd84d31f6719c5f3a82b5a33f1bf6b252819f3d1b53",
+    "315b062dfe383c20bfe0194fece26cf54a4523ec55ec510b8a383c9c4c145989",
+    "d448be7f83f15c94e02c92b6cc4ed64acebe48022b7d926cc4a5a7d832dee881",
+    "b46553edca8b49bd8cb664add35f43241ade7ceefa0bf2e4fed30576ce1e0501",
+    "c2812aa65cb78fc74109087e649a720c3a353020b86f57a3394ea1aefc9b52b9",
+    "fea8f575a1e76473dd712cbed0493f00dba81e859ec276ce2102a64b3070bb20",
+    "1aa267e86c482dfc14c3d620b18bd3f3baab42e37eea968706f59ea83d0da441",
+    "8ce4a630f10c780200f50521c21eb314c181336a5c40a86dd28523e536cdcf1b",
+    "e09a5ce022ee37942776ae8112f7940bf4a36755c920849ef383fe34a3adc589",
+    "d9d7b46b3cc6c2abde1fd4430b1fae1ba4d32a0583a67be22aadf183faa7bc82",
+    "5b4f4deb8caaa6063ef9df9ca629517f2fea1cc1ea368af56c998378ca06aea6",
+    "8a8025f43af756e206bdc5b6cd74315348c85ecd498e8bdfd6a925323a31b54b",
+    "466f36aa4e13851e5a0d8deabb2b21be219f91cb03ac6dda7538df600de86073",
+    "bc7484ec085bdee03f8790ba1e4f670e40033ba3eafd69bcc71d897eb12a73b5",
+    "81c435aa794886d1835fc715df50b986d172b103e6b97ae33a23aeb10d479de5",
+    "9388b08699e64b48af1d84d616596cd70c9bd76b245dab56ac638643688cc61f",
+    "797a9058d6c87f08cab674a4ec22ae66c18e83b76a213ca68db94016b79805b1",
+    "564ccfedf90e19c00e20f888df97044ccb0a785a5ebfc773c05ba24ca4c3adc7",
+    "486467e273edfc11fc5e2d04ec1f9b4a31d1339a9c6f601c7f09b04d143e724e"
+  ],
+  "sampledContactForceN": [
+    {
+      "tS": 12.0,
+      "leftN": 6.989140151817152,
+      "rightN": 0.0,
+      "leftGeoms": {
+        "L_Forearm": 2
+      },
+      "rightGeoms": {}
+    },
+    {
+      "tS": 12.4,
+      "leftN": 6.9895356770207115,
+      "rightN": 0.0,
+      "leftGeoms": {
+        "L_Forearm": 2
+      },
+      "rightGeoms": {}
+    },
+    {
+      "tS": 12.8,
+      "leftN": 6.989269329216031,
+      "rightN": 0.0,
+      "leftGeoms": {
+        "L_Forearm": 2
+      },
+      "rightGeoms": {}
+    },
+    {
+      "tS": 13.2,
+      "leftN": 6.988768187442316,
+      "rightN": 0.0,
+      "leftGeoms": {
+        "L_Forearm": 2
+      },
+      "rightGeoms": {}
+    },
+    {
+      "tS": 13.6,
+      "leftN": 6.989106965089232,
+      "rightN": 0.0,
+      "leftGeoms": {
+        "L_Forearm": 2
+      },
+      "rightGeoms": {}
+    },
+    {
+      "tS": 14.0,
+      "leftN": 6.9894827041568295,
+      "rightN": 0.0,
+      "leftGeoms": {
+        "L_Forearm": 2
+      },
+      "rightGeoms": {}
+    },
+    {
+      "tS": 14.4,
+      "leftN": 6.9894840077418765,
+      "rightN": 0.0,
+      "leftGeoms": {
+        "L_Forearm": 2
+      },
+      "rightGeoms": {}
+    },
+    {
+      "tS": 14.8,
+      "leftN": 6.988682408888841,
+      "rightN": 0.0,
+      "leftGeoms": {
+        "L_Forearm": 2
+      },
+      "rightGeoms": {}
+    },
+    {
+      "tS": 15.2,
+      "leftN": 6.98985653204893,
+      "rightN": 0.0,
+      "leftGeoms": {
+        "L_Forearm": 2
+      },
+      "rightGeoms": {}
+    },
+    {
+      "tS": 15.6,
+      "leftN": 6.989223382904738,
+      "rightN": 0.0,
+      "leftGeoms": {
+        "L_Forearm": 2
+      },
+      "rightGeoms": {}
+    },
+    {
+      "tS": 16.0,
+      "leftN": 6.988982496218528,
+      "rightN": 0.0,
+      "leftGeoms": {
+        "L_Forearm": 2
+      },
+      "rightGeoms": {}
+    },
+    {
+      "tS": 16.4,
+      "leftN": 6.989534071350851,
+      "rightN": 0.0,
+      "leftGeoms": {
+        "L_Forearm": 2
+      },
+      "rightGeoms": {}
+    },
+    {
+      "tS": 16.8,
+      "leftN": 6.989755662102807,
+      "rightN": 0.0,
+      "leftGeoms": {
+        "L_Forearm": 2
+      },
+      "rightGeoms": {}
+    },
+    {
+      "tS": 17.2,
+      "leftN": 6.989464893448512,
+      "rightN": 0.0,
+      "leftGeoms": {
+        "L_Forearm": 2
+      },
+      "rightGeoms": {}
+    },
+    {
+      "tS": 17.6,
+      "leftN": 6.989086743331919,
+      "rightN": 0.0,
+      "leftGeoms": {
+        "L_Forearm": 2
+      },
+      "rightGeoms": {}
+    },
+    {
+      "tS": 18.0,
+      "leftN": 6.989739580101189,
+      "rightN": 0.0,
+      "leftGeoms": {
+        "L_Forearm": 2
+      },
+      "rightGeoms": {}
+    },
+    {
+      "tS": 18.4,
+      "leftN": 6.989810173815439,
+      "rightN": 0.0,
+      "leftGeoms": {
+        "L_Forearm": 2
+      },
+      "rightGeoms": {}
+    },
+    {
+      "tS": 18.8,
+      "leftN": 6.989680743525398,
+      "rightN": 0.0,
+      "leftGeoms": {
+        "L_Forearm": 2
+      },
+      "rightGeoms": {}
+    },
+    {
+      "tS": 19.2,
+      "leftN": 6.989147185083322,
+      "rightN": 0.0,
+      "leftGeoms": {
+        "L_Forearm": 2
+      },
+      "rightGeoms": {}
+    },
+    {
+      "tS": 19.6,
+      "leftN": 6.989672687335458,
+      "rightN": 0.0,
+      "leftGeoms": {
+        "L_Forearm": 2
+      },
+      "rightGeoms": {}
+    },
+    {
+      "tS": 20.0,
+      "leftN": 6.989769422180718,
+      "rightN": 0.0,
+      "leftGeoms": {
+        "L_Forearm": 2
+      },
+      "rightGeoms": {}
+    },
+    {
+      "tS": 20.4,
+      "leftN": 6.989719702193695,
+      "rightN": 0.0,
+      "leftGeoms": {
+        "L_Forearm": 2
+      },
+      "rightGeoms": {}
+    },
+    {
+      "tS": 20.8,
+      "leftN": 6.989044826343738,
+      "rightN": 0.0,
+      "leftGeoms": {
+        "L_Forearm": 2
+      },
+      "rightGeoms": {}
+    },
+    {
+      "tS": 21.2,
+      "leftN": 6.989269520005205,
+      "rightN": 0.0,
+      "leftGeoms": {
+        "L_Forearm": 2
+      },
+      "rightGeoms": {}
+    },
+    {
+      "tS": 21.6,
+      "leftN": 6.989415819862681,
+      "rightN": 0.0,
+      "leftGeoms": {
+        "L_Forearm": 2
+      },
+      "rightGeoms": {}
+    },
+    {
+      "tS": 22.0,
+      "leftN": 6.989157789326574,
+      "rightN": 0.0,
+      "leftGeoms": {
+        "L_Forearm": 2
+      },
+      "rightGeoms": {}
+    },
+    {
+      "tS": 22.4,
+      "leftN": 6.989672295149205,
+      "rightN": 0.0,
+      "leftGeoms": {
+        "L_Forearm": 2
+      },
+      "rightGeoms": {}
+    },
+    {
+      "tS": 22.8,
+      "leftN": 6.989386819819614,
+      "rightN": 0.0,
+      "leftGeoms": {
+        "L_Forearm": 2
+      },
+      "rightGeoms": {}
+    },
+    {
+      "tS": 23.2,
+      "leftN": 6.988670269774441,
+      "rightN": 0.0,
+      "leftGeoms": {
+        "L_Forearm": 2
+      },
+      "rightGeoms": {}
+    },
+    {
+      "tS": 23.6,
+      "leftN": 6.989156506328486,
+      "rightN": 0.0,
+      "leftGeoms": {
+        "L_Forearm": 2
+      },
+      "rightGeoms": {}
+    },
+    {
+      "tS": 24.0,
+      "leftN": 6.989045520993567,
+      "rightN": 0.0,
+      "leftGeoms": {
+        "L_Forearm": 2
+      },
+      "rightGeoms": {}
+    }
+  ],
+  "wallSeconds": 29.84,
+  "reproducibilityNote": "No reset or teleport at t=12; continuous 24s native MuJoCo physics. This is a steady-state observation window, not a redesigned starting pose."
+}
