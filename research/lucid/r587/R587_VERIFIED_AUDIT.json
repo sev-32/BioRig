@@ -1,0 +1,73 @@
+{
+  "schema": "lucid.r587.extended-visual-gate.v1",
+  "researchOnly": true,
+  "repository": "sev-32/BioRig",
+  "branch": "research/lucid-r575-goal-intent",
+  "frozenR585AndR586": true,
+  "actualNativeMuJoCo": true,
+  "modelAndSkinShaOriginal": true,
+  "noGitHubActions": true,
+  "visualReviewByAssistant": {
+    "noPush24s": "accepted for this development milestone",
+    "pushed120N24s": "accepted for this development milestone",
+    "notEquivalentToWholeBodyAnatomicalValidation": true,
+    "basis": "Manually inspected two actual 0,8,16,24s SKIN78 panels and native sampled animations"
+  },
+  "tests": {
+    "passed": 8,
+    "failed": 0,
+    "skipped": 0,
+    "mode": "local unittest, with both actual native render receipts"
+  },
+  "cases": [
+    {
+      "name": "no_push",
+      "externalHipPush_N": 0,
+      "nativeHorizon_s": 24,
+      "maxHeadTorso_deg": 2.1627220560385223,
+      "endHeadTorso_deg": 0.11590082510907278,
+      "maxPelvisTilt_deg": 13.907927967535427,
+      "finalPelvisX_m": 0.013341076024758735,
+      "maxArmSeat_N": 31.543056953558953,
+      "maxUnexpectedFloor_N": 0.0,
+      "optimizedNeckActivationSeconds": 51.817479243223765,
+      "optimizerFallbacks": 0,
+      "optimizerInfeasible": 0,
+      "sourceRunSHA256": "1f3244f0bb604ad38bfba90c9f1e54284621cfcb789022ad4087f4bac7401d60",
+      "animatedGIF_SHA256": "191a9b6a8dd065b592a041a7fcb69533178dac906a60937363b9608902bd1cdc",
+      "actualTimestampPanel_SHA256": "4c0fea3d81b24cb528d4f52c40a5c5852cc19c5f4ecf5fddfcb47eb95f7a0bed",
+      "nativeRenderReceiptSHA256": "a18e7457d305c1caf3c6c2779a3b74b8e4488fa67cd59111220dec95c67ac579",
+      "realSkin78Frames": 61,
+      "originalSKIN78MeshSHA256": "88b6cacd2f7ad7fad0c5c9d9c731afcbc1388e09c5f0e817d181a62f11844a10"
+    },
+    {
+      "name": "push_120N",
+      "externalHipPush_N": 120,
+      "nativeHorizon_s": 24,
+      "maxHeadTorso_deg": 2.3107270660221757,
+      "endHeadTorso_deg": 0.11653784252198639,
+      "maxPelvisTilt_deg": 13.867125330501384,
+      "finalPelvisX_m": 0.01830907921037759,
+      "maxArmSeat_N": 31.543056953558953,
+      "maxUnexpectedFloor_N": 0.0,
+      "optimizedNeckActivationSeconds": 55.89566050382788,
+      "optimizerFallbacks": 0,
+      "optimizerInfeasible": 0,
+      "sourceRunSHA256": "5a32c02051c8119561bc9bcf38160b9084760871ff43be17754a95fbcb7e05be",
+      "animatedGIF_SHA256": "6d27bbd8a912970e9567acfa7e4fe1d2e91bf9d38cdea59fad4476d9c3e6f294",
+      "actualTimestampPanel_SHA256": "fb7246e148415de58ccdd606e449f7cd9a7cef1b98d693b30d624b16e937cc05",
+      "nativeRenderReceiptSHA256": "83ffc4f590ba7a923a6d668fc25f79820ad8ae739f9b9a5d442624f0604e7dd2",
+      "realSkin78Frames": 61,
+      "originalSKIN78MeshSHA256": "88b6cacd2f7ad7fad0c5c9d9c731afcbc1388e09c5f0e817d181a62f11844a10"
+    }
+  ],
+  "limitations": [
+    "Only one seat and terrain friction set; not all support-material pairs validated",
+    "Sampled head/torso, pelvis, arm and other-floor metrics do not measure energetic plausibility",
+    "No 40s/60s physical test completed in R587",
+    "Foot micro-slip and seat shear not instrumented in R587",
+    "Does not independently replicate the R585 vs R586 24s activation-effort comparison",
+    "No broader fourteen-scenario perturbation campaign",
+    "No user requirement for per-milestone visual approval; visual findings are reviewable and overridable"
+  ]
+}
