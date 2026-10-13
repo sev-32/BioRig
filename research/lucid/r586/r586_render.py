@@ -9,7 +9,9 @@ from lucid_bcr.pipeline import CausalRig,RigConfig
 from lucid_bcr.render import Renderer
 
 HERE=Path(__file__).resolve().parent
-REFERENCE=Path('/mnt/data/BioRig_R585_REPAIR/R585_REAL_SKIN78_NECK_REPAIR_12S.gif')
+REFERENCE=Path(os.environ.get('BIORIG_R585_REFERENCE_GIF',str(HERE.parent/'r585'/'R585_REAL_SKIN78_NECK_REPAIR_12S.gif')))
+if not REFERENCE.is_file():
+ raise FileNotFoundError(f'Provide original R585 native GIF as BIORIG_R585_REFERENCE_GIF: {REFERENCE}')
 rig=CausalRig(RigConfig(realization='reference',deformation='canonical',muscles=False,demand=False,support='none'))
 assert rig.a.skin_sha256=='88b6cacd2f7ad7fad0c5c9d9c731afcbc1388e09c5f0e817d181a62f11844a10'
 renderer=Renderer(width=500,height=610);renderer.set_ground(0.,size=2.2,on=True)
