@@ -1,0 +1,42 @@
+{
+  "schema": "biorig.semantic_atlas.verified_v006",
+  "repo": "sev-32/BioRig",
+  "branch": "research/lucid-r575-goal-intent",
+  "artifact": {
+    "filename": "BioRig_LUCID_SEMANTIC_ATLAS_V006_SOURCEWIDE_CALL_EFFECTS_2026-10-13.zip",
+    "bytes": 8542326,
+    "sha256": "d5a3705d86b3b5cb01cd43cd420ec1060e17ea3703980726ceeb5bf3ac1f5486",
+    "zipEntries": 15,
+    "crcVerified": true
+  },
+  "embeddedV005": {
+    "sha256": "c9f8de1cb1791a48021309223c0f5c7884483887184fa0008e6c769a5c13313d",
+    "byteIdentical": true
+  },
+  "source": {
+    "archiveFileInstances": 2792,
+    "globalCodeLineInstances": 70823,
+    "staticPythonCallSites": 45243,
+    "sourceDeclarations": 3781,
+    "staticCallsitesWithOneInternalCandidate": 6217,
+    "distinctInternalFileEdgeTriples": 1995,
+    "candidateDeclaredFunctionBodies": 4774,
+    "unresolvedCallSitesRetained": true,
+    "allPairMatrixCells": 7795264
+  },
+  "verification": {
+    "callRecordIdentityByFileLineExpression": true,
+    "uniqueDestinationsVerifiedAgainstDeclarationFileAndLine": true,
+    "edgeRowCountAndCountsReconciled": true,
+    "sourceInputSHA256Verified": 5,
+    "productionSimulationCodeChanged": false,
+    "nativePhysicalExecutionThisCheckpoint": false,
+    "githubActionsUsed": false
+  },
+  "semanticLimits": [
+    "Static import/call binding does not prove runtime execution or actual object type.",
+    "Direct assignment in syntax does not establish physical state effect without proven data object and evaluation path.",
+    "Each unknown pair is unknown; a full pair-universe is not a full known causal relationship matrix.",
+    "Human-level review of 70,823 source lines is incomplete."
+  ]
+}
