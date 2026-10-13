@@ -1,0 +1,79 @@
+{
+  "goal": {
+    "zip": "LUCID_R574_GOAL_CONDITIONED_MUSCLE_INTENT_SELF_CONTAINED.zip",
+    "path": "R574_INTENTION_AND_AVERSION/r574_intention.py",
+    "sha256": "08d06b1373901bbbccac2c60e706ad5968767ac0ff231c42dd0ffebe3dd8de8a",
+    "bytes": 6091,
+    "lineCount": 140
+  },
+  "eval": {
+    "zip": "LUCID_R574_GOAL_CONDITIONED_MUSCLE_INTENT_SELF_CONTAINED.zip",
+    "path": "R574_INTENTION_AND_AVERSION/r574_evaluate.py",
+    "sha256": "79437f0817cebe7254b04a483fa90556b2fd06f74e3dc8bd2701e3199a8a5811",
+    "bytes": 3525,
+    "lineCount": 75
+  },
+  "seat551": {
+    "zip": "LUCID_R574_GOAL_CONDITIONED_MUSCLE_INTENT_SELF_CONTAINED.zip",
+    "path": "LUCID_R552_WORKSPACE/R551_ACTIVE_RECOVERY/run_r551.py",
+    "sha256": "702fb4e7b4eecc4f6021e3857e87c9da0c5c141b1e70d79b77a30ef7abb06b57",
+    "bytes": 9310,
+    "lineCount": 199
+  },
+  "plant": {
+    "zip": "LUCID_R574_GOAL_CONDITIONED_MUSCLE_INTENT_SELF_CONTAINED.zip",
+    "path": "LUCID_R552_WORKSPACE/BIOMECH_CAUSAL_RIG/lucid_bcr/neuro.py",
+    "sha256": "49243739c69abeca38daa460b154da4a33c869fdec58e3caf2a8188bcc69da4a",
+    "bytes": 31695,
+    "lineCount": 580
+  },
+  "planner": {
+    "zip": "LUCID_R574_GOAL_CONDITIONED_MUSCLE_INTENT_SELF_CONTAINED.zip",
+    "path": "LUCID_R552_WORKSPACE/BIOMECH_CAUSAL_RIG/lucid_bcr/planner.py",
+    "sha256": "71b36d9ab3588b7cde89fe3e5e30518d3ae12f102659baf43bfb0e328e67185d",
+    "bytes": 10650,
+    "lineCount": 261
+  },
+  "skin": {
+    "zip": "LUCID_R574_GOAL_CONDITIONED_MUSCLE_INTENT_SELF_CONTAINED.zip",
+    "path": "LUCID_R552_WORKSPACE/BIOMECH_CAUSAL_RIG/lucid_bcr/pipeline.py",
+    "sha256": "aa2acd4818186358ac1876e34148fad32ac3aeffe6e6c500f3af33d5a1352a55",
+    "bytes": 20462,
+    "lineCount": 389
+  },
+  "neck585": {
+    "zip": "BioRig_LUCID_R585_PHYSICAL_NECK_REPAIR_CHECKPOINT_2026-10-13.zip",
+    "path": "R585/r585_neck_repair.py",
+    "sha256": "c356fd555e114360d31ff5466e15d71edf32b3cb7dcfeea7daa529e12c017c6e",
+    "bytes": 6564,
+    "lineCount": 105
+  },
+  "neck586": {
+    "zip": "BioRig_LUCID_R586_NATIVE_SKIN78_MUSCLE_EFFICIENCY_2026-10-13.zip",
+    "path": "research/lucid/r586/r586_effort.py",
+    "sha256": "44ee7be8f86641cc3ce516893eaa872f0125b732c8b7dfe15adc097e8fdcd364",
+    "bytes": 7658,
+    "lineCount": 138
+  },
+  "arm589": {
+    "zip": "BioRig_LUCID_R589_SKIN78_MUSCLE_LANDING_NATIVE_EVIDENCE_2026-10-13.zip",
+    "path": "R589/r589_arm_landing.py",
+    "sha256": "5a6a30f7ed93410abf56aa774c1e47ef5f8653735c64d506b799f59dfc1c336c",
+    "bytes": 8936,
+    "lineCount": 166
+  },
+  "cap590": {
+    "zip": "BioRig_LUCID_R590_SETTLED_RESTART_NATIVE_EVIDENCE_2026-10-13.zip",
+    "path": "r590_settled_capture.py",
+    "sha256": "bbc5218777d174b9506df8c2e57116ddb7f2dea0e7990025141051dbb038e77d",
+    "bytes": 4183,
+    "lineCount": 68
+  },
+  "replay590": {
+    "zip": "BioRig_LUCID_R590_SETTLED_RESTART_NATIVE_EVIDENCE_2026-10-13.zip",
+    "path": "r590_rest_restart.py",
+    "sha256": "3ed8765c1e76b774376f9f29792a2c643070244d84a69f292356e0ad8c50af68",
+    "bytes": 5444,
+    "lineCount": 104
+  }
+}
