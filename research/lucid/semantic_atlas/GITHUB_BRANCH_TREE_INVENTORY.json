@@ -1,0 +1,619 @@
+{
+  "schema": "biorig.source.remote-tree-manifest.v1",
+  "repo": "sev-32/BioRig",
+  "branch": "research/lucid-r575-goal-intent",
+  "refHead": "07e7daa0eae17a61fee03b6503ce336fbbd1c7bb",
+  "truncated": false,
+  "files": [
+    {
+      "path": "README.md",
+      "githubBlobSHA1": "6851b614e36efe11d1413d68d80684fc5bdee99b",
+      "sizeBytes": 330
+    },
+    {
+      "path": "research/lucid/FORENSIC_CANCELLATION_R584_2026-10-13.md",
+      "githubBlobSHA1": "cd0eafb952857f19445ea724f2e9ea4e544ff09e",
+      "sizeBytes": 6095
+    },
+    {
+      "path": "research/lucid/PROVENANCE.json",
+      "githubBlobSHA1": "113c42ebef256d28771c55adb8f26d6992c0731f",
+      "sizeBytes": 389
+    },
+    {
+      "path": "research/lucid/README.md",
+      "githubBlobSHA1": "01596914321ae8bb9acf09e4afe303dff9008ee9",
+      "sizeBytes": 2563
+    },
+    {
+      "path": "research/lucid/native/r574_evaluate.py",
+      "githubBlobSHA1": "f69dc85a6037288c41e922da01218e389d0e3a12",
+      "sizeBytes": 3525
+    },
+    {
+      "path": "research/lucid/native/r574_intention.py",
+      "githubBlobSHA1": "1c070b3ee29c4915aaf1efda19df165a2678bd08",
+      "sizeBytes": 6091
+    },
+    {
+      "path": "research/lucid/native/r575_latency.py",
+      "githubBlobSHA1": "2a42bfb1750a3430dafba85bc39944c8122dd5cf",
+      "sizeBytes": 5471
+    },
+    {
+      "path": "research/lucid/native/test_r575_evidence.py",
+      "githubBlobSHA1": "a47795c563547f5f5b593a756274b59c36fcff1a",
+      "sizeBytes": 2662
+    },
+    {
+      "path": "research/lucid/r576/R576_SCENE00_COMPACT_RECEIPT.json",
+      "githubBlobSHA1": "bcc55c08ed85502d66a8215876c68711ef46caba",
+      "sizeBytes": 2856
+    },
+    {
+      "path": "research/lucid/r576/README.md",
+      "githubBlobSHA1": "04e5058ed0bca698540026d00fdfe0f17751bdeb",
+      "sizeBytes": 4097
+    },
+    {
+      "path": "research/lucid/r576/r576_longhorizon.py",
+      "githubBlobSHA1": "725844290bdb3ecf1845b2eb98b216587e687de4",
+      "sizeBytes": 6392
+    },
+    {
+      "path": "research/lucid/r576/r576_render.py",
+      "githubBlobSHA1": "5996c299d2d4b91b4df36a6eae0c6aab7c36abb4",
+      "sizeBytes": 3416
+    },
+    {
+      "path": "research/lucid/r576/test_r576.py",
+      "githubBlobSHA1": "03e68e4e2b35f6ad1c1f004fadff8e45c4cf6489",
+      "sizeBytes": 2478
+    },
+    {
+      "path": "research/lucid/r577/R577_DEVELOPMENT_RECEIPT.json",
+      "githubBlobSHA1": "b908805c0596cb1e7100955878878beb17304c08",
+      "sizeBytes": 4377
+    },
+    {
+      "path": "research/lucid/r577/README.md",
+      "githubBlobSHA1": "08ff78ca485dfa7eddf3ef832b6ba1289f9e5f4e",
+      "sizeBytes": 5169
+    },
+    {
+      "path": "research/lucid/r577/r577_render.py",
+      "githubBlobSHA1": "a53f7cb32fa37bb0d2faf830e2b1b933dff3ab31",
+      "sizeBytes": 3090
+    },
+    {
+      "path": "research/lucid/r577/r577_tonic_support.py",
+      "githubBlobSHA1": "277fb75088adf1462069bc416f4940d88be6dec1",
+      "sizeBytes": 8312
+    },
+    {
+      "path": "research/lucid/r577/test_r577.py",
+      "githubBlobSHA1": "0f4b5a38fcd28426faaa036a8d5d9b8bf06926fb",
+      "sizeBytes": 2345
+    },
+    {
+      "path": "research/lucid/r578/R578_NUMERICAL_AUDIT.json",
+      "githubBlobSHA1": "4276916de5d83e313462bc24119b30f7c6ca6b15",
+      "sizeBytes": 3389
+    },
+    {
+      "path": "research/lucid/r578/README.md",
+      "githubBlobSHA1": "f6cc8eda8ee2cbe7ec7f3e97725b1e5a7018d52a",
+      "sizeBytes": 3457
+    },
+    {
+      "path": "research/lucid/r578/r578_feedback.py",
+      "githubBlobSHA1": "a02934f2202ab64d9cdf9d8fbd2c3c1ec7af86aa",
+      "sizeBytes": 9075
+    },
+    {
+      "path": "research/lucid/r578/r578_render.py",
+      "githubBlobSHA1": "4ae6e7b1672de7b6e9a0a8ab9229b6527ad0a5b0",
+      "sizeBytes": 3793
+    },
+    {
+      "path": "research/lucid/r578/r578_support.py",
+      "githubBlobSHA1": "c8d6c9928e619fe82b86b47fff89a86f0f920152",
+      "sizeBytes": 1555
+    },
+    {
+      "path": "research/lucid/r578/test_r578.py",
+      "githubBlobSHA1": "c26b11e2bb9e8b968fa8541267718a2cc59e7759",
+      "sizeBytes": 2442
+    },
+    {
+      "path": "research/lucid/r579/R579_NATIVE_AUDIT.json",
+      "githubBlobSHA1": "ef865e449bc185314a231205e181cd6a77ded49a",
+      "sizeBytes": 3497
+    },
+    {
+      "path": "research/lucid/r579/README.md",
+      "githubBlobSHA1": "3da6a4ed0b17bf7d1bbf65b841b8265466d796cd",
+      "sizeBytes": 4504
+    },
+    {
+      "path": "research/lucid/r579/r579_controller.py",
+      "githubBlobSHA1": "5ee89991ae83efc6d953ec6694d249125aa56ae1",
+      "sizeBytes": 4322
+    },
+    {
+      "path": "research/lucid/r579/r579_identify.py",
+      "githubBlobSHA1": "7c2f56475ffbb2765ee130e26a2c20ebdb383115",
+      "sizeBytes": 3959
+    },
+    {
+      "path": "research/lucid/r579/r579_render.py",
+      "githubBlobSHA1": "badf0387e893c810665b09f72a0f7c3dc7f79c61",
+      "sizeBytes": 3439
+    },
+    {
+      "path": "research/lucid/r579/r579_synergy.py",
+      "githubBlobSHA1": "62f4e72b55d862f56dfa2f38ca008f7a6d0cbf7e",
+      "sizeBytes": 6648
+    },
+    {
+      "path": "research/lucid/r579/test_r579.py",
+      "githubBlobSHA1": "b1b8ad2352d0f82e6a26c5b0b4eb4f325569c373",
+      "sizeBytes": 2515
+    },
+    {
+      "path": "research/lucid/r580/R580_AUDIT.json",
+      "githubBlobSHA1": "59d402481605de3266bb7d4f3f1ba31d4e180cbb",
+      "sizeBytes": 3775
+    },
+    {
+      "path": "research/lucid/r580/README.md",
+      "githubBlobSHA1": "ff668a039df7e0d74bc61f0f886cceffa21b4091",
+      "sizeBytes": 5071
+    },
+    {
+      "path": "research/lucid/r580/r580_adaptive_synergy.py",
+      "githubBlobSHA1": "a5e5b5c3ae56ecc38a1081d4869c14b8f47df7b5",
+      "sizeBytes": 9670
+    },
+    {
+      "path": "research/lucid/r580/r580_render.py",
+      "githubBlobSHA1": "66e73a94442a8d23c7f4cd259b64956298f446e0",
+      "sizeBytes": 3566
+    },
+    {
+      "path": "research/lucid/r580/test_r580.py",
+      "githubBlobSHA1": "4095d7934026ccfd66359891ad27ca096b12bf33",
+      "sizeBytes": 3736
+    },
+    {
+      "path": "research/lucid/r581/R581_AUDIT.json",
+      "githubBlobSHA1": "dbc6e14a5079fbf828f6615189e93932fdbff71f",
+      "sizeBytes": 4323
+    },
+    {
+      "path": "research/lucid/r581/README.md",
+      "githubBlobSHA1": "2bf530444c49a39c40bb31c70649e8a5991c7f03",
+      "sizeBytes": 6867
+    },
+    {
+      "path": "research/lucid/r581/r581_controller.py",
+      "githubBlobSHA1": "ab0bcd281c9accce771c2679c7170a0e508edcb0",
+      "sizeBytes": 9009
+    },
+    {
+      "path": "research/lucid/r581/r581_moment_probe.py",
+      "githubBlobSHA1": "84b8c5ae9569717cce28843ba7b230d2705876a6",
+      "sizeBytes": 5937
+    },
+    {
+      "path": "research/lucid/r581/r581_render.py",
+      "githubBlobSHA1": "80d8fd21273230aec40c0d4f06683bbe61520b40",
+      "sizeBytes": 3830
+    },
+    {
+      "path": "research/lucid/r581/r581_support.py",
+      "githubBlobSHA1": "c88551d326d456c62d54b839eb5866182d909e13",
+      "sizeBytes": 1871
+    },
+    {
+      "path": "research/lucid/r581/test_r581.py",
+      "githubBlobSHA1": "aaa28c6530fc338d865b6dc62d8c05de3e108a64",
+      "sizeBytes": 3880
+    },
+    {
+      "path": "research/lucid/r582/R582_AUDIT.json",
+      "githubBlobSHA1": "7efa7110b9b5e6a6e4386448f18c6db0ddcdb026",
+      "sizeBytes": 4583
+    },
+    {
+      "path": "research/lucid/r582/R582_BATCH_RECEIPT.json",
+      "githubBlobSHA1": "d609905d98dccd0a1a66d8348cca9b5835095457",
+      "sizeBytes": 1381
+    },
+    {
+      "path": "research/lucid/r582/README.md",
+      "githubBlobSHA1": "0f75359227abcb7a80c8b8b61af4b4be8c4f6a7d",
+      "sizeBytes": 5407
+    },
+    {
+      "path": "research/lucid/r582/r582_controller.py",
+      "githubBlobSHA1": "4fd7b7b732fd6ebc28a3dd49734859a2aff2f3db",
+      "sizeBytes": 10073
+    },
+    {
+      "path": "research/lucid/r582/r582_probe.py",
+      "githubBlobSHA1": "72437d7a01dce0187242904c9d67d97c4774d410",
+      "sizeBytes": 3029
+    },
+    {
+      "path": "research/lucid/r582/r582_render.py",
+      "githubBlobSHA1": "dbac7929e5f114abb541ed40f760d3be449bb7ff",
+      "sizeBytes": 4180
+    },
+    {
+      "path": "research/lucid/r582/r582_wrench.py",
+      "githubBlobSHA1": "7f5d42b17b1f325ba24c0b51d3a8d6a8ae7f3249",
+      "sizeBytes": 4174
+    },
+    {
+      "path": "research/lucid/r582/test_r582_controller.py",
+      "githubBlobSHA1": "85495ed3f8a1003633b7fb953e146f8941065976",
+      "sizeBytes": 3364
+    },
+    {
+      "path": "research/lucid/r582/test_r582_wrench.py",
+      "githubBlobSHA1": "2a56993c99f963d68bde9de30abacf50cb578ae4",
+      "sizeBytes": 3206
+    },
+    {
+      "path": "research/lucid/r583/R583_FINDINGS.json",
+      "githubBlobSHA1": "ec1be1ad154e916355198d9bb5d457165c3aff4f",
+      "sizeBytes": 2967
+    },
+    {
+      "path": "research/lucid/r583/README.md",
+      "githubBlobSHA1": "af62a57d94b151155f846104885b99bdb04e9656",
+      "sizeBytes": 5106
+    },
+    {
+      "path": "research/lucid/r583/r583_friction_probe.py",
+      "githubBlobSHA1": "cff0ac0e4785c0fbfb10f255ff6eb21178dd2aa7",
+      "sizeBytes": 8632
+    },
+    {
+      "path": "research/lucid/r583/test_r583_friction.py",
+      "githubBlobSHA1": "f7e2fccbbae6a6f31b3a43bafac8de4b8504fac8",
+      "sizeBytes": 2900
+    },
+    {
+      "path": "research/lucid/r584/R584_NATIVE_AUDIT.json",
+      "githubBlobSHA1": "6bc200fc4b66761be8b3ccc73e8262e0eb6cd734",
+      "sizeBytes": 3226
+    },
+    {
+      "path": "research/lucid/r584/README.md",
+      "githubBlobSHA1": "61197c6397809ab762db63940806057184f4ea15",
+      "sizeBytes": 4757
+    },
+    {
+      "path": "research/lucid/r584/r584_contact_solver.py",
+      "githubBlobSHA1": "09bdf377fe493c4bf267774c58a6e70bd67bd9d1",
+      "sizeBytes": 9125
+    },
+    {
+      "path": "research/lucid/r584/r584_replay.py",
+      "githubBlobSHA1": "db84cd97edfdfefe20054363b2d768a2f3f6d899",
+      "sizeBytes": 1639
+    },
+    {
+      "path": "research/lucid/r584/r584_skin78_renderer.py",
+      "githubBlobSHA1": "dceed26831387ef02008d1722e7006af9f220738",
+      "sizeBytes": 6722
+    },
+    {
+      "path": "research/lucid/r584/r584_solver_config.py",
+      "githubBlobSHA1": "aca61163733f4343592d409663a22094f75dbf69",
+      "sizeBytes": 1650
+    },
+    {
+      "path": "research/lucid/r584/test_r584_contact_solver.py",
+      "githubBlobSHA1": "f48a2e18e9b72beb93ba623fd7c01a8ab10245d9",
+      "sizeBytes": 3424
+    },
+    {
+      "path": "research/lucid/r584/test_r584_solver_config.py",
+      "githubBlobSHA1": "e94320e41b554f6fc428539344c818c3b18399ed",
+      "sizeBytes": 2028
+    },
+    {
+      "path": "research/lucid/r585/R585_RELAXED_PROBE_AUDIT.json",
+      "githubBlobSHA1": "91fe22310567c1b92e61ffc414b4f740eb47a568",
+      "sizeBytes": 1773
+    },
+    {
+      "path": "research/lucid/r585/R585_VERIFIED_PHYSICAL_RECEIPT.json",
+      "githubBlobSHA1": "040eb0fb92b41c4cbd86f668573e8b7036215782",
+      "sizeBytes": 3477
+    },
+    {
+      "path": "research/lucid/r585/README.md",
+      "githubBlobSHA1": "16d830871c99855c9d2233b41f4ecc3987a2f9bc",
+      "sizeBytes": 5223
+    },
+    {
+      "path": "research/lucid/r585/r585_neck_repair.py",
+      "githubBlobSHA1": "f11068a8a2bff0a78a8ced77be60ad57db65da35",
+      "sizeBytes": 6564
+    },
+    {
+      "path": "research/lucid/r585/r585_skin78_render.py",
+      "githubBlobSHA1": "5623574e59687ceab044492ada2d188d618b4a2c",
+      "sizeBytes": 4570
+    },
+    {
+      "path": "research/lucid/r585/test_r585.py",
+      "githubBlobSHA1": "ac57d3e05698c2ec4804214c5226d076b67365e8",
+      "sizeBytes": 2703
+    },
+    {
+      "path": "research/lucid/r586/R586_12S.json",
+      "githubBlobSHA1": "1232f784d8f8e51a46e275efe9760edf9b2e87a0",
+      "sizeBytes": 1157
+    },
+    {
+      "path": "research/lucid/r586/R586_PUSH120_12S.json",
+      "githubBlobSHA1": "681df437abd5eb5bfdf6582e3c0d422993ce714b",
+      "sizeBytes": 1129
+    },
+    {
+      "path": "research/lucid/r586/R586_PUSH_RENDER_RECEIPT.json",
+      "githubBlobSHA1": "989f94a0e0b772eac1c188a0ed13936a7d7af16e",
+      "sizeBytes": 1316
+    },
+    {
+      "path": "research/lucid/r586/R586_RENDER_RECEIPT.json",
+      "githubBlobSHA1": "4ab4ce11c5f91550e61afbc85a45ceb05c6610ec",
+      "sizeBytes": 1329
+    },
+    {
+      "path": "research/lucid/r586/README.md",
+      "githubBlobSHA1": "8b0eedb498c4af052612ec92fdbd1d6b39b15c23",
+      "sizeBytes": 6923
+    },
+    {
+      "path": "research/lucid/r586/r586_effort.py",
+      "githubBlobSHA1": "b61ab2fda7f50157b1730abd6d7289d6134f8b6a",
+      "sizeBytes": 7658
+    },
+    {
+      "path": "research/lucid/r586/r586_render.py",
+      "githubBlobSHA1": "67c96fa0f6544ff60501db5966e87eff5cc0716d",
+      "sizeBytes": 4328
+    },
+    {
+      "path": "research/lucid/r586/test_r586.py",
+      "githubBlobSHA1": "f985f982e972f9c61fb1b228c98058a2ca29cf0f",
+      "sizeBytes": 4181
+    },
+    {
+      "path": "research/lucid/r587/R587_24S_NO_PUSH.json",
+      "githubBlobSHA1": "79d769646d78ad67f6df65a9a4a5237317b785f6",
+      "sizeBytes": 84914
+    },
+    {
+      "path": "research/lucid/r587/R587_24S_PUSH120.json",
+      "githubBlobSHA1": "2beca41ee1fb499da7cff47666e6444d5c7ca903",
+      "sizeBytes": 84928
+    },
+    {
+      "path": "research/lucid/r587/R587_LOCAL_TESTS.log",
+      "githubBlobSHA1": "3972966be263bf182c758f1d43e6aa94e6a78ac7",
+      "sizeBytes": 1024
+    },
+    {
+      "path": "research/lucid/r587/R587_SKIN78_24S_NATIVE_RECEIPT.json",
+      "githubBlobSHA1": "9a68507152a884906b16413c84aa5a8e63a1635d",
+      "sizeBytes": 104702
+    },
+    {
+      "path": "research/lucid/r587/R587_SKIN78_24S_PUSH120_NATIVE_RECEIPT.json",
+      "githubBlobSHA1": "5cabba56093804ba89e31eac51cff1ed1d6f000b",
+      "sizeBytes": 104718
+    },
+    {
+      "path": "research/lucid/r587/R587_VERIFIED_AUDIT.json",
+      "githubBlobSHA1": "08ff50de0a9bae9a614aff86e35da953cc45bfc3",
+      "sizeBytes": 3516
+    },
+    {
+      "path": "research/lucid/r587/README.md",
+      "githubBlobSHA1": "74dc459adff79d431e537b49de8157263ea475b4",
+      "sizeBytes": 4493
+    },
+    {
+      "path": "research/lucid/r587/r587_skin78_long_render.py",
+      "githubBlobSHA1": "85b29ba19b7db4c783e0547546c14b4560d0195f",
+      "sizeBytes": 5540
+    },
+    {
+      "path": "research/lucid/r587/r587_whole_body_gate.py",
+      "githubBlobSHA1": "b2b660b04432ed2c171873bd7d133ae3b50f190b",
+      "sizeBytes": 4500
+    },
+    {
+      "path": "research/lucid/r587/test_r587.py",
+      "githubBlobSHA1": "676ed43fb754e4466cb196c48021b3c133a335da",
+      "sizeBytes": 3018
+    },
+    {
+      "path": "research/lucid/r588/R588_AUDIT.json",
+      "githubBlobSHA1": "ad519ba65e1208ab08013d460cb98306ba4a2847",
+      "sizeBytes": 3165
+    },
+    {
+      "path": "research/lucid/r588/R588_CHECKPOINT_MANIFEST.json",
+      "githubBlobSHA1": "05760d3086a020183d310f6afd49614d64e15b68",
+      "sizeBytes": 2957
+    },
+    {
+      "path": "research/lucid/r588/README.md",
+      "githubBlobSHA1": "df52ec1b7ecc57153c97e5539ab540a0e48266e2",
+      "sizeBytes": 5047
+    },
+    {
+      "path": "research/lucid/r588/r588_probe.py",
+      "githubBlobSHA1": "9a2babc08ad514d7f1602066f7af753f76684403",
+      "sizeBytes": 8140
+    },
+    {
+      "path": "research/lucid/r588/r588_render.py",
+      "githubBlobSHA1": "da7137fe7f8ebea21ce6d2c3b88a6ab1533b9e54",
+      "sizeBytes": 4496
+    },
+    {
+      "path": "research/lucid/r588/test_r588.py",
+      "githubBlobSHA1": "e146f3f57ecaf9d5acfd64163952c7dede53450c",
+      "sizeBytes": 2889
+    },
+    {
+      "path": "research/lucid/r589/R589_12S_RENDER_RECEIPT.json",
+      "githubBlobSHA1": "a9bc366506e583b92a89e0463219aaa6f723b542",
+      "sizeBytes": 592
+    },
+    {
+      "path": "research/lucid/r589/R589_AUDIT.json",
+      "githubBlobSHA1": "6605d89924e6f97b52b58b72b5f3a790b539f7b4",
+      "sizeBytes": 2938
+    },
+    {
+      "path": "research/lucid/r589/README.md",
+      "githubBlobSHA1": "27355537ebdf90166385008c3e57c7621db2c8b4",
+      "sizeBytes": 5633
+    },
+    {
+      "path": "research/lucid/r589/r589_arm_landing.py",
+      "githubBlobSHA1": "fb99dd1e0acfb7a3301aedb9092e110e3263b3a3",
+      "sizeBytes": 8936
+    },
+    {
+      "path": "research/lucid/r589/r589_capture_native.py",
+      "githubBlobSHA1": "1cbe9b4b0cee4b8120bbb2b045773e0788fb864c",
+      "sizeBytes": 2033
+    },
+    {
+      "path": "research/lucid/r589/r589_render_saved_native.py",
+      "githubBlobSHA1": "10f6cc764f6b9a37417bee991f90fc871b2a5bc2",
+      "sizeBytes": 4094
+    },
+    {
+      "path": "research/lucid/r589/test_r589.py",
+      "githubBlobSHA1": "faa7247636a4f07b89ec7a0637995a937fbe7020",
+      "sizeBytes": 4136
+    },
+    {
+      "path": "research/lucid/r590/R590_AUDIT.json",
+      "githubBlobSHA1": "e3936eb2b5e448eae3c55b0ed763712afccd6dd5",
+      "sizeBytes": 3467
+    },
+    {
+      "path": "research/lucid/r590/R590_REJECTED_EXPERIMENTS.md",
+      "githubBlobSHA1": "f4457cb204ce4fba58533003635cd5f2cab36e24",
+      "sizeBytes": 1829
+    },
+    {
+      "path": "research/lucid/r590/R590_RESTART_SKIN_RENDER_AUDIT.json",
+      "githubBlobSHA1": "ec27136f711f6b19a0c8321c22eeca41bd86fefb",
+      "sizeBytes": 777
+    },
+    {
+      "path": "research/lucid/r590/R590_SETTLED_12TO24_NATIVE_RECEIPT.json",
+      "githubBlobSHA1": "f2b8f334a69f3157a631cda94e92b8991349c098",
+      "sizeBytes": 8279
+    },
+    {
+      "path": "research/lucid/r590/README.md",
+      "githubBlobSHA1": "f9042c6ebad879c74597005606d44d0f53ebcc11",
+      "sizeBytes": 6215
+    },
+    {
+      "path": "research/lucid/r590/r590_render_rest_restart.py",
+      "githubBlobSHA1": "bcc3f0dba5421f6028278b43c2418e95fd6eb68d",
+      "sizeBytes": 5505
+    },
+    {
+      "path": "research/lucid/r590/r590_render_settled.py",
+      "githubBlobSHA1": "474a8d53be8bc4a3c03fb7413129dcdaa50ea19e",
+      "sizeBytes": 4328
+    },
+    {
+      "path": "research/lucid/r590/r590_rest_restart.py",
+      "githubBlobSHA1": "f0f06e46b26e7468bae303ad3457a8aa2013cd98",
+      "sizeBytes": 5444
+    },
+    {
+      "path": "research/lucid/r590/r590_settled_capture.py",
+      "githubBlobSHA1": "1d843e42d0918b88c834d9b93c476da6ced6ffaf",
+      "sizeBytes": 4183
+    },
+    {
+      "path": "research/lucid/r590/test_r590.py",
+      "githubBlobSHA1": "633bcc001c780c365421496d0298645e61e996e1",
+      "sizeBytes": 4420
+    },
+    {
+      "path": "research/lucid/receipts/2026-10-12_verified.json",
+      "githubBlobSHA1": "7a5272d3a9113992716c01d81dc4fe42d04be5e5",
+      "sizeBytes": 946
+    },
+    {
+      "path": "research/lucid/receipts/latency_4branch_audit.json",
+      "githubBlobSHA1": "56d8c8e650ba98e916005d6f315d95967a65b0df",
+      "sizeBytes": 508
+    },
+    {
+      "path": "research/lucid/tests/test_repository_tools.py",
+      "githubBlobSHA1": "4a5527b368fc5b1248542adf6022d0277be9d29c",
+      "sizeBytes": 3337
+    },
+    {
+      "path": "research/lucid/tools/audit_latency.py",
+      "githubBlobSHA1": "103959a67bfcd3b36f3a5a0fd0633630829d2894",
+      "sizeBytes": 5692
+    },
+    {
+      "path": "research/lucid/tools/bootstrap.py",
+      "githubBlobSHA1": "2a5e813a0ddbb39b69cb7ec473497d671debdd73",
+      "sizeBytes": 3282
+    }
+  ],
+  "counts": {
+    "all": 116,
+    "python": 65,
+    "other": 51
+  },
+  "sections": {
+    "README.md": 1,
+    "research/lucid/FORENSIC_CANCELLATION_R584_2026-10-13.md": 1,
+    "research/lucid/PROVENANCE.json": 1,
+    "research/lucid/README.md": 1,
+    "research/lucid/native": 4,
+    "research/lucid/r576": 5,
+    "research/lucid/r577": 5,
+    "research/lucid/r578": 6,
+    "research/lucid/r579": 7,
+    "research/lucid/r580": 5,
+    "research/lucid/r581": 7,
+    "research/lucid/r582": 9,
+    "research/lucid/r583": 4,
+    "research/lucid/r584": 8,
+    "research/lucid/r585": 6,
+    "research/lucid/r586": 8,
+    "research/lucid/r587": 10,
+    "research/lucid/r588": 6,
+    "research/lucid/r589": 7,
+    "research/lucid/r590": 10,
+    "research/lucid/receipts": 2,
+    "research/lucid/tests": 1,
+    "research/lucid/tools": 2
+  }
+}
