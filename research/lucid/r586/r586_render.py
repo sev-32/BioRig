@@ -9,7 +9,8 @@ from lucid_bcr.pipeline import CausalRig,RigConfig
 from lucid_bcr.render import Renderer
 
 HERE=Path(__file__).resolve().parent
-REFERENCE=Path(os.environ.get('BIORIG_R585_REFERENCE_GIF',str(HERE.parent/'r585'/'R585_REAL_SKIN78_NECK_REPAIR_12S.gif')))
+REFERENCE=Path(os.environ.get('BIORIG_SKIN78_REFERENCE_GIF',os.environ.get('BIORIG_R585_REFERENCE_GIF',str(HERE.parent/'r585'/'R585_REAL_SKIN78_NECK_REPAIR_12S.gif'))))
+PUSH_N=float(os.environ.get('BIORIG_R586_PUSH_N','0'))
 if not REFERENCE.is_file():
  raise FileNotFoundError(f'Provide original R585 native GIF as BIORIG_R585_REFERENCE_GIF: {REFERENCE}')
 rig=CausalRig(RigConfig(realization='reference',deformation='canonical',muscles=False,demand=False,support='none'))
@@ -36,7 +37,7 @@ def capture(pb,data,obs):
  meta.append({**obs,'nativeQposSHA256':hashlib.sha256(data.qpos.tobytes()).hexdigest()})
  if len(frames)%5==0:print('CAPTURE',len(frames),obs['timeS'],'head',obs['headThoraxDeg'],'wall',round(time.monotonic()-started,1),flush=True)
 
-result=run(secs=12.,on_frame=capture)
+result=run(secs=12.,push_N=PUSH_N,on_frame=capture)
 assert len(frames)==31,(len(frames),'expected 31 physically sampled frames')
 original=Image.open(REFERENCE);assert original.n_frames==31
 merged=[]
@@ -45,21 +46,21 @@ for i,im in enumerate(frames):
  old=original.convert('RGB').crop((510,0,1020,705))
  new=Image.new('RGB',(510,705),(11,16,23));d=ImageDraw.Draw(new)
  o=meta[i]
- d.text((8,8),'R586 EFFICIENT NECK REPAIR',fill=(235,242,247),font=bold)
+ d.text((8,8),'R586 +120 N HIP PUSH' if PUSH_N==120 else ('R586 EFFICIENT NECK REPAIR' if PUSH_N==0 else f'R586 {PUSH_N:+g} N HIP PUSH'),fill=(235,242,247),font=bold)
  d.text((8,33),f"Native {o['timeS']:.1f}s | head-torso {o['headThoraxDeg']:.2f} deg",fill=(164,223,228),font=font)
  d.text((8,55),f"Pelvis {o['pelvisX_m']*1000:.1f} mm | original SKIN78",fill=(187,201,218),font=font)
  new.paste(im,(0,90))
  joined=Image.new('RGB',(1020,705),(11,16,23));joined.paste(old);joined.paste(new,(510,0))
  merged.append(joined)
-out=HERE/'R586_NATIVE_SKIN78_VS_R585_12S.gif'
+out=HERE/('R586_NATIVE_SKIN78_VS_R585_12S.gif' if PUSH_N==0 else ('R586_NATIVE_SKIN78_PUSH120_COMPARISON.gif' if PUSH_N==120 else 'R586_NATIVE_SKIN78_PUSH_COMPARISON.gif'))
 merged[0].save(out,save_all=True,append_images=merged[1:],duration=160,loop=0,optimize=True)
-for i,tag in [(0,'START'),(10,'4S'),(20,'8S'),(30,'END')]:merged[i].save(HERE/f'R586_SKIN78_{tag}.png',optimize=True)
+for i,tag in [(0,'START'),(10,'4S'),(20,'8S'),(30,'END')]:merged[i].save(HERE/f'R586_{"PUSH_SKIN78" if PUSH_N else "SKIN78"}_{tag}.png',optimize=True)
 result['nativeGIF_SHA256']=hashlib.sha256(out.read_bytes()).hexdigest()
 result['originalSkinSHA256']=rig.a.skin_sha256
 result['frameQposHashes']=[x['nativeQposSHA256'] for x in meta]
 result['framesPerCondition']=31
 result['referenceSource']=str(REFERENCE)
-(HERE/'R586_RENDER_RECEIPT.json').write_text(json.dumps(result,indent=2,allow_nan=False))
+(HERE/('R586_PUSH_RENDER_RECEIPT.json' if PUSH_N else 'R586_RENDER_RECEIPT.json')).write_text(json.dumps(result,indent=2,allow_nan=False))
 print('FINISHED',out,'bytes',out.stat().st_size,'SHA',result['nativeGIF_SHA256'],'wall',round(time.monotonic()-started,2),flush=True)
 renderer.ren.RemoveAllViewProps();renderer.win.Finalize()
 import sys
