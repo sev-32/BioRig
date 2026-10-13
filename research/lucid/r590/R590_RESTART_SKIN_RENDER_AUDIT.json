@@ -1,0 +1,18 @@
+{
+  "schema": "lucid.r590.native-rendered-physical-clone.v1",
+  "originalSkinSHA256": "88b6cacd2f7ad7fad0c5c9d9c731afcbc1388e09c5f0e817d181a62f11844a10",
+  "gifSHA256": "335c68885e5ebe7cc3020a128181cf8209fc00bac304e9df3e0a0f3ef701bce5",
+  "gifFrames": 31,
+  "physicalStateFiles": {
+    "SETTLED / NO PUSH": "45a9b6b5674b1d97f30b6acffa10980dbd94415811461870c321631e72567710",
+    "SETTLED / +120 N": "9fea983c9469c6835ec30f85f71edaaa39179ee6be864dc8adb6f8ea48cb041a"
+  },
+  "initialPoseComparison": "Original t0 arms-out vs real physical t12 rest-start; both original SKIN78",
+  "rootPoseOrSkinEdited": false,
+  "noInterpolation": true,
+  "noGeneratedImages": true,
+  "finalHead": {
+    "SETTLED / NO PUSH": 0.11579334180683988,
+    "SETTLED / +120 N": 0.11595397624000241
+  }
+}
