@@ -1,0 +1,119 @@
+{
+  "schema": "biorig.semantic-atlas.v010.native-forward-sparse-moment-geometry",
+  "model": "R543 seated 84-muscle PhysicsBody; R590 model-local SCM attachment correction and noslip solver option",
+  "muJoCoVersion": "3.15.0",
+  "canonicalSourceArchiveSha256": "21e0c354023badd40485840296e09034809ae4eb055fd926eff39ac0b8700701",
+  "r590NumericalSourceArchiveSha256": "42c080f6a0c78042882bd27c5309d8158709a825a3fc6399ed07a5416f4679a7",
+  "nativeModelDimensions": {
+    "nu": 84,
+    "na": 84,
+    "nq": 103,
+    "nv": 102,
+    "ngeom": 117,
+    "nbody": 54
+  },
+  "gravityXYZ": [
+    0.0,
+    -9.81,
+    0.0
+  ],
+  "seat": {
+    "geomID": 0,
+    "sizeHalfExtentsM": [
+      0.28,
+      0.08,
+      0.23
+    ],
+    "friction": [
+      0.9,
+      0.005,
+      0.0001
+    ]
+  },
+  "assetSourceLocksCount": 13,
+  "assetSourceLocksMatch": true,
+  "sourcePoseSnapshots": {
+    "continuous": {
+      "sourceArchive": "BioRig_LUCID_R590_SETTLED_RESTART_NATIVE_EVIDENCE_2026-10-13.zip",
+      "sourceMember": "R590_SETTLED_CONTINUOUS_NATIVE_QPOS.npz",
+      "sha256": "fe05156ea3059385ad162c274f162d382c81bd4591545756733859ee62889178",
+      "bytes": 56229
+    },
+    "restart_no_push": {
+      "sourceArchive": "BioRig_LUCID_R590_SETTLED_RESTART_NATIVE_EVIDENCE_2026-10-13.zip",
+      "sourceMember": "R590_RESTART_PUSH_+0N_QPOS.npz",
+      "sha256": "45a9b6b5674b1d97f30b6acffa10980dbd94415811461870c321631e72567710",
+      "bytes": 22597
+    },
+    "restart_plus120N": {
+      "sourceArchive": "BioRig_LUCID_R590_SETTLED_RESTART_NATIVE_EVIDENCE_2026-10-13.zip",
+      "sourceMember": "R590_RESTART_PUSH_+120N_QPOS.npz",
+      "sha256": "9fea983c9469c6835ec30f85f71edaaa39179ee6be864dc8adb6f8ea48cb041a",
+      "bytes": 23000
+    }
+  },
+  "matrixShape": [
+    94,
+    84,
+    102
+  ],
+  "matrixSnapshotLabels": {
+    "cold_seated_reset": 1,
+    "continuous_12to24": 31,
+    "restart_no_push": 31,
+    "restart_plus120N": 31
+  },
+  "momentEntries": 805392,
+  "trajectoryStats": {
+    "cold_seated_reset": {
+      "frames": 1,
+      "nonzeroFirstFrameAt1eMinus6": 330,
+      "everNonzeroAt1eMinus6": 330,
+      "maxAbs": 0.1265548609899641,
+      "timeFirstS": 0.0,
+      "timeLastS": 0.0
+    },
+    "continuous_12to24": {
+      "frames": 31,
+      "nonzeroFirstFrameAt1eMinus6": 334,
+      "everNonzeroAt1eMinus6": 334,
+      "maxAbs": 0.12195530705949824,
+      "timeFirstS": 12.0,
+      "timeLastS": 24.0
+    },
+    "restart_no_push": {
+      "frames": 31,
+      "nonzeroFirstFrameAt1eMinus6": 334,
+      "everNonzeroAt1eMinus6": 334,
+      "maxAbs": 0.12197089717438259,
+      "timeFirstS": 0.0,
+      "timeLastS": 12.0
+    },
+    "restart_plus120N": {
+      "frames": 31,
+      "nonzeroFirstFrameAt1eMinus6": 334,
+      "everNonzeroAt1eMinus6": 334,
+      "maxAbs": 0.12201524987189565,
+      "timeFirstS": 0.0,
+      "timeLastS": 12.0
+    }
+  },
+  "everNonzeroAcrossAllStates": 334,
+  "allMomentJacobianRoot6NumericallyZero": true,
+  "nonzeroThreshold": 1e-06,
+  "nativeGeneralizedForceProjection": {
+    "continuousStateCount": 31,
+    "maxAbsReconstructionResidual": 4.440892098500626e-15,
+    "peakAbsoluteNativeActuatorForceN": 180.23181620828004,
+    "assumption": "Recorded qpos/qvel/act evaluated in source native model with mj_forward. Not original recorded qfrc_actuator or re-integrated dynamics."
+  },
+  "observationBoundary": "Native MuJoCo reconstruction of geometric moment Jacobians only. Source qpos are physically sampled; restart qvel/act unavailable so zeros only for static forward geom evaluation; no regenerated muscle/contact dynamics.",
+  "originalSimulationSourceModified": false,
+  "GitHubActionsUsed": false,
+  "originalRuntimeSourcePins": {
+    "LUCID_R552_WORKSPACE/R543_MULTICONTACT_LEARNING/run_r543.py": "ccf48801484c56b66b15bdbe4b6907f5350c3f8acd2991cbbe6e6954e5cc8d54",
+    "LUCID_R552_WORKSPACE/BIOMECH_CAUSAL_RIG/lucid_bcr/contact_flight_r46.py": "3edbc384e079cf9f6b9d7e6b506167a8c6ca3b82954b3c07940b488550223dcd",
+    "LUCID_R552_WORKSPACE/BIOMECH_CAUSAL_RIG/lucid_bcr/physbody.py": "c1a8657d7d7e592aa06d5b096be5fd35558ee8674ee170e97306741bd9d6497c"
+  },
+  "offlineMuJoCoWheelSHA256": "042b6bb165e822b32008e382eaaacd0fe8357d58b82a897c60dec438637dd7cb"
+}
