@@ -1,0 +1,55 @@
+{
+  "schema": "lucid.r585.relaxed-cost-probe.v1",
+  "researchOnly": true,
+  "notPromoted": true,
+  "method": "Original SCM geometry correction and MuJoCo physics; allocator activation minimization is evaluated separately and never substituted for verified R585.",
+  "timeWindowS": 4,
+  "controlCost": "Average summed muscle excitation over 10 active neck channels; not physiological metabolism",
+  "reference": {
+    "regularizerToPreviousActivation": true,
+    "kp": 0.5,
+    "kd": 0.5,
+    "reg": 0.1,
+    "maxHeadDeg": 4.098875798741602,
+    "verified12s": true
+  },
+  "candidateRegularizerToPoint025": [
+    {
+      "regular": 0.1,
+      "maxHeadDeg": 11.455551241132518,
+      "finalHeadDeg": 10.07350034647649,
+      "meanSummedActivation": 0.9349831657447952
+    },
+    {
+      "regular": 0.3,
+      "maxHeadDeg": 16.532629227229894,
+      "finalHeadDeg": 14.216205589778278,
+      "meanSummedActivation": 0.5811116884664158
+    },
+    {
+      "regular": 0.6,
+      "maxHeadDeg": 21.174540521454873,
+      "finalHeadDeg": 20.0259352153642,
+      "meanSummedActivation": 0.615110568027029
+    },
+    {
+      "regular": 1,
+      "maxHeadDeg": 32.709128746189634,
+      "finalHeadDeg": 30.334391629624434,
+      "meanSummedActivation": 0.712561175858022
+    },
+    {
+      "regular": 2,
+      "maxHeadDeg": 62.79863486110296,
+      "finalHeadDeg": 60.33960222416299,
+      "meanSummedActivation": 0.8405750402283639
+    },
+    {
+      "regular": 5,
+      "maxHeadDeg": 89.33872338405396,
+      "finalHeadDeg": 84.07370661214124,
+      "meanSummedActivation": 0.5389815948136786
+    }
+  ],
+  "conclusion": "Lower activation can be achieved but none preserves the verified R585 <5° head posture gate. Retain verified R585. No relaxation/biological equilibrium claim."
+}
