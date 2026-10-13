@@ -1,0 +1,36 @@
+{
+  "schema": "biorig.semantic_atlas.checkpoint_v007.v1",
+  "repo": "sev-32/BioRig",
+  "branch": "research/lucid-r575-goal-intent",
+  "artifact": {
+    "name": "BioRig_LUCID_SEMANTIC_ATLAS_V007_GOAL_MUSCLE_ONTOLOGY_CONTRACTS_2026-10-13.zip",
+    "sha256": "430eecc3cac024dc335ca5bc7f7c273c560a97415d6742e05a8833e8648619a9",
+    "bytes": 8575962,
+    "zipEntries": 9,
+    "crcVerified": true
+  },
+  "embeddedV006Sha256": "d5a3705d86b3b5cb01cd43cd420ec1060e17ea3703980726ceeb5bf3ac1f5486",
+  "manualContractsVerified": 26,
+  "uniqueSourceFilesPinned": 8,
+  "eachContractContains": {
+    "exactOriginalZipMember": true,
+    "sourceSHA256": true,
+    "sourceLineSpan": true,
+    "literalWitness": true,
+    "semanticExplanation": true,
+    "excludedInference": true
+  },
+  "keyFindings": [
+    "R574 action vocabulary strictly {none,R28} rather than generalized motion generation",
+    "WholeBodyMuscleController models competing contact/COM/head/swing/effort tasks but source presence is not active invocation",
+    "CausalRig pose realization and optional inverse-demand analysis are not proof of forward muscle-driven native motion",
+    "R590 settled restart calls base posture and R586 neck allocator, not R589 ArmLanding loop"
+  ],
+  "preservation": {
+    "sourceCodeChanged": false,
+    "nativePhysicsExecuted": false,
+    "originalSKIN78Changed": false,
+    "githubActionsUsed": false
+  },
+  "semanticStatus": "source-anchored manual contract audit; incomplete full-system runtime interpretation"
+}
