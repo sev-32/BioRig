@@ -1,0 +1,18 @@
+{
+  "schema": "biorig.semantic-atlas.v010.independent-verification",
+  "result": "PASS",
+  "sourceArchivesSHA256Match": true,
+  "originalAssetLocksVerified": 13,
+  "freshModelDimensionsVerified": true,
+  "nativeRowsVerified": 84,
+  "nativeDofsVerified": 102,
+  "frameMatricesRecomputed": 94,
+  "floatingPointCellsIndependentlyCompared": 805392,
+  "maximumAbsoluteJacobianDifference": 0.0,
+  "muscleToDofEdgesVerified": 8568,
+  "forceMappingStatesChecked": 31,
+  "maximumAbsoluteGeneralizedForceReconstructionResidual": 4.440892098500626e-15,
+  "noNativeTrajectoriesIntegrated": true,
+  "simulationSourceEdited": false,
+  "GitHubActionsRun": false
+}
