@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "verifiedSourceModules": 11,
+  "verifiedSourceLineWitnesses": 69,
+  "fieldContracts": 14,
+  "sourceAnchoredDirectedEdges": 17,
+  "R589ActuatorWriteOrder": [
+    [
+      133,
+      "d.ctrl[:]"
+    ],
+    [
+      137,
+      "d.ctrl[idx]"
+    ],
+    [
+      138,
+      "d.ctrl[allocator.ids]"
+    ]
+  ],
+  "R590RestartActuatorWriteOrder": [
+    [
+      83,
+      "d.ctrl[:]"
+    ],
+    [
+      83,
+      "d.ctrl[allocator.ids]"
+    ]
+  ],
+  "R589ArmLandingUpdateCallObservedStatic": true,
+  "R590RestartArmLandingCallObservedStatic": false,
+  "R590RestartNeckAllocatorCallObservedStatic": true,
+  "runtimeExecuted": false,
+  "noSourceCodeModified": true
+}
