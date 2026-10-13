@@ -1,0 +1,155 @@
+[
+  {
+    "from": "R574 policy",
+    "to": "R574 experiment",
+    "interface": "choice none/R28",
+    "sourceWitness": "G008",
+    "destWitness": "G009",
+    "claim": "connected in evaluation only",
+    "claimKind": "source-pinned trace / explicitly bounded negative"
+  },
+  {
+    "from": "R574 policy",
+    "to": "R590 restart",
+    "interface": "decision -> ctrl",
+    "sourceWitness": "G009",
+    "destWitness": "R590I",
+    "claim": "NOT CONNECTED BY THE INSPECTED ENTRYPOINT",
+    "claimKind": "source-pinned trace / explicitly bounded negative"
+  },
+  {
+    "from": "WholeBodyMuscleController",
+    "to": "R590 restart",
+    "interface": "excitation output",
+    "sourceWitness": "N005",
+    "destWitness": "R590I",
+    "claim": "ALTERNATIVE CONTROLLER, NOT USED BY THIS ENTRYPOINT",
+    "claimKind": "source-pinned trace / explicitly bounded negative"
+  },
+  {
+    "from": "Original planner",
+    "to": "R590 restart",
+    "interface": "foot/COM plan -> task rows",
+    "sourceWitness": "P001",
+    "destWitness": "R590I",
+    "claim": "NOT CONNECTED BY THE INSPECTED ENTRYPOINT",
+    "claimKind": "source-pinned trace / explicitly bounded negative"
+  },
+  {
+    "from": "R551 base posture",
+    "to": "R585 base posture",
+    "interface": "excitation",
+    "sourceWitness": "S001",
+    "destWitness": "N585B",
+    "claim": "analogous module, code lineage via imports",
+    "claimKind": "source-pinned trace / explicitly bounded negative"
+  },
+  {
+    "from": "R585 posture",
+    "to": "R586 posture",
+    "interface": "base excitation",
+    "sourceWitness": "N585B",
+    "destWitness": "N586C",
+    "claim": "same inherited module, neck override different",
+    "claimKind": "source-pinned trace / explicitly bounded negative"
+  },
+  {
+    "from": "R586 neck allocator",
+    "to": "R589 neck update",
+    "interface": "head excitation",
+    "sourceWitness": "N586B",
+    "destWitness": "A589J",
+    "claim": "R589 imports/executes allocator",
+    "claimKind": "source-pinned trace / explicitly bounded negative"
+  },
+  {
+    "from": "R589 shoulder muscle",
+    "to": "R589 d.ctrl override",
+    "interface": "arm excitation",
+    "sourceWitness": "A589G",
+    "destWitness": "A589I",
+    "claim": "only candidate and only selected channels",
+    "claimKind": "source-pinned trace / explicitly bounded negative"
+  },
+  {
+    "from": "R589 base command",
+    "to": "R589 arm command",
+    "interface": "actuator channel priority",
+    "sourceWitness": "A589H",
+    "destWitness": "A589I",
+    "claim": "arm overwrites base",
+    "claimKind": "source-pinned trace / explicitly bounded negative"
+  },
+  {
+    "from": "R589 arm command",
+    "to": "R589 neck command",
+    "interface": "actuator channel priority",
+    "sourceWitness": "A589I",
+    "destWitness": "A589J",
+    "claim": "neck final override, intersections must be tested",
+    "claimKind": "source-pinned trace / explicitly bounded negative"
+  },
+  {
+    "from": "R589 native loop",
+    "to": "R590 continuous capture",
+    "interface": "physical state/time",
+    "sourceWitness": "A589L",
+    "destWitness": "C590A",
+    "claim": "continuous 24s includes R589 landing",
+    "claimKind": "source-pinned trace / explicitly bounded negative"
+  },
+  {
+    "from": "R590 settled snapshot",
+    "to": "R590 replay setup",
+    "interface": "qpos/qvel/act",
+    "sourceWitness": "C590C",
+    "destWitness": "R590D",
+    "claim": "sampled state restore",
+    "claimKind": "source-pinned trace / explicitly bounded negative"
+  },
+  {
+    "from": "R590 replay posture",
+    "to": "R590 replay neck",
+    "interface": "actuator command priority",
+    "sourceWitness": "R590I",
+    "destWitness": "R590K",
+    "claim": "base overwritten on neck indices",
+    "claimKind": "source-pinned trace / explicitly bounded negative"
+  },
+  {
+    "from": "R590 restart",
+    "to": "R590 arm landing",
+    "interface": "optional muscle braking",
+    "sourceWitness": "R590A",
+    "destWitness": "A589G",
+    "claim": "NOT EXECUTED by inspected restart loop despite import",
+    "claimKind": "source-pinned trace / explicitly bounded negative"
+  },
+  {
+    "from": "R590 ctrl",
+    "to": "MuJoCo step",
+    "interface": "excitation -> updated state",
+    "sourceWitness": "R590K",
+    "destWitness": "R590O",
+    "claim": "native plant feedback",
+    "claimKind": "source-pinned trace / explicitly bounded negative"
+  },
+  {
+    "from": "R590 step",
+    "to": "R590 SKIN78 input",
+    "interface": "native qpos -> pose",
+    "sourceWitness": "R590O",
+    "destWitness": "R590P",
+    "claim": "qpos sampled, renderer separately invoked",
+    "claimKind": "source-pinned trace / explicitly bounded negative"
+  },
+  {
+    "from": "Original skin pipeline",
+    "to": "R590 native model",
+    "interface": "pose and deformation",
+    "sourceWitness": "K001",
+    "destWitness": "R590P",
+    "claim": "DIFFERENT rendering path; shared canonical skin is not model-state identity",
+    "claimKind": "source-pinned trace / explicitly bounded negative"
+  }
+]
