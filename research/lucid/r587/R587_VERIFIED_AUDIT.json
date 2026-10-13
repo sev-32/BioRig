@@ -11,10 +11,11 @@
     "noPush24s": "accepted for this development milestone",
     "pushed120N24s": "accepted for this development milestone",
     "notEquivalentToWholeBodyAnatomicalValidation": true,
-    "basis": "Manually inspected two actual 0,8,16,24s SKIN78 panels and native sampled animations"
+    "basis": "Manually inspected two actual 0,8,16,24s SKIN78 panels and native sampled animations",
+    "frameAlignment": "Every one of 61 frame states independently rechecked against the matching native 24s physical trace for pelvis and head orientation"
   },
   "tests": {
-    "passed": 8,
+    "passed": 9,
     "failed": 0,
     "skipped": 0,
     "mode": "local unittest, with both actual native render receipts"
