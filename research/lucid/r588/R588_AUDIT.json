@@ -1,0 +1,81 @@
+{
+  "schema": "lucid.r588.arm-seat-real-native.v1",
+  "researchOnly": true,
+  "promotionAllowed": false,
+  "githubActionsUsed": false,
+  "rootCauseEvidence": "At t=0.27s, both thumb1 convex collision geoms hit vertical seat edge, world x ~ +/-0.28m. Right thumb normal load 269.99N and left 201.44N (0.01s sample). Earlier R587 0.2s telemetry omitted these impacts. The rigid box side/initial uncontrolled arm descent produces chatter.",
+  "constantPhysics": "Frozen R574 84 muscle SKIN78 MuJoCo original neck geometry repaired as R585; baseline R586 controller unchanged; no root lock, no pose edits, same seated start state, original no-slip=6, 0N push for first experiment",
+  "candidateConfig": {
+    "thumbSolrefS": 0.05,
+    "thumbDampingRatio": 2.0,
+    "thumbPriority": 2,
+    "passiveShoulderElbowWristDampingMultiplier": 10,
+    "otherJointDampingUnchanged": true,
+    "seatMaterialGeometryUnchanged": true,
+    "mouseNoNewControlPolicy": true
+  },
+  "first3s": {
+    "baseline": {
+      "left": {
+        "peakN": 201.44246976035288,
+        "contactTransitions": 7,
+        "finalN": 17.32793160086777
+      },
+      "right": {
+        "peakN": 269.987063075301,
+        "contactTransitions": 14,
+        "finalN": 0.0
+      }
+    },
+    "candidate": {
+      "left": {
+        "peakN": 45.887726261235876,
+        "contactTransitions": 5,
+        "finalN": 3.5408445403042768
+      },
+      "right": {
+        "peakN": 34.75363451787109,
+        "contactTransitions": 3,
+        "finalN": 3.613873708548225
+      }
+    },
+    "baselineHeadMaxDeg": 4.15366327047659,
+    "candidateHeadMaxDeg": 4.281507143762457,
+    "candidatePelvisXAt3sM": -0.0008619157185481355
+  },
+  "longHorizon": {
+    "12s": {
+      "noPush": {
+        "pelvisX_M": -0.024896154931086153,
+        "headMaxDeg": 4.281507143762457,
+        "leftFinalN": 0.0,
+        "rightFinalN": 7.419684802096963,
+        "seatN": 406.33670504670073
+      },
+      "push120": {
+        "pelvisX_M": 0.014714338917155812,
+        "headMaxDeg": 4.281507143762457,
+        "leftFinalN": 7.26792137221776,
+        "rightFinalN": 0.0,
+        "seatN": 409.01448652543735
+      },
+      "leftArmEventuallyUnloaded": true,
+      "conclusion": "Early contact chatter reduced, but long-horizon body drifts left (~25mm) and arm load redistributes asymmetrically. This is not validated natural arm rest or 24s equilibrium."
+    }
+  },
+  "animation": {
+    "realSKIN78": true,
+    "nativeFramesPerCondition": 31,
+    "horizonS": 3.0,
+    "gifName": "R588_SKIN78_ARM_CONTACT_BEFORE_AFTER.gif",
+    "gifSHA256": "61b4bc783283ad3c6ebd4ab791017eccbbc2f8a6a84217de9da8477417276927"
+  },
+  "knownLimits": [
+    "Tenfold joint damping is NOT anatomically calibrated or muscle-driven; research treatment only",
+    "Long-horizon arm contact redistribution means whole-body realism has NOT passed",
+    "Mechanical seat-edge geometry needs redesign or active muscle-controlled arm lowering",
+    "Both arm contacts counted at 0.01s vs previous 0.2s masking first hard impact",
+    "Original SKIN78 mesh unchanged"
+  ],
+  "candidateSourceSHA256": "e000a713e9747de6ba5ff031951eb32523fe38065b69c7c6351f923b460c25b6"
+}
