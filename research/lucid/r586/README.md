@@ -59,3 +59,21 @@ python research/lucid/r586/r586_render.py
 The Git `R586_12S.json` and `R586_RENDER_RECEIPT.json` are small, explicitly marked **summary receipts**. Complete sampled physical traces, 31 qpos-state fingerprints, local test log and source fingerprints are in the compact offline checkpoint. No model assets and no images are duplicated in that ZIP.
 
 **Stop/go:** R586 must not replace the approved visual reference or the original model until the owner actually approves the entire skinned motion, including head, neck, arms, torso, hips, feet and contacts. The project’s earlier catastrophic failure was incorrectly declared safe by head-blind pelvis-only tests; R586 retains an explicit head-to-thorax gate so that cannot be silently repeated.
+
+
+## Second actual SKIN78 animation: no push versus +120 N
+
+A separate `R586_NATIVE_SKIN78_PUSH120_COMPARISON.gif` was rendered from 31 fresh 120 N physical frames beside the already captured real no-push R586 frames. The canonical R586 renderer was subsequently rerun with the same configuration and independently reproduced **identical SHA256**:
+
+`c46c90d26fa63cce05f1f1b96c85e20400823ec69717cea5b48bf7d4446a47af`
+
+No mesh, inertia, muscle-site, friction or solver parameters differ between the pushed and unpushed modes. The only physical difference is the 120 N lateral force on the Hip during 0.8–0.92 s. Full native numeric run: maximum head deviation 2.3107°, final pelvis x 0.018306 m, maximum arm-seat 31.543 N, 0 unexpected floor hazard. Neither case has owner visual acceptance.
+
+From a local restored Git checkout, **first** generate the standard no-push R586 animation as documented above; **then** use that actual native GIF as the reference for a real pushed run:
+
+```sh
+export BIORIG_SKIN78_REFERENCE_GIF="$PWD/research/lucid/r586/R586_NATIVE_SKIN78_VS_R585_12S.gif"
+BIORIG_R586_PUSH_N=120 python research/lucid/r586/r586_render.py
+```
+
+This produces the `R586_NATIVE_SKIN78_PUSH120_COMPARISON.gif` proof image and `R586_PUSH_RENDER_RECEIPT.json`; images remain excluded from the source-only Git branch and code ZIP.
