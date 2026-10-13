@@ -1,0 +1,43 @@
+{
+  "schema": "lucid.r582.incremental-native-scene-coverage.v1",
+  "repository": "sev-32/BioRig",
+  "branch": "research/lucid-r575-goal-intent",
+  "localExecutionOnly": true,
+  "githubActionsUsed": false,
+  "frozenBaselineUnchanged": true,
+  "notHeldOut": true,
+  "scenes": [
+    {
+      "index": 1,
+      "requestedHorizonS": 12,
+      "observedHorizonS": 12,
+      "complete": true,
+      "hazard": false,
+      "settledAtEnd": true,
+      "finalRootX_m": 0.01138135465595113,
+      "extraChannelExcitationSeconds": 0.4084449352516025,
+      "fullTraceSHA256": "79c12b72deb6504cb7bc50cf994bdf85d7029d3cacf753dd204871557f4c7c0c"
+    },
+    {
+      "index": 2,
+      "requestedHorizonS": 12,
+      "observedHorizonS": 12,
+      "complete": true,
+      "hazard": false,
+      "settledAtEnd": false,
+      "finalRootX_m": 0.018859630171801336,
+      "extraChannelExcitationSeconds": 0.40999404027132275,
+      "fullTraceSHA256": "e14e8addc16a74e55aab93f6d812082e528a8299f1cdd074caab84a8b4cedbe9"
+    },
+    {
+      "index": 3,
+      "status": "timed out without completed numerical trace; no outcome asserted"
+    },
+    {
+      "index": 5,
+      "status": "not executed because batch was interrupted"
+    }
+  ],
+  "otherScenes": "not checked in this incremental R582 batch",
+  "evidenceDelivery": "Full scene01/02 trace JSON files included in the updated offline checkpoint ZIP."
+}
