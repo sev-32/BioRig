@@ -7,14 +7,14 @@ on all six neck/head DOFs closely reproduce the established R585 reference.
 This is not a claim of validated metabolic efficiency or owner acceptance.
 """
 from __future__ import annotations
-import argparse, json, time
+import argparse, json, time, sys
 from pathlib import Path
+HERE=Path(__file__).resolve().parent
+sys.path.insert(0,str(HERE.parent/'r585'))
 import numpy as np
 import mujoco as mj
 from scipy.optimize import linprog
 import r585_neck_repair as r585
-
-HERE=Path(__file__).resolve().parent
 SCALES=np.array([8.,6.,3.,9.,4.,2.5])
 
 class MomentConstrainedAllocator(r585.NeckAllocator):
