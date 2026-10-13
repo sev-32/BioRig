@@ -1,0 +1,31 @@
+{
+  "schema": "lucid.r586.real-native-pushed-skin78.v1",
+  "researchOnly": true,
+  "ownerApproved": false,
+  "realNativeFrames": true,
+  "imagesGeneratedByModel": false,
+  "framesPerCondition": 31,
+  "realTimeHorizonSeconds": 12,
+  "skinSHA256": "88b6cacd2f7ad7fad0c5c9d9c731afcbc1388e09c5f0e817d181a62f11844a10",
+  "left": "R586 no push, real previous physical frames",
+  "right": "R586 +120N x-direction hip push, newly captured physical frames",
+  "sameOriginalMuJoCoModelAndController": true,
+  "gifFilename": "R586_NATIVE_SKIN78_PUSH120_COMPARISON.gif",
+  "gifSHA256": "c46c90d26fa63cce05f1f1b96c85e20400823ec69717cea5b48bf7d4446a47af",
+  "reproduction": "Two independent native renderer invocations using the same committed r586_render.py produced byte-identical GIFs under BIORIG_R586_PUSH_N=120.",
+  "horizonS": 12,
+  "pushStartS": 0.8,
+  "pushEndS": 0.92,
+  "forceN": 120,
+  "maxHeadTorsoDeg": 2.3107270660221757,
+  "finalRootX_m": 0.018306396825255793,
+  "maxArmSeatN": 31.543056953558953,
+  "unexpectedFloorHazard": false,
+  "fullPhysicalTraceSHA256": "6606bc7ac1fbe8c498de27e09d9d5380d690a751e83ab1dc51315c484073fc8b",
+  "notTested": [
+    "40+ second stability",
+    "14-scene comprehensive regression",
+    "body-movement perceptual approval",
+    "human biomechanical muscle/torque calibration"
+  ]
+}
