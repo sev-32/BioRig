@@ -1,0 +1,88 @@
+{
+  "schema": "lucid.r588.source-evidence-checkpoint.v1",
+  "noGitHubActions": true,
+  "sourceLockedR574": true,
+  "experimentalNoPromotion": true,
+  "files": {
+    "README.md": {
+      "sha256": "ade9de977351ad751d80db0acff1fea983a4c374382ae72a5946c4e9072bc707",
+      "bytes": 5047
+    },
+    "r588_probe.py": {
+      "sha256": "e000a713e9747de6ba5ff031951eb32523fe38065b69c7c6351f923b460c25b6",
+      "bytes": 8140
+    },
+    "r588_render.py": {
+      "sha256": "7ff2dea15f8da9cd8e1cb07a757c61287873cb151cf4bb218397d0e5f1b50f4f",
+      "bytes": 4496
+    },
+    "test_r588.py": {
+      "sha256": "05568886edcc3874c2c792bb2ab0cb578b33e7616a58a41833f84354f44bfe2d",
+      "bytes": 2889
+    },
+    "R588_AUDIT.json": {
+      "sha256": "8fd9933465df7a14416ee9255aea3cab21e109f22e3f331fed761644b6d81b91",
+      "bytes": 3165
+    },
+    "R588_RENDER_RECEIPT.json": {
+      "sha256": "02cf178ec0d2a17272bd1cf80817e622e139d123858c0c89b9ca0fd7e545388c",
+      "bytes": 17731
+    },
+    "R588_TESTS.log": {
+      "sha256": "e4a44074ce1bb1517c78baa26defb35637560b21e508c85e880065fb8e8b955f",
+      "bytes": 924
+    },
+    "base_3s.json": {
+      "sha256": "b53dcb93905896a93da46c70eafc8aac870cd9b3cd910fc814e65fd1cacf1279",
+      "bytes": 193643
+    },
+    "combined_10_.05_3s.json": {
+      "sha256": "8fabd6fea90df1e0078e89d52252ae1b9108fd547686dfd33c62918614b08b21",
+      "bytes": 209683
+    },
+    "candidate_12s.json": {
+      "sha256": "0973bda50f043ca7db76a722d22e2ac36b826dfbe32be5d03d91af493091abd4",
+      "bytes": 812691
+    },
+    "candidate_push120_12s.json": {
+      "sha256": "f77abe0a06054051b57bcfd57b28c5f17266d3f487286acac879bc2171f93ef8",
+      "bytes": 757640
+    },
+    "seat_damp2_3s.json": {
+      "sha256": "1ba0bf3c4802928bf4cb5f07b487cedd9fdbb46cfbf4a1760b7b17ac917301aa",
+      "bytes": 199309
+    },
+    "seat_damp4_3s.json": {
+      "sha256": "4778d6d0407b27fbf93316456a0218288373f64fc064056aab6d681be28307f0",
+      "bytes": 207545
+    },
+    "limbdamp2_3s.json": {
+      "sha256": "f52db7e5ed1aefd9216985c5aa8bb3095eb5479e552751252659550d2d228d39",
+      "bytes": 193716
+    },
+    "limbdamp4_3s.json": {
+      "sha256": "4c3eb66d60264a6714d422d7e0805d1fd6340cab96e742d05805d480d49cb1ea",
+      "bytes": 193218
+    },
+    "limbdamp8_3s.json": {
+      "sha256": "e46d1b6ff6db1d6a66a9168170db4dd8f9134a02931702b7b7872c86ff1ea832",
+      "bytes": 206239
+    },
+    "thumb.05_3s.json": {
+      "sha256": "68fa9c24e3a2e1972ddec5a4827ed1f287f5396ba61700d6e19143596879aeb2",
+      "bytes": 204681
+    },
+    "combined_10_.03_3s.json": {
+      "sha256": "f10c1444851b6155564ae6da58d267f23eec83e33ef5140e51f16191916360d8",
+      "bytes": 208761
+    },
+    "seat_round_3s.json": {
+      "sha256": "56995e2051782a5be9f01e7d636994c368b7e55c73b3009cb76532d0373dc879",
+      "bytes": 168077
+    },
+    "seatwidth_.25_3s.json": {
+      "sha256": "631ab7763a8d3249b9ad22c19e2936472148a57dcf0f6298dd82a45a9aefb618",
+      "bytes": 201852
+    }
+  }
+}
