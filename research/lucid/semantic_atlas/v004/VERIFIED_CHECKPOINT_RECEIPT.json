@@ -1,0 +1,50 @@
+{
+  "schema": "biorig.semantic_atlas.v004.source_audit.v1",
+  "archive": "BioRig_LUCID_SEMANTIC_ATLAS_V004_RUNTIME_CAUSAL_SEMANTICS_2026-10-13.zip",
+  "archiveSha256": "aae3a08ce88897d0879b94368dfc24a7ec0a2fa347b72d6781f88502bbcb8a4f",
+  "archiveSizeBytes": 7205087,
+  "archiveEntryCount": 23,
+  "archiveCRCverified": true,
+  "v003EmbeddedByteIdentical": true,
+  "criticalSources": {
+    "pinnedModules": 28,
+    "fullyLineIndexed": 4996,
+    "ASTStatementInstances": 4169,
+    "staticCalls": 3048,
+    "staticImports": 287,
+    "classAndFunctionDeclarations": 224,
+    "qualifiedCallableBoundaries": 191,
+    "ASTStateWrites": 100,
+    "manualReviewedInterfaces": 22,
+    "pairUniverse": 784
+  },
+  "scope": "Full original V003 archive index plus detailed priority-source runtime analysis. Unreviewed historical physical semantics remain explicitly unknown.",
+  "gates": {
+    "sourceArchiveSHA": "PASS",
+    "lineIdentity": "PASS",
+    "branchProtectedProductionCodeUntouched": true,
+    "noGitHubActions": true,
+    "nativePhysicsRunThisPhase": false,
+    "actualSkinRenderThisPhase": false
+  },
+  "provenFacts": [
+    "R590 capture calls R589.run; R590 restart does not instantiate ArmLanding",
+    "R589 final actuator precedence base -> shoulder -> neck is a sequence of overwrites",
+    "R586 instant algebraic neck moment tolerance is not identical to time-delayed realized muscle force",
+    "R590 native snapshot saves qpos,qvel,act,time while controller memory and neutral reference are reconstructed"
+  ],
+  "readOnlyRegenerationFilesInCompanionArchive": [
+    "build_runtime_graph.py",
+    "build_runtime_lines.py",
+    "build_function_authority.py",
+    "verify_v004.py"
+  ],
+  "documents": [
+    "README.md",
+    "CAUSAL_STATE_AND_CONTROLLER_CONTRACTS.md",
+    "RUNTIME_SOURCE_TRUTH_GRAPH.md",
+    "FUNCTION_BOUNDARY_AND_MUTATION_CATALOG.md"
+  ],
+  "repo": "sev-32/BioRig",
+  "branch": "research/lucid-r575-goal-intent"
+}
