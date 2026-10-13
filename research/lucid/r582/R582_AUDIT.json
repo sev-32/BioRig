@@ -1,0 +1,99 @@
+{
+  "schema": "lucid.r582.native-signed-wrench-correction-audit.v1",
+  "date": "2026-10-13",
+  "repository": "sev-32/BioRig",
+  "branch": "research/lucid-r575-goal-intent",
+  "promoted": false,
+  "githubActionsUsed": false,
+  "researchOnly": true,
+  "notHeldOut": true,
+  "frozenR574_SHA256": "21e0c354023badd40485840296e09034809ae4eb055fd926eff39ac0b8700701",
+  "R581ControllerSHA256": "cbea7fbd2781ecac543ca46b1809461c4aec0c24870c0005e660c3f9eb9d303f",
+  "scene00InitialStateSHA256": "3baf94ca375e535d72bacccdee2c43141e7d2a3a156539257274de1862339c24",
+  "legacyVsSigned": {
+    "referenceTimeS": 40,
+    "legacyR581": {
+      "vertical_N": 630.7753291123382,
+      "COMMinusPressure_m": 0.036752380033370384,
+      "COMx_m": 0.039919210954492274,
+      "pressureX_m": 0.0031668309211218917,
+      "externalContactsCount": 12
+    },
+    "correctedR582": {
+      "vertical_N": 740.4918166867682,
+      "COMMinusPressure_m": 0.01958888397648878,
+      "COMMinusProjected_m": 0.0030177013481400145,
+      "externalContactsCount": 14
+    },
+    "missedVerticalFrictionSupport_N": 109.71648757442995,
+    "evidence": "Real replay of unchanged R581 for 40s; side-facing thigh contacts generate ~50N world-up friction each despite near-horizontal contact normals",
+    "forceSignConvention": "mj_contactForce local six-vector acts on geom2; negated when support geom is geom2",
+    "projectionMeaning": "Virtual equivalent resultant at world Y=0, including shear and torque; not a stability proof"
+  },
+  "scene00_12s": {
+    "complete": true,
+    "hazard": false,
+    "settledAtEnd": true,
+    "finalRootX_m": 0.027718448235953586,
+    "muscleChannelExcitationSeconds": 0.43052911321331677
+  },
+  "scene04_12s": {
+    "complete": true,
+    "hazard": false,
+    "settledAtEnd": true,
+    "finalRootX_m": 0.024263406669211004,
+    "muscleChannelExcitationSeconds": 0.4115597192214799
+  },
+  "scene00_40s": {
+    "complete": true,
+    "hazard": false,
+    "settledAtEnd": false,
+    "finalRootX_m": 0.03227552148718232,
+    "finalTilt_deg": 12.389129411941031,
+    "finalCOMminusProjected_m": 0.000768517573700167,
+    "finalCOMminusVerticalPressure_m": 0.020067013531361613,
+    "muscleChannelExcitationSeconds": 1.7429454949136014,
+    "peakRootTilt_deg": 14.79649275359028,
+    "peakArm_N": 1.4440859655031706,
+    "bothSupportLossSamples": 0
+  },
+  "referenceR581_40s": {
+    "finalRootX_m": 0.032165671287874086,
+    "settledAtEnd": false,
+    "hazard": false,
+    "muscleChannelExcitationSeconds": 1.9539043924102382
+  },
+  "comparison": "R582 cut added excitation by 10.8%, but ended x 0.11mm further outward; both fail legacy settling threshold.",
+  "limitations": [
+    "Only R574 held-out scene00 and previously safe pushed scene04 tested, after controller development",
+    "No demonstrated 40s legacy settling, no 60s stability, no 14-scene regression",
+    "Simulated threshold 50N is a project-specific hazard not a human safety threshold",
+    "Vertical contact-pressure centroid and virtual projected resultant are not interchangeable",
+    "No proof of stable zero-moment-point for seat and ground at different heights",
+    "Whole sensorimotor delay and metabolic work not tested"
+  ],
+  "generatedSourceSHA256": {
+    "r582_wrench.py": "d15ecf5f0268dea0ab929584a408f0ec362a994bfde2d2b087fb29abdf14b86a",
+    "r582_controller.py": "4fe6eb4849fe01133fcf16f820cad15333971f91932ce4a8f860bd7c57b1c6bf",
+    "r582_probe.py": "ba421374ac695f76e88c756a36afaa955a9e9c406408e95eb31e0e9d14049c78",
+    "r582_render.py": "738e77406a77d0c3cfa3d229857aa1889dce6858fc7349ee96ce27605ab53c25",
+    "test_r582_wrench.py": "0ec88e928121568efa5bac2e63e03204b8ebd0a1c42c5d5e1c87154d53d9c968",
+    "test_r582_controller.py": "a66ccddede1826429b3934c55e83a2feb8a30aaba2c7609207c3a87983c70f0e",
+    "README.md": "ba81468725abec931a33401ce36952c5c3e0ddce69109a0572a86c0fc05cbeac"
+  },
+  "evidenceSHA256": {
+    "R582_SCENES00_04_12S.json": "a4954c65b79498aa704733f72a69d8be83566ec7b7fc729fd7d66f5defcd1dbc",
+    "R582_SCENE00_40S.json": "602e828f98f2ace0e1811558f1944d3f14e109c95f76bd086d5730467175b8a2",
+    "R582_R581_NATIVE_WRENCH_40S.json": "21c94d39e369c81a738e6944662f3d01b607fe1bd0ce81c02b333dd508665e97",
+    "R582_RENDER_RECEIPT.json": "dd014d87d81c65dab30f96b9099a4dc5366f837acd16a4e5e61627e46909f87a"
+  },
+  "nativeRenderPNG_SHA256": "c319e005b4f3e8ef8d1cf6e5e9ef9165aa6e1fcd6c3362aa6be0a5c9e1fceed5",
+  "tests": {
+    "passed": 14,
+    "failed": 0,
+    "skipped": 0,
+    "nativePushedRecoveryIncluded": true,
+    "runner": "local_python_unittest",
+    "githubActionsUsed": false
+  }
+}
