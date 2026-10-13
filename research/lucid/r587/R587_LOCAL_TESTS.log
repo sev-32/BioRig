@@ -1,0 +1,13 @@
+test_24_second_native_physics (test_r587.WholeBodyGateTests.test_24_second_native_physics) ... ok
+test_empty_missing_short_horizon_invalid (test_r587.WholeBodyGateTests.test_empty_missing_short_horizon_invalid) ... ok
+test_head_collapse_rejected (test_r587.WholeBodyGateTests.test_head_collapse_rejected) ... ok
+test_hidden_impact_rejected (test_r587.WholeBodyGateTests.test_hidden_impact_rejected) ... ok
+test_pushed_24_second_native_physics (test_r587.WholeBodyGateTests.test_pushed_24_second_native_physics) ... ok
+test_real_native_push_render (test_r587.WholeBodyGateTests.test_real_native_push_render) ... ok
+test_real_native_render (test_r587.WholeBodyGateTests.test_real_native_render) ... ok
+test_slip_and_pelvis_drift_rejected (test_r587.WholeBodyGateTests.test_slip_and_pelvis_drift_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.046s
+
+OK
