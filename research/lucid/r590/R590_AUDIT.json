@@ -1,0 +1,83 @@
+{
+  "schema": "lucid.r590.settled-rest-native-audit.v1",
+  "canonicalPromotion": false,
+  "originalModelChanged": false,
+  "githubActionsUsed": false,
+  "originalMeshSha256": "88b6cacd2f7ad7fad0c5c9d9c731afcbc1388e09c5f0e817d181a62f11844a10",
+  "continuous24s": {
+    "totalPhysicalS": 24,
+    "warmupS": 12,
+    "measurementS": 12,
+    "contactTransitions12to24": {
+      "left": 0,
+      "right": 0
+    },
+    "measuredPeakArmN": {
+      "left": 6.990381083257871,
+      "right": 0.0
+    },
+    "12to24MaxHeadDeg": 0.11601005902560464,
+    "full24PelvisX_m": 0.012910327676173687,
+    "npzSHA256": "fe05156ea3059385ad162c274f162d382c81bd4591545756733859ee62889178"
+  },
+  "independentRestart12s": {
+    "0": {
+      "pushN": 0,
+      "maxHeadDeg": 0.2524364528930781,
+      "peakArmN": 8.517111432367923,
+      "transitions": {
+        "left": 0,
+        "right": 0
+      },
+      "finalPelvisX_m": 0.012910348192307618,
+      "initialQposSHA256": "34b915d17aa533c1226cb41ecf0d6f3baa56aed9768c200fcc3badc8e4b600c2",
+      "capturedQposSHA256": "45a9b6b5674b1d97f30b6acffa10980dbd94415811461870c321631e72567710"
+    },
+    "120": {
+      "pushN": 120,
+      "maxHeadDeg": 0.2524364528930781,
+      "peakArmN": 8.517111432367923,
+      "transitions": {
+        "left": 0,
+        "right": 0
+      },
+      "finalPelvisX_m": 0.013208233329943003,
+      "initialQposSHA256": "34b915d17aa533c1226cb41ecf0d6f3baa56aed9768c200fcc3badc8e4b600c2",
+      "capturedQposSHA256": "9fea983c9469c6835ec30f85f71edaaa39179ee6be864dc8adb6f8ea48cb041a"
+    }
+  },
+  "nativeRenderer": {
+    "schema": "lucid.r590.native-rendered-physical-clone.v1",
+    "originalSkinSHA256": "88b6cacd2f7ad7fad0c5c9d9c731afcbc1388e09c5f0e817d181a62f11844a10",
+    "gifSHA256": "335c68885e5ebe7cc3020a128181cf8209fc00bac304e9df3e0a0f3ef701bce5",
+    "gifFrames": 31,
+    "physicalStateFiles": {
+      "SETTLED / NO PUSH": "45a9b6b5674b1d97f30b6acffa10980dbd94415811461870c321631e72567710",
+      "SETTLED / +120 N": "9fea983c9469c6835ec30f85f71edaaa39179ee6be864dc8adb6f8ea48cb041a"
+    },
+    "initialPoseComparison": "Original t0 arms-out vs real physical t12 rest-start; both original SKIN78",
+    "rootPoseOrSkinEdited": false,
+    "noInterpolation": true,
+    "noGeneratedImages": true,
+    "finalHead": {
+      "SETTLED / NO PUSH": 0.11579334180683988,
+      "SETTLED / +120 N": 0.11595397624000241
+    }
+  },
+  "testsPassed": "8/8 rerun after portability/refactor; 2s native MuJoCo replay included",
+  "unresolved": [
+    "Dynamic arms-out landing still contacts sharp seat edge",
+    "Right arm hangs freely, not seat-supported",
+    "Only one no-push and 120 N disturbance scenario validated from rested start",
+    "Long-term 40\u201360s and real physiological muscle effort not yet proven"
+  ],
+  "sourceSHA256": {
+    "r590_settled_capture.py": "bbc5218777d174b9506df8c2e57116ddb7f2dea0e7990025141051dbb038e77d",
+    "r590_rest_restart.py": "3ed8765c1e76b774376f9f29792a2c643070244d84a69f292356e0ad8c50af68",
+    "r590_render_settled.py": "f5221ac7d8a39b3a7e46075e59b22bbe0faa37ba586eccdc0ea172a2be6e9ce3",
+    "r590_render_rest_restart.py": "fd54bf9bcaae93681cb2175d3c55691a5e6af5204d9453f6ee240734d34b10c5",
+    "test_r590.py": "d9a4c5009c37119c616ec7d4af62bdb446aabb2ce34e84ca66a49d8626aacbee",
+    "README.md": "eb772ff94d84b48560a9eb634d90e908e433d36528c31136b3bd3ac814264467",
+    "R590_REJECTED_EXPERIMENTS.md": "dd62d17907cfaab64496db62e94f78a8763ce9658db0c1382e6a188057adb47b"
+  }
+}
