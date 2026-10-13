@@ -1,0 +1,69 @@
+{
+  "schema": "lucid.r583.measured-native-friction.v1",
+  "frozenR574Unmodified": true,
+  "frozenR582Unmodified": true,
+  "gitHubActionsUsed": false,
+  "scientificScope": "Exploratory same-state 12-second contact-friction sensitivity; no friction calibration and no new motor controller",
+  "mujocoVersion": "3.15.0",
+  "initStateSHA256": "3baf94ca375e535d72bacccdee2c43141e7d2a3a156539257274de1862339c24",
+  "treatments": {
+    "nearIce": {
+      "muEffective": 0.00001,
+      "endX_m": -0.1963772901280991,
+      "endTiltDeg": 73.22793871959169,
+      "peakTiltDeg": 74.99436112994246,
+      "endFootLoadedSlip_mps": 0.4116834551358857,
+      "addedExcitation_s": 0,
+      "notes": "Safety interlock disables muscle overlay when the frictionless rig loses support; dose=0 is NOT efficient equilibrium"
+    },
+    "original": {
+      "seatMu": 0.82,
+      "floorMu": 1,
+      "endX_m": 0.027718448235953586,
+      "endTiltDeg": 12.601450071082684,
+      "peakTiltDeg": 12.7190541655696,
+      "endSeatLoadedSlip_mps": 0.0012180414190776042,
+      "endFootLoadedSlip_mps": 0.004865870542569458,
+      "seatShear_N": 105.49399735785397,
+      "footShear_N": 105.15233892145865,
+      "addedExcitation_s": 0.43052911321331677
+    },
+    "highGrip": {
+      "seatMu": 2,
+      "floorMu": 2,
+      "endX_m": 0.01766636539569495,
+      "endTiltDeg": 12.538624118735791,
+      "peakTiltDeg": 12.538624118735791,
+      "endSeatLoadedSlip_mps": 0.0010161748910475586,
+      "endFootLoadedSlip_mps": 0.004039175070488638,
+      "seatShear_N": 110.8832510954891,
+      "footShear_N": 104.01683648853131,
+      "addedExcitation_s": 0.40930853178686977,
+      "warning": "Mu 2.0 is deliberately an uncalibrated sensitivity stress test; do not install in canonical rig"
+    }
+  },
+  "duration_s": 12,
+  "baseline40S": {
+    "source": "Prior R582 physical receipt and independent R583 40-second original-friction replay",
+    "endX_m": 0.03227552148718232,
+    "endTiltDeg": 12.389129411941031,
+    "addedExcitation_s": 1.7429454949136014
+  },
+  "highGrip40S": {
+    "completed": false,
+    "reason": "Wall-clock timeout; no 40-second high-grip result"
+  },
+  "nativeGIF_SHA256": "9b5aae697121b94e6480bd22c7172368aeb429be297f2266d1d55d537b87fb64",
+  "traceSHA256": {
+    "nearIce": "77427c59d14f2f22be4dfc6a08a17208f81650798027c74cc1263054ce2c1332",
+    "original": "9d68a2ceb7a9ff8b0b3ccdc361da2e7a2d5dacb207e5b553a09e25803a06821a",
+    "highGrip": "cee397c1071c1e0810b9b977e4fc9760b091cfc549755656d8775a322c02d254"
+  },
+  "verification": {
+    "regressionTestsPassed": 6,
+    "includesNative12sHighGripReplay": true,
+    "frozenPlantSHAUnchanged": true,
+    "GitHubActionsUsed": false
+  },
+  "conclusion": "Original seat/floor have friction and shear forces but exhibit measurable physical slip; changing only friction changes the controller's physical outcome materially. Does not establish actual human material coefficient, relaxed equilibrium or full long-horizon safety."
+}
