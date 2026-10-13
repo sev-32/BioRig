@@ -1,0 +1,64 @@
+{
+  "schema": "lucid.r589.replay-audit.v1",
+  "status": "research-only / 12s zero-push validated / NOT production approved",
+  "originalFrozenSourcesUnchanged": true,
+  "GitHubActionsUsed": false,
+  "sameInitialNativeState": true,
+  "renderBuiltFromCapturedNativeQpos": true,
+  "SKIN78SHA256": "88b6cacd2f7ad7fad0c5c9d9c731afcbc1388e09c5f0e817d181a62f11844a10",
+  "physicalHorizonSeconds": 12,
+  "timestepSeconds": 0.002,
+  "priorBaseline": {
+    "peakArmN": {
+      "left": 201.44246976035288,
+      "right": 269.987063075301
+    },
+    "transitions": {
+      "left": 7,
+      "right": 14
+    },
+    "finalArmLoadN": {
+      "left": 17.9371157804367,
+      "right": 0.0
+    },
+    "maxHeadDeg": 4.15366327047659,
+    "finalPelvisX_m": 0.01334039367870311
+  },
+  "experimental": {
+    "peakArmN": {
+      "left": 35.89629388532487,
+      "right": 10.987974917319386
+    },
+    "transitions": {
+      "left": 13,
+      "right": 6
+    },
+    "finalArmLoadN": {
+      "left": 6.989140151817152,
+      "right": 0.0
+    },
+    "maxHeadDeg": 4.444902693218707,
+    "finalPelvisX_m": 0.012909774969724841,
+    "armExtraExcitationSeconds": 0.34751039203186945
+  },
+  "tests": "8/8 local, includes 3s paired native and 12s native replay",
+  "knownFailure": "left contact transitions increase 7 -> 13; right arm not loaded at final seat; 120 N push and 24s not verified",
+  "gifSHA256": "cdbc469060a861aa424ac89d65fe2214448793b5ebabdb41e14c1b01d36b3ef7",
+  "individualFilesSHA256": {
+    "r589_arm_landing.py": "5a6a30f7ed93410abf56aa774c1e47ef5f8653735c64d506b799f59dfc1c336c",
+    "r589_capture_native.py": "26ae9885e743c32a0afce0aef4d4d6f347c8aaa69f819f53d6a7975f6d38e60e",
+    "r589_render_saved_native.py": "4b78530d2c9dd896ebcf4c017d84329a4f22aa6cac96def803b7ab1582765f5c",
+    "test_r589.py": "5708af7ae66733da36bcf9c39c1ece9c56ba226eb984695794ca88ac378aa928",
+    "README.md": "2216c5ffb0988b717f178659600c61fe5a2552f113a1638866d325c17607337e",
+    "R587_NATIVE_12S_CAPTURE_RECEIPT.json": "02e5cec61cbba21c6ef5ba8bc008d1ae9bfaaacf6564c7321e3df4c18b785624",
+    "R589_NATIVE_12S_CAPTURE_RECEIPT.json": "d6e625c50ea0f0a99458fa298529d5a97191cc833ce7722139b84975b0cec125",
+    "R589_12S_RENDER_RECEIPT.json": "4d95cbfbe70ae056596f7ee5b3c34ea754ec4280917fefdf2ff0d63d2d632d8b",
+    "R589_TESTS.log": "e1327a04c6ec4ae0d557dff82211372f0d0b8ccfb727f46ce07e3d91ad27e0fa",
+    "R587_NATIVE_12S_QPOS.npz": "a20c945c0b1e3211354ffc17e748c49573a1b5159ce42f9c970bcbb910387403",
+    "R589_NATIVE_12S_QPOS.npz": "e0c64bed0029fe80a03db76a854323e732715215d0fba28cca92220b55cb34c7",
+    "verified_3s.json": "2fd347fb3c3070316fe6562aa6d169b38bdb3424937ea34b7b66da056aad6e0a",
+    "candidate12_no_push.json": "2656b17435d7d62cb5d3c98a1d6a93e745b0457b2b57bce45e1535e98efb4ba9",
+    "fade_1.2.json": "01d41be60010307e6cec9ac842c668d17e6b351202c36998d5add6e6d6e0bdeb",
+    "render_saved.log": "f3336cae09e86df4edb948080fce89619d238b2f23ba1d50e1e889c2a8922e43"
+  }
+}
