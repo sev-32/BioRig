@@ -25,7 +25,7 @@ The genuine SKIN78 surface was rendered in **61 distinct MuJoCo states per case*
 
 `r587_whole_body_gate.py` rejects physical runs missing a full 24 s trace, head-to-thorax angle ≥5°, root tilt ≥45°, arm-seat impact ≥50 N, unexpected floor contact ≥50 N, |pelvis x| ≥0.030 m, or optimizer fallbacks. It also verifies **all 61 time-stamped native frame hashes** and exact GIF SHA-256. This prevents the earlier gross 84° head collapse from slipping through a numerically “settled” state.
 
-`test_r587.py`: **8/8 local tests passed**, including injected catastrophic head fold, off-center pelvis, impact, incomplete traces, both actual 24 s physical evidence receipts, both generated native animations. No GitHub Actions were run.
+`test_r587.py`: **9/9 local tests passed**, including injected catastrophic head fold, off-center pelvis, impact, incomplete traces, both actual 24 s physical evidence receipts, both generated native animations, independent physics-to-render pose matching. No GitHub Actions were run.
 
 ## Reproduce offline from Git source
 
