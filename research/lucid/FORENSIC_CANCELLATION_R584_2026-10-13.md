@@ -1,3 +1,5 @@
+> **FORENSIC CORRECTION — 2026-10-13.** This previous report identified a head failure in the *specific frozen R574 seated MuJoCo scene*. It did **not** inspect every historical visual render, and its sweeping conclusion about earlier stable head behavior was unjustified. The owner reports many earlier stable-head renders. The first physically regressed version is **not established**; do not assume older head behavior never worked. A new isolated R585 physical correction and 12s actual SKIN78 paired animation are preserved under [R585](./r585/README.md). R585's corrected physical muscle allocation passes its 12s head posture gates but is not promoted or visually owner-approved, and 40s stability/relaxed muscle effort remain unresolved. This correction supersedes incompatible claims below; the old analysis remains for provenance.
+
 # BioRig/LUCID cancellation — forensic STOP report (2026-10-13)
 
 **Disposition: PROJECT CANCELED, WHOLE-BODY RIG NOT SOLVED.** This is a read-only source/physics audit, not a claim of repair or owner approval. No changes to main, frozen R574/R575, native plant, muscles, textures or model assets; no GitHub Actions.
