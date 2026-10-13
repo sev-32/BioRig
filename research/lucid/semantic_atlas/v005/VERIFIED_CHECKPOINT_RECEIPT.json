@@ -1,0 +1,28 @@
+{
+  "schema": "biorig.semantic_atlas.checkpoint_v005.v1",
+  "repository": "sev-32/BioRig",
+  "branch": "research/lucid-r575-goal-intent",
+  "artifact": {
+    "name": "BioRig_LUCID_SEMANTIC_ATLAS_V005_HISTORICAL_VERSION_SEMANTICS_2026-10-13.zip",
+    "sha256": "c9f8de1cb1791a48021309223c0f5c7884483887184fa0008e6c769a5c13313d",
+    "bytes": 7249769,
+    "zipEntries": 11,
+    "crcVerified": true
+  },
+  "nestedV004ByteIdentical": true,
+  "stagesAnalyzed": "R575–R590",
+  "localSourcePythonInstances": 96,
+  "distinctSourceContentSHAs": 69,
+  "sourceLineInstances": 8122,
+  "pythonASTFailures": 0,
+  "remoteOnlyStage": "R583",
+  "remoteOnlySourceVerifiedByGithubBlob": "cff0ac0e4785c0fbfb10f255ff6eb21178dd2aa7",
+  "v005Docs": [
+    "README.md",
+    "HISTORICAL_INTERVENTION_AND_ARCHITECTURAL_CONTINUITY.md",
+    "VERSION_BY_VERSION_SOURCE_ATLAS.md"
+  ],
+  "semanticBoundary": "Archived code identities, static calls and manually audited version interventions, not evidence that all runtime behaviors were validated.",
+  "productionSimulationCodeChanged": false,
+  "githubActionsUsed": false
+}
