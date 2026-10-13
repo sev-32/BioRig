@@ -34,6 +34,13 @@ class WholeBodyGateTests(unittest.TestCase):
     self.assertTrue(gate['physicalQuantitiesPass'])
     self.assertLess(push['maxHeadAngleDeg'],5.)
     self.assertLess(push['maxArmSeatN'],50.)
+  def test_mismatched_rendered_pose_rejected(self):
+    receipt=HERE/'R587_SKIN78_24S_NATIVE_RECEIPT.json'
+    gif=HERE/'R587_SKIN78_24S_NATIVE_ANIMATION.gif'
+    if not receipt.is_file() or not gif.is_file():self.skipTest('Native render missing')
+    data=json.loads(receipt.read_text())
+    data['nativeFrames'][20]['pelvisX_m']+=.1
+    with self.assertRaises(ValueError):check_render(self.evidence,data,gif)
   def test_real_native_push_render(self):
     receipt=HERE/'R587_SKIN78_24S_PUSH120_NATIVE_RECEIPT.json'
     gif=HERE/'R587_SKIN78_24S_PUSH120_NATIVE_ANIMATION.gif'
