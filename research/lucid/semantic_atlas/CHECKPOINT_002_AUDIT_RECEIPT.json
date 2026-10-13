@@ -1,0 +1,57 @@
+{
+  "schema": "biorig.semantic_atlas.checkpoint_002.v1",
+  "completedUTC": "2026-10-13",
+  "repo": "sev-32/BioRig",
+  "branch": "research/lucid-r575-goal-intent",
+  "inputArchiveInstances": 19,
+  "archiveEntriesVerifiedSHA256": 2792,
+  "sourceLinesIndexed": 70823,
+  "sourceCodeFileInstances": 658,
+  "pythonASTParsed": 656,
+  "pythonASTParseFailures": 0,
+  "functionClassDefinitions": 3781,
+  "symbolLevelSideEffectRecords": 3468,
+  "staticCallSites": 45243,
+  "staticImportSites": 6778,
+  "JSONStructuralKeypaths": 133371,
+  "nestedVersionMarkerGroups": 126,
+  "allPairs": {
+    "size": 7795264,
+    "format": "row-major uint8",
+    "sha256": "20bfd3b7d9fd1a45589218cd21ed0f59ad5d01e87ae1a51e6ac70b6ae78a16e1",
+    "zeroMeans": "unknown/unproven, NOT no relationship"
+  },
+  "curatedLinks": 41,
+  "evidenceOnlyMissingLocalAnchors": [
+    "r583_friction_probe.py",
+    "r584_replay.py"
+  ],
+  "independentlyInventoriedGitHubBranchAtInitialHead": {
+    "sha": "07e7daa0eae17a61fee03b6503ce336fbbd1c7bb",
+    "files": 116,
+    "pythonFiles": 65,
+    "truncated": false
+  },
+  "artifact": {
+    "name": "BioRig_LUCID_SEMANTIC_ATLAS_V002_FORENSIC_CAUSAL_SOURCE_DOCUMENTATION.zip",
+    "bytes": 6835522,
+    "files": 52,
+    "crcVerified": true,
+    "sha256": "5f8afb95982df1b626474d4fa5064494560843afe8084f7810b0e804f0e1867c"
+  },
+  "establishedArchitecturalDisconnects": [
+    "Original lucid_bcr/neuro.py whole-body muscle QP is distinct from narrower R551 seated source path",
+    "R541 whole-body head-hip and cold-start gates not present in R562 seated is_settled()",
+    "R5.36 contact/friction/solver experiments existed before R583/R584",
+    "GameIntent/planner/core steering source available but not validated as actively integrated in R574 two-action controller"
+  ],
+  "noProductionCodeChanged": true,
+  "noGitHubActions": true,
+  "caveats": [
+    "All literal source lines AST-indexed; full manual per-line semantics remains unfinished",
+    "All possible file pairs represented; unknown edges are not evidence of independence",
+    "Not all historical Git commits or GitHub-only source bytes mirrored to container",
+    "Runtime causality, dynamic dispatch, model binaries and actual output behavior still require independent audit",
+    "Past visual or physics claims cannot be promoted without proof"
+  ]
+}
