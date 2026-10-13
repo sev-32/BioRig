@@ -1,0 +1,82 @@
+{
+  "schema": "lucid.r584.contact-creep-correction.v1",
+  "status": "experimental; requires user visual acceptance",
+  "branch": "sev-32/BioRig:research/lucid-r575-goal-intent",
+  "sourceChange": "Set native MuJoCo opt.noslip_iterations from 0 to 6; tolerance 1e-6. Preserve seat mu 0.82, floor mu 1.0, original rigid bodies, collision geoms, joint dynamics, low-level stabilizer, original R574 and R582 controllers.",
+  "initialPlantSHA256": "3baf94ca375e535d72bacccdee2c43141e7d2a3a156539257274de1862339c24",
+  "materialAndMassSHA256": "37e145f3ee4c8c8807346ca7450154164e5bccc21ba81970b11b38af25e376df",
+  "nativeMuJoCo": "3.15.0",
+  "nativeScene00_12seconds": {
+    "original": {
+      "finalRootX_m": 0.027718448235953586,
+      "finalTilt_deg": 12.601450071082684,
+      "seatSlip_mps": 0.0012180414190776042,
+      "footSlip_mps": 0.004865870542569458,
+      "extraExcitationSeconds": 0.43052911321331677
+    },
+    "noSlip6": {
+      "finalRootX_m": 0.0158217622165869,
+      "finalTilt_deg": 12.367753575263773,
+      "seatSlip_mps": 0.0000030512944068010866,
+      "footSlip_mps": 0.00004364789443379979,
+      "extraExcitationSeconds": 0.40804859387396686,
+      "hazard": false,
+      "settledAtEnd": true
+    }
+  },
+  "pushedScene04_12seconds": {
+    "frozenChoice": "R28",
+    "original": {
+      "hazard": false,
+      "settledAtEnd": true,
+      "finalRootX_m": 0.024263406669211004
+    },
+    "noSlip6": {
+      "hazard": false,
+      "settledAtEnd": true,
+      "finalRootX_m": 0.014303984811247346
+    }
+  },
+  "longHorizon": {
+    "noSlip6_withInheritedMuscleOverlay_40s": {
+      "complete": true,
+      "finalX_m": 0.015818621850875632,
+      "finalTilt_deg": 12.367998886720518,
+      "seatSlip_mps": 0.00000690338857767368,
+      "footSlip_mps": 0.00009860577252829843,
+      "excitationSeconds": 1.5000795825914912
+    },
+    "noSlip6_noAdditionalMuscleOverlay_40s": {
+      "complete": true,
+      "hazard": false,
+      "settledAtEnd": true,
+      "finalX_m": 0.01599346793540552,
+      "finalTilt_deg": 12.411195779969738,
+      "additionalExcitationSeconds": 0,
+      "nativeTraceSHA256": "ae63a63593079b6f035bdd838863809f17f13aa976b8ac51d60f381cba59a00c"
+    },
+    "sixtySecondAttempt": "timed out; no result"
+  },
+  "nativeAnimatedProof": {
+    "method": "Direct native MuJoCo EGL frames, no interpolated or generated pose",
+    "frames": 31,
+    "timeStepBetweenFrames_s": 0.4,
+    "sourceScenes": "Same start, same friction, same muscle program; no-slip iterations 0 versus 6",
+    "SHA256": "4dafac0ae54029434e836a00bd27ee02a9b9b31a5af1a22342edcd7c9fe9a924",
+    "storedInGit": false
+  },
+  "verification": {
+    "gitSourceAnd12sPhysicsTests": "4/4 passed",
+    "pushedScene04": "completed separately",
+    "standalone40sNoOverlay": "completed separately",
+    "combinedLongUnittestRun": "wall-clock timeout",
+    "githubActions": false,
+    "full14SceneSweep": false
+  },
+  "remaining": [
+    "User visual approval required",
+    "All 14 held-out scenes untested with updated contact solver",
+    "Long-horizon 60 second repeatability unverified",
+    "Inherited low-level muscle stabilization still active when zero additional overlay; cannot claim fully passive muscle-free balance"
+  ]
+}
