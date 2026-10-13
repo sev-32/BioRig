@@ -1,0 +1,90 @@
+{
+  "schema": "lucid.r585.real-physics-head-repair.v1",
+  "date": "2026-10-13",
+  "repository": "sev-32/BioRig",
+  "branch": "research/lucid-r575-goal-intent",
+  "experiment": "native original 84-muscle MuJoCo 3.15, actual SKIN78 mesh, cold-start seated physical scene with no-slip6 held constant",
+  "notCanonicallyPromoted": true,
+  "ownerVisualAcceptance": false,
+  "githubActionsUsed": false,
+  "physicalModification": {
+    "type": "model-local bilateral muscle insertion adjustment",
+    "muscle": "sternocleidomastoid",
+    "site": "s_{left,right}_sternocleidomastoid_1",
+    "headLocalZ_m": -0.025,
+    "otherModelSourceChanged": false,
+    "actuatorCount": 84,
+    "softOrRigidPoseClamp": false,
+    "appliedJointMotorTorque": false,
+    "additionalRootHoldingForce": false
+  },
+  "controller": {
+    "type": "bounded six-axis native muscle activation allocation",
+    "neckAndHeadDOFs": 6,
+    "controlledMuscles": 10,
+    "maxExcitation": 0.8,
+    "updateIntervalS": 0.01,
+    "details": "MuJoCo actual moment arms and muscle length/velocity gain, gravity/Coriolis and passive torque with bounded least squares"
+  },
+  "matched12s": {
+    "original": {
+      "maximumHeadThorax_deg": 86.96817309445774,
+      "finalHeadThorax_deg": 84.12,
+      "finalPelvisX_m": 0.0198
+    },
+    "repaired": {
+      "maximumHeadThorax_deg": 4.098875798741602,
+      "finalHeadThorax_deg": 0.0017378461379504813,
+      "finalPelvisX_m": 0.0136,
+      "maxArmSeatContact_N": 25.83514515266932,
+      "maxOtherFloorContact_N": 0,
+      "maxPelvisTilt_deg": 13.50083476954944,
+      "maxNeckMuscleExcitation": 0.5797873119759093,
+      "averageSummedNeckChannelExcitation": 3.1645149926076472,
+      "notCalibratedRelaxedBiologicalEquilibrium": true
+    }
+  },
+  "pushScenarios12s": {
+    "left120N": {
+      "maximumHeadThorax_deg": 4.098875798741602,
+      "finalPelvisX_m": 0.0101,
+      "maxArmSeatContact_N": 25.84,
+      "maxOtherFloorContact_N": 0
+    },
+    "right120N": {
+      "maximumHeadThorax_deg": 4.098875798741602,
+      "finalPelvisX_m": 0.0163,
+      "maxArmSeatContact_N": 25.84,
+      "maxOtherFloorContact_N": 0
+    },
+    "plus240N": {
+      "note": "earlier head-only native result completed, later fully instrumented repeat timed out; no complete contact-safety acceptance claim"
+    }
+  },
+  "renderer": {
+    "type": "original SKIN78 native VTK rendered actual MuJoCo qpos, not generated",
+    "meshVertices": 14164,
+    "skinSHA256": "88b6cacd2f7ad7fad0c5c9d9c731afcbc1388e09c5f0e817d181a62f11844a10",
+    "captureTimesS": "0..12 in 0.4s increments",
+    "physicalFramesPerCondition": 31,
+    "noPoseInterpolation": true,
+    "file": "R585_REAL_SKIN78_NECK_REPAIR_12S.gif",
+    "sha256": "6e46d699cebf934b64924a8647e0df752ac4a5fab709a3757731ecb28aa25cf4"
+  },
+  "tests": {
+    "oneCompleteSevenOfSevenSuite": true,
+    "laterRepeatTimedOut": true,
+    "optional12sNativeReplicateExecuted": true,
+    "optional120nPushExecuted": true,
+    "headPoseCheckIncluded": true
+  },
+  "originalR574Frozen": true,
+  "knownOpenGates": [
+    "head-neck actuator assignment anatomical calibration still required",
+    "muscle excitation significant and uncalibrated; relaxed equilibrium not established",
+    "40s extension timed out; long-horizon behavior unverified",
+    "full 14-scene perturbation sweep unverified",
+    "historical first-bad regression not identified, earlier visually stable render history must be audited",
+    "user visual approval pending"
+  ]
+}
