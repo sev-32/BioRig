@@ -1,0 +1,15 @@
+scene,seatHalfWidthM,appliedWorldForceN,measuredArmSeatN,measuredTiltDeg,restoreAction,protectAction,restoreDecisionReason,neutralHazard,restoreHazard,protectHazard,neutralSettled,restoreSettled,protectSettled,neutralPeakArmSeatN,restorePeakArmSeatN,restoreMaxPulseExcitation,restoreRescue,restoreSettledRescue,newHazard,sourceSceneJSONSHA256
+0,0.131,0.0,0.0,4.656346,none,none,no_expected_goal_advantage,0,0,0,1,1,1,0.06766,0.06766,0.0,0,0,0,7f54f365abc77c74a4d05d2a0ac7c87f3087466c0bce1a01bdcafe8c254106a8
+1,0.131,-120.0,0.0,4.742078,R28,none,expected_goal_advantage_within_vetoes,0,0,0,1,1,1,13.801577,0.0,0.04,0,0,0,2daa7a342642b48a5dec99b4636ed31a5beabb77c5e425c46edb18351ebd597c
+2,0.131,120.0,0.0,4.656685,R28,none,expected_goal_advantage_within_vetoes,0,0,0,0,1,0,10.369376,0.25494,0.04,0,0,0,3069e1de0eccbd4a4b60f38013ff7e47901bb9e6374d149e6396b3413f3d5671
+3,0.131,-235.0,0.0,4.985631,none,none,predicted_avoided_condition,1,1,1,0,0,0,786.045457,786.045457,0.0,0,0,0,70cd1d19648e12b7932a466ef68653342e36db499edbe7f9ab8e025463790298
+4,0.131,235.0,0.0,4.507004,R28,R28,expected_goal_advantage_within_vetoes,1,0,0,0,1,1,776.617676,5.811085,0.04,1,1,0,d14cdebfb47cbacfffe752b1f73af69e138000b7020c9bba8e13e53ece01bf1a
+5,0.131,-365.0,0.0,5.226663,none,none,predicted_avoided_condition,1,1,1,0,0,0,812.653867,812.653867,0.0,0,0,0,22e03bb7948cef8026014fa5ba6dcdfbea16309439995abc094e4d33ac5dd2d7
+6,0.131,365.0,0.0,4.319534,none,none,predicted_avoided_condition,1,1,1,0,0,0,893.36079,893.36079,0.0,0,0,0,03662308ff13674a4456ea05da8ef1d6983b9698320282d8baada6ac4b6a54a9
+7,0.175,0.0,0.0,4.780983,none,none,no_expected_goal_advantage,0,0,0,1,1,1,24.618018,24.618018,0.0,0,0,0,cc6cf60a640672743aa03b30fe271c472615ad1552f42cb46cc8290006baf84a
+8,0.175,-120.0,0.0,4.828134,none,none,no_expected_goal_advantage,0,0,0,1,1,1,6.269412,6.269412,0.0,0,0,0,11ad6f529be45744d0818557267ce50358185e4d42fe53c7518f07076bdc9d33
+9,0.175,120.0,0.0,4.774793,R28,none,expected_goal_advantage_within_vetoes,0,0,0,0,1,0,14.809411,24.655771,0.04,0,0,0,cfbd45b9f1be20780f68f9ae398a65774b5cda034eceddf479adfa8e01121675
+10,0.175,-235.0,0.0,5.050511,R28,none,expected_goal_advantage_within_vetoes,1,0,1,0,1,0,88.332414,37.671385,0.04,1,1,0,99eabd5c7e18982035bf8e8619a324da9bae32a35664f048bf7c7860b3d8eb45
+11,0.175,235.0,0.0,4.60114,R28,R28,expected_goal_advantage_within_vetoes,0,0,0,0,1,1,14.648182,24.081472,0.04,0,0,0,809b94c7ec6e52666429aa8776175fdcf837c39b41aa17f4bfa78be9ec8ce124
+12,0.175,-365.0,0.0,5.324356,none,none,predicted_avoided_condition,0,0,0,0,0,0,21.112243,21.112243,0.0,0,0,0,8f8c81d0d4da4f637b90ba2306e34e78b74dd09e079d6b8eaf3cb5589170b9e5
+13,0.175,365.0,0.0,4.428804,none,none,predicted_avoided_condition,1,1,1,0,0,0,415.858377,415.858377,0.0,0,0,0,c909a438232e2c8f4a821a505c603e9676cc89a4e4eceb0eb3fa630cd2caa3f4
