@@ -1,0 +1,36 @@
+{
+  "schema": "lucid.semantic-atlas.v012.github-receipt.v1",
+  "repo": "sev-32/BioRig",
+  "branch": "research/lucid-r575-goal-intent",
+  "checkpointZIP": "BioRig_LUCID_SEMANTIC_ATLAS_V012_GOAL_TO_MUSCLE_EXECUTION_AND_CROSSWALK.zip",
+  "zipSHA256": "b3bb8b06d924063a3fb0cb5b3c296d57c394739c4a2ed443fbc8b16f5d7826a8",
+  "zipBytes": 13395361,
+  "entries": 16,
+  "zipCRCAndSHA256Verified": true,
+  "previousV011SHA256": "60a3b0793067e00c3f85651c35556cc48afab8f10747c03dab47cacad0d65c70",
+  "originalR574ArchiveSHA256": "21e0c354023badd40485840296e09034809ae4eb055fd926eff39ac0b8700701",
+  "verified": {
+    "archivedNativeScenes": 14,
+    "originalSourceASTGoalDecisions": 28,
+    "recordedPulseTimelineUpdates": 2800,
+    "pulseMaxResidual": 0,
+    "nativeV011CrosswalkEntries": 1224
+  },
+  "scriptsContainedInZip": {
+    "build_v012.py": "7e293e822b61103d9c631b20d33ba30e53eeaaa020a988ec51e9d795984132a8",
+    "verify_temporal_path_v012.py": "3fd48ca11236e0b181b7ea777504418219600cd3a7794d9ac47a8a10278de825",
+    "verify_v012.py": "3aa017d6cdc382f138a1f4754b5fa65d5ca1fad84d47404b2e818a2803da0661",
+    "write_v012_paper.py": "58a3ad8a37ba9f4b636d88e98e8404931719c865a0262661d1abab48e108c1c9",
+    "package_v012.py": "d8ea620002a77862ee852e3aa424f36adbd016568d0973b65242bac2a3f069a2"
+  },
+  "noNewPhysicsRuns": true,
+  "noProductionCodeChanged": true,
+  "noGitHubActions": true,
+  "gaps": [
+    "Original ExtraTrees model forecasts were replayed from saved records, not refitted",
+    "Original 8 second physical trajectories were read from archived results, not rerun",
+    "Goal selection not invoked in R590 seated restart",
+    "Native 4-muscle V011 per-channel measurements cannot be added to synthesize original R574 behavior",
+    "Reproduction scripts are packaged in checkpoint ZIP; GitHub currently carries source-verified documentation and concise paired outcome ledgers"
+  ]
+}
