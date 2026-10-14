@@ -1,0 +1,48 @@
+{
+  "schema": "biorig.semantic_atlas.v013.github_status",
+  "provenance": {
+    "repo": "sev-32/BioRig",
+    "branch": "research/lucid-r575-goal-intent",
+    "originalR574Sha256": "21e0c354023badd40485840296e09034809ae4eb055fd926eff39ac0b8700701",
+    "R590ArchiveSha256": "42c080f6a0c78042882bd27c5309d8158709a825a3fc6399ed07a5416f4679a7"
+  },
+  "checkpoint": {
+    "file": "BioRig_LUCID_SEMANTIC_ATLAS_V013_WHOLE_BODY_RUNTIME_INTEGRATION.zip",
+    "sha256": "b967777d8b44f56b01776211bf8796d44b357868445ed8dc6be73b3724d1413d",
+    "byteSize": 13437339,
+    "entries": 15,
+    "nestedV012ByteExact": true,
+    "zipCRCVerified": true
+  },
+  "verified": {
+    "selectedSourceModules": 21,
+    "exactLineWitnesses": 70,
+    "classFunctionDefinitions": 179,
+    "sourceCallAndReferenceOccurrences": 94,
+    "explicitIntegrationContracts": 15,
+    "originalControllerDefaultsParsedFromAST": true,
+    "versionSourcesEdited": 0
+  },
+  "githubUploadedExactFiles": [
+    "README.md",
+    "WHOLE_BODY_CONTROLLER_EXECUTION_AND_INTEGRATION_PAPER.md",
+    "INTEGRATION_COMPATIBILITY_CONTRACTS.csv",
+    "FROZEN_R574_SYMBOL_REFERENCE_CROSSWALK.csv",
+    "SELECTED_21_MODULE_FUNCTION_CATALOG.csv"
+  ],
+  "zipOnly": {
+    "reproducibleBuild": "build_v013.py",
+    "independentVerification": "verify_v013.py",
+    "packageVerifier": "package_v013.py",
+    "machineProof": [
+      "SOURCE_MANIFEST_V013.json",
+      "WHOLE_BODY_SEMANTIC_WITNESSES.json",
+      "FULL_BODY_CONTROL_TASK_ROWS.json",
+      "V013_SOURCE_AUDIT_RECEIPT.json",
+      "V013_INDEPENDENT_VERIFICATION.json",
+      "V013_PACKAGE_MANIFEST.json"
+    ]
+  },
+  "claimLimit": "source-static audit; no native physics or SKIN78 rendering performed during V013; no full-program dynamic trace; unknown paths remain unknown",
+  "gitHubActionsUsed": false
+}
