@@ -89,3 +89,4 @@ These are **dataclass default facts only**. Callers can use `load_tuned_params` 
 ## Integrity
 
 All dataclass fields and branch locations are drawn from the exact SHA-pinned frozen archive. Verification must check the SHA again and reconstruct the ledgers independently. The nested V013 file and original R574 archive are never modified by this build.
+
