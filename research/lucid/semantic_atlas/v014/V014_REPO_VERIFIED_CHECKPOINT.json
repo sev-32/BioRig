@@ -1,0 +1,23 @@
+{
+  "schema": "BioRig.semantic-atlas.v014.repository-checkpoint",
+  "sourceArchive": "LUCID_R574_GOAL_CONDITIONED_MUSCLE_INTENT_SELF_CONTAINED.zip",
+  "sourceArchiveSHA256": "21e0c354023badd40485840296e09034809ae4eb055fd926eff39ac0b8700701",
+  "sourceFile": "lucid_bcr/neuro.py",
+  "sourceFileSHA256": "49243739c69abeca38daa460b154da4a33c869fdec58e3caf2a8188bcc69da4a",
+  "dataclassFields": 48,
+  "originalArchivePythonFilesParsed": 558,
+  "matchingAttributeSourceSites": 95,
+  "syntacticReceiverConfidence": {
+    "high": 74,
+    "candidate": 14,
+    "weak": 7
+  },
+  "featureGuardWitnessesChecked": 8,
+  "archiveName": "BioRig_LUCID_SEMANTIC_ATLAS_V014_FULL_PARAMETER_AUTHORITY_2026-10-14.zip",
+  "archiveSHA256": "191a09b2f3e4287ebd0b0e11813785a454b61efa1ecec32a86ab7e7bbf87d64b",
+  "containedV013ArchiveSHA256": "b967777d8b44f56b01776211bf8796d44b357868445ed8dc6be73b3724d1413d",
+  "localIndependentVerification": true,
+  "scope": "Source-level AST+hash; no runtime execution validation",
+  "noExecutableModelEdited": true,
+  "noGitHubActions": true
+}
