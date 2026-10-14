@@ -1,0 +1,112 @@
+{
+  "GithubActionsUsed": false,
+  "NPZBytes": 1332482,
+  "NPZSHA256": "ab73e26fa36a89dfd92b7e8a01a61b21f99d20a7f410512b8f49d85bb9700541",
+  "assay": {
+    "allOthersCommands": "held to initial recorded activation",
+    "baselineCases": 1,
+    "cases": 85,
+    "externalRootForce": false,
+    "lockRoot": false,
+    "physicalSimulation": true,
+    "postureController": false,
+    "recordTimesS": [
+      0.06,
+      0.12,
+      0.2
+    ],
+    "singleMusclePulseCases": 84
+  },
+  "baselineSeatLoadPeakSnapshotsN": 418.98119541703784,
+  "baselineSeatLoadT20N": 418.98119541703784,
+  "executionWallSeconds": 4.9,
+  "fullSourceStateAtStart": {
+    "actSha256": "449e75534dddff864f7a8f83521888d0a5e1ae1196f2d6db3ded3f01d143ae1d",
+    "qposSha256": "34b915d17aa533c1226cb41ecf0d6f3baa56aed9768c200fcc3badc8e4b600c2",
+    "qvelSha256": "953f9f4b7edf3996ec4022ccc5ac0f85bd4c5b99c72fac2f8fbd782b9ea9c6a3"
+  },
+  "initialPhysicalTimeSeconds": 12.0,
+  "inputPulse": {
+    "baselineCommands": "clipped R590 physically recorded activation (proxy, not saved controller state)",
+    "dt": 0.002,
+    "offS": 0.1,
+    "onS": 0.02,
+    "pulseAdditive": 0.12
+  },
+  "inputStateR590EmbeddedNPZSha256": "fe05156ea3059385ad162c274f162d382c81bd4591545756733859ee62889178",
+  "largestPeakVelocityResponseT20": {
+    "activationDeltaAtT12S": 0.08415926460020921,
+    "actualPulseIncrease": 0.12,
+    "actuatorID": 50,
+    "baseCtrl": 0.02881952405447016,
+    "deltaSeatLoadT20N": -1.1279610089573566,
+    "maxAbsActuatorForceDifferenceT20": 26.465824810982216,
+    "maxAbsGeneralizedForceDifferenceT20": 0.15921548835031696,
+    "maxAbsPositionTangentResponseT20": 0.4741238210409716,
+    "maxAbsVelocityResponseT20": 4.000629527773428,
+    "name": "m_right_forearm_extensors",
+    "nonzeroVelocityEffectsAbove1eMinus5": 99,
+    "rmsPositionTangentResponseT20": 0.049198771052532626,
+    "rmsVelocityResponseT20": 0.5062690049338924
+  },
+  "largestSeatResponseMagnitudeT20": {
+    "activationDeltaAtT12S": 0.08440117152806964,
+    "actualPulseIncrease": 0.12,
+    "actuatorID": 57,
+    "baseCtrl": 0.024999999999999998,
+    "deltaSeatLoadT20N": 108.93102939075845,
+    "maxAbsActuatorForceDifferenceT20": 38.173854088928934,
+    "maxAbsGeneralizedForceDifferenceT20": 1.441211062757847,
+    "maxAbsPositionTangentResponseT20": 0.12969239935473068,
+    "maxAbsVelocityResponseT20": 0.6503005792950278,
+    "name": "m_right_hamstrings_lateral",
+    "nonzeroVelocityEffectsAbove1eMinus5": 102,
+    "rmsPositionTangentResponseT20": 0.018155346276062644,
+    "rmsVelocityResponseT20": 0.11311199296942058
+  },
+  "limits": [
+    "These are conditional end-to-end MuJoCo perturbation responses in an open-loop scene, not a globally linear transfer function.",
+    "Controller disabled intentionally: baseline seat load and body motion may be unstable; do not misreport these as accepted BioRig runtime metrics.",
+    "Unlike V010 moment matrix, these effects propagate through delayed activation, force-length-velocity, inertial and contact evolution; they are state and duration dependent.",
+    "Position tangent responses for generalized quaternion coordinates use native mj_differentiatePos to return 102 values.",
+    "No proof of actual goal-directed intent execution, anatomical calibration, general balance, or steady-state equilibrium."
+  ],
+  "modelSize": {
+    "na": 84,
+    "nq": 103,
+    "nu": 84,
+    "nv": 102
+  },
+  "mujoco": "3.15.0",
+  "nonzeroPositionResponsesT20Count": 7271,
+  "nonzeroVelocityResponsesT20Count": 8270,
+  "originalCodeModified": false,
+  "responseShapes": {
+    "delta_generalized_actuator_force_84x3x102": [
+      84,
+      3,
+      102
+    ],
+    "delta_muscle_activation_84x3x84": [
+      84,
+      3,
+      84
+    ],
+    "delta_muscle_force_84x3x84": [
+      84,
+      3,
+      84
+    ],
+    "delta_position_tangent_84x3x102": [
+      84,
+      3,
+      102
+    ],
+    "delta_velocity_84x3x102": [
+      84,
+      3,
+      102
+    ]
+  },
+  "schema": "biorig.atlas.v011.full-native-open-loop-84x102-conditional-actuation-response"
+}

@@ -1,0 +1,16 @@
+{
+  "every84x102GeometricComparisonRebuilt": true,
+  "every84x102ResponseRebuilt": true,
+  "githubActionsUsed": false,
+  "historicalSourcesEdited": false,
+  "maxAbsNativeGeneralizedForceProjection": 7.993605777301127e-15,
+  "maxAbsNativeStateComparison": 0.0,
+  "maxAbsPowerBalanceResidual": 4.263256414560601e-14,
+  "nativeFieldComparisons": 1530,
+  "nativeSamplesCompared": 255,
+  "originalPhysicalInputsVerifiedSHA256": true,
+  "passed": true,
+  "schema": "biorig.semantic-atlas.v011.native-independent-statewise-verification",
+  "stepsPerTrace": 100,
+  "tracesReintegrated": 85
+}

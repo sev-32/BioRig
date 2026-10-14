@@ -1,0 +1,106 @@
+{
+  "GitHubActionsUsed": false,
+  "V011": "Native pulse-to-muscle-activation-to-force-to-dynamics and seat contact audit; no intentional motor policy",
+  "allUnprovenRelationshipsExplicitlyUnknown": true,
+  "causalEdgesPerMatrix": 8568,
+  "independentlyReintegratedStates": 255,
+  "inputPreservation": "V010 nested verbatim. Source SHA256 references pinned original R574 and R590 archives. No model assets duplicated.",
+  "nativeStepsPerCase": 100,
+  "originalBioRigCodeEdited": false,
+  "preservedV010": {
+    "bytes": 9196102,
+    "filename": "BioRig_LUCID_SEMANTIC_ATLAS_V010_NATIVE_84x102_MECHANICAL_RELATIONSHIPS_2026-10-13.zip",
+    "sha256": "4e45e895ba51088134c95ab4b8065db193d4277e5fa18801c48c62915d88db68"
+  },
+  "schema": "biorig.semantic-atlas.v011.integrity-manifest",
+  "sourceCasesWithHighRateTracing": 4,
+  "timeSamplesPerEdge": 3,
+  "v011files": [
+    {
+      "bytes": 1643,
+      "path": "README.md",
+      "sha256": "ec71933fb8bf62a16c10a77de4bc4c14b0903f91a947a5ead301c4dac2933029"
+    },
+    {
+      "bytes": 11143,
+      "path": "ACTIVATION_TO_CONTACT_CAUSAL_PAPER.md",
+      "sha256": "2cb7fac4dec2cc838245217945be84fecc90b68d6552309b6c68a614e83b0489"
+    },
+    {
+      "bytes": 10356,
+      "path": "build_v011.py",
+      "sha256": "e2eb2e657e75c35284d3acdc53c6112b2d78fbb492f82d2ddc954c0a9a7e4cf1"
+    },
+    {
+      "bytes": 7409,
+      "path": "scan_all84_v011.py",
+      "sha256": "f59b7a0c198e0598f362fb85161af167dc841cd442574dc2a9ce65519cfcf207"
+    },
+    {
+      "bytes": 3370,
+      "path": "build_mechanical_dynamic_bridge.py",
+      "sha256": "21e513f7a6d2b746d7bec21d819374896ffbce8c204ee73b9abfc8475cfa1109"
+    },
+    {
+      "bytes": 5931,
+      "path": "verify_v011.py",
+      "sha256": "b483423d308a10961ce38a0806289acf8bc9688e97da2195fa12cd40449a1c60"
+    },
+    {
+      "bytes": 936,
+      "path": "verify_manifest_v011.py",
+      "sha256": "92f1bc9ddc361ea83085f6b806187af38ed988b83a1928aac81c8680394d543f"
+    },
+    {
+      "bytes": 3064,
+      "path": "package_v011.py",
+      "sha256": "db16f614857bd0573e1fdd5b3da71d1bdfb54761b678f6f2345fbf8141c4dac0"
+    },
+    {
+      "bytes": 2345164,
+      "path": "NATIVE_84_MUSCLE_CAUSAL_TIME_TRACES.npz",
+      "sha256": "cae97415651fd2c997ac2dc394d29f97410145bab72aad7713834b93b99c038c"
+    },
+    {
+      "bytes": 1332482,
+      "path": "ALL_84x102_NATIVE_CONTROL_TO_DOF_TIME_RESPONSE.npz",
+      "sha256": "ab73e26fa36a89dfd92b7e8a01a61b21f99d20a7f410512b8f49d85bb9700541"
+    },
+    {
+      "bytes": 1538,
+      "path": "PULSED_ACTUATOR_NATIVE_DIFFERENTIAL_EFFECTS.csv",
+      "sha256": "b38635432616d81934d023f4b1b2a82e162fa20d3b0a1cd3c9179d7ebe9b50df"
+    },
+    {
+      "bytes": 18210,
+      "path": "ALL_84_CHANNEL_NATIVE_DYNAMIC_EFFECTS.csv",
+      "sha256": "9eaa227c64c5511ed7ecc2233962cdeac73c5b2c9eeac86cdfb58770d9c35112"
+    },
+    {
+      "bytes": 403923,
+      "path": "V010_V011_8568_DIRECT_VS_DYNAMICAL_COUPLING.csv.gz",
+      "sha256": "edb730a40c9b439416b153d1583f57623a9d0b83b1d7a347922bd81eb54ace56"
+    },
+    {
+      "bytes": 5858,
+      "path": "V011_NATIVE_DYNAMIC_VERIFICATION.json",
+      "sha256": "704a6a5419785fca6f731a34e69410ec9224537541888bc050ee07412c47b12d"
+    },
+    {
+      "bytes": 4041,
+      "path": "V011_FULL84_RESPONSE_RECEIPT.json",
+      "sha256": "3691596a9fc3c105dde89df11810297b22a80e3b8fd7cd3d1f726ff203ccf58f"
+    },
+    {
+      "bytes": 926,
+      "path": "V010_V011_MECHANICAL_DYNAMIC_BRIDGE_RECEIPT.json",
+      "sha256": "fd631856cae713374d54c92b3a3a985fd289cdd6354347541e4ff18a8a7d410c"
+    },
+    {
+      "bytes": 584,
+      "path": "V011_INDEPENDENT_VERIFICATION.json",
+      "sha256": "7a3d5cd445d32fae987a981af9d543bff878c7f8703edf5e1c9f203f4d600090"
+    }
+  ],
+  "verifiedNativeCases": 85
+}

@@ -1,0 +1,14 @@
+{
+  "allEdges": 8568,
+  "directGeometricWithoutLargeVelocityAtT020": 94,
+  "dynamicAtT020Above1eMinus2": 3172,
+  "dynamicWithNoGeometricMomentAtInitialT020": 2932,
+  "geometricDirectInitial": 334,
+  "interpretation": "Comparison is geometric-direct at t12 vs full-body dynamical+contact effect after 0.20s, not proof of a constant linear transfer relation",
+  "outputFileBytes": 403923,
+  "outputFileSHA256": "edb730a40c9b439416b153d1583f57623a9d0b83b1d7a347922bd81eb54ace56",
+  "sourceGeometricPose": "R590 uninterrupted physical state t12.000s, matched to V011 start",
+  "sourceV010NPZSHA256": "34c1945fa977f2e262ea8ec62b241919b43bea0e9487cf73c2808ee27b708c07",
+  "sourceV011NPZSHA256": "ab73e26fa36a89dfd92b7e8a01a61b21f99d20a7f410512b8f49d85bb9700541",
+  "thresholdCaution": "Mixed translation/rotation velocity coordinate units; 0.01 is numeric reporting threshold, not calibrated significance or biological threshold"
+}
