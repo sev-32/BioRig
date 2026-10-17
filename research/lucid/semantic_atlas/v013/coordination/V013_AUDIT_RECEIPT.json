@@ -1,0 +1,25 @@
+{
+  "schema": "lucid.semantic-atlas.v013.muscle-coordination-source-and-mechanics.v1",
+  "sourceV010Archive": "BioRig_LUCID_SEMANTIC_ATLAS_V010_NATIVE_84x102_MECHANICAL_RELATIONSHIPS_2026-10-13.zip",
+  "sourceV010SHA256": "4e45e895ba51088134c95ab4b8065db193d4277e5fa18801c48c62915d88db68",
+  "sourceMomentEntry": "V010/NATIVE_MOMENT_GEOMETRY_94_STATES_84x102.npz",
+  "sourceMomentBytesSHA256": "34c1945fa977f2e262ea8ec62b241919b43bea0e9487cf73c2808ee27b708c07",
+  "nativeMeasurementStates": 94,
+  "nativeMuscles": 84,
+  "nativeDofs": 102,
+  "stateWisePairDofSlots": 67652928,
+  "storedPairDofBins": 719712,
+  "pairSignThresholdMPerRad": 1e-06,
+  "independentFlexorExtensorPairs": 6,
+  "measuredCoactivationRows": 564,
+  "maxCounterfactualElbowMomentResidualNmPer1N": 3.469446951953614e-18,
+  "sourceWitnesses": 13,
+  "testScope": "frozen V010 native moment Jacobians; static mechanical tension counterfactual; no new MuJoCo rollout",
+  "limitations": [
+    "no new excitation trajectory, joint stiffness, contact outcome, or dynamic coactivation validated",
+    "moment arms cannot be substituted for muscle gains, passive tension or activation",
+    "geometrically balancing elbow does not necessarily balance shoulder"
+  ],
+  "frozenExecutablesUnchanged": true,
+  "githubActions": false
+}
