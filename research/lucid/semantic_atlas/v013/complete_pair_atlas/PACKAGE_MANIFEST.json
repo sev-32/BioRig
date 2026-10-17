@@ -1,0 +1,60 @@
+{
+  "schema": "biorig.semantic-atlas-v013.package",
+  "priorCheckpoint": {
+    "name": "BioRig_LUCID_SEMANTIC_ATLAS_V012_GOAL_TO_MUSCLE_EXECUTION_AND_CROSSWALK.zip",
+    "sha256": "b3bb8b06d924063a3fb0cb5b3c296d57c394739c4a2ed443fbc8b16f5d7826a8",
+    "byteSize": 13395361
+  },
+  "files": [
+    {
+      "name": "94_POSE_BILATERAL_ELBOW_COACTIVATION_BALANCE.csv",
+      "sha256": "5090ba0caf4a902425cdee40ea1e3d6deabddb5256642fa0ffbf7cdadc67475f",
+      "bytes": 33851
+    },
+    {
+      "name": "ALL_7056_ACTUATOR_PAIR_COORDINATION_EDGES.csv",
+      "sha256": "a61d355601a6303e4352ce9993cd46689822790d26d190c3fe81854ca2ac1bc4",
+      "bytes": 882416
+    },
+    {
+      "name": "NINE_MODULE_EXACT_SOURCE_LINE_AND_BLOCK_SEMANTICS.csv",
+      "sha256": "cd92536aa8397706f0a79e112695220e5c73ee1a316397e279ee19013e912c77",
+      "bytes": 429659
+    },
+    {
+      "name": "NINE_MODULE_FUNCTION_CLASS_BOUNDARY_LEDGER.csv",
+      "sha256": "7211ec8fa49af985fb747057fb5d54a0dbe207c5e1fde3e4a205452c1b0c6dca",
+      "bytes": 7701
+    },
+    {
+      "name": "README.md",
+      "sha256": "e09ba8569bd6900585aa74b65cb7208dc02658aef17943a4943cefe6203a5137",
+      "bytes": 1549
+    },
+    {
+      "name": "V013_RECEIPT.json",
+      "sha256": "48c76635cd2c2b4b3cc0bd9a8dce0ac540e77bf7721c48892ef0805f05a60c80",
+      "bytes": 4227
+    },
+    {
+      "name": "V013_RECIPROCAL_MUSCLE_COORDINATION_AND_ACTUATOR_CONTRACT.md",
+      "sha256": "43007ef853eee009c93901808206bb1632906c246d42a11fd4d475055049fbba",
+      "bytes": 15833
+    },
+    {
+      "name": "V013_VERIFY_RESULT.json",
+      "sha256": "5297ddf9dccefccd2837ddd2cc724bcf388bec2e375e9a17ce95e229620f0b52",
+      "bytes": 233
+    },
+    {
+      "name": "build_v013.py",
+      "sha256": "87f7a8ebc01ad1522b90d7db56fe6f413e81ba2152974e41066c1be87cb408f5",
+      "bytes": 11828
+    },
+    {
+      "name": "verify_v013.py",
+      "sha256": "4485f6b013d6689e9a9a1cfb2993b71180175b23da4ba78c18534a3c65093148",
+      "bytes": 3322
+    }
+  ]
+}
