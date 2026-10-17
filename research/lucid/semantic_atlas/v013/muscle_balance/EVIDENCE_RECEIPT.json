@@ -1,0 +1,44 @@
+{
+  "schema": "biorig.semantic-atlas.v013.muscle-balance-supplement.v1",
+  "purpose": "Investigate user hypothesis: a movement requires joint support, antagonist relaxation and controllable cocontraction, not isolated agonist pulses.",
+  "sourceEvidenceSHA256": {
+    "R574_whole_body_neuro_py": "49243739c69abeca38daa460b154da4a33c869fdec58e3caf2a8188bcc69da4a",
+    "R579_synergy_py": "7a9b3d74381732d27de63ce8a470c55d93ea89c74b64885cf9daec0246cd688b",
+    "R586_neck_effort_py": "44ee7be8f86641cc3ce516893eaa872f0125b732c8b7dfe15adc097e8fdcd364",
+    "R589_arm_landing_py": "5a6a30f7ed93410abf56aa774c1e47ef5f8653735c64d506b799f59dfc1c336c"
+  },
+  "measuredV010": {
+    "nativePhysicalPoses": 94,
+    "nativeActuators": 84,
+    "nativeJointVelocityCoordinates": 102,
+    "allOrderedPairRows": 7056,
+    "jointPosePairComparisons": 67652928,
+    "unorderedPairsOpposingInAnySample": 363,
+    "unorderedPairsAssistingInAnySample": 350,
+    "unorderedPairsBothAssistingAndOpposing": 317,
+    "elbowOpposingFlexorExtensorPairsAcrossAll94Poses": 6,
+    "bicepsToTricepsForceRatioRangeOnlyElbow": {
+      "left": [
+        0.752306947393077,
+        0.953890971589213
+      ],
+      "right": [
+        0.755764016821077,
+        1.010176198462412
+      ]
+    }
+  },
+  "V011PulsesReferenced": 6,
+  "validation": "Independent local script verify_v013.py recomputed 7056 rows and all 6 native elbow force-ratio records; PASS",
+  "datasetCSV": "ALL_84x84_POSE_CONDITIONAL_JOINT_SIGN_RELATIONSHIPS.csv included in the 13.45 MB companion ZIP",
+  "archiveSHA256": "02d67314a715305630d9226ce4418828d1b82cf71840440d22c340f256645cb1",
+  "limitations": [
+    "Moment-arm signs are joint geometry, not verified coactivation stiffness",
+    "Ratio cancels only one elbow torque coordinate and refers to force, not excitation",
+    "V011 tests were single-muscle pulses, not combined coactivation; no new physics runs in V013",
+    "R574 whole-body arm exclusion default and R589 one-channel correction are source facts, not proof of production root cause"
+  ],
+  "noModelChanges": true,
+  "noSimulationCodeChanged": true,
+  "noGitHubActions": true
+}
