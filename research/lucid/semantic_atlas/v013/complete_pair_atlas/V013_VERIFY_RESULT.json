@@ -1,0 +1,10 @@
+{
+  "pass": true,
+  "sourceModules": 9,
+  "literalLines": 1636,
+  "allDirectedMusclePairs": 7056,
+  "poseElbowRows": 188,
+  "maxIndependentDifference": 0.0,
+  "sourceArchiveSHA256Matched": true,
+  "nativeMatrixSHA256Matched": true
+}
