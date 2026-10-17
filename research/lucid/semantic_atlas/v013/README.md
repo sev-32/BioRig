@@ -25,3 +25,7 @@ This is a **source-only semantic-reconstruction checkpoint**. It extends V012 wi
 **Verification:** With the untouched frozen R574 and R590 ZIPs in the parent directory, run `python build_v013.py && python verify_v013.py`. Reproduction requires Python standard library only, not MuJoCo. `python package_v013.py` creates the nested V012-preserving ZIP; no image/model duplication.
 
 **Truth boundary:** this is a reproducible source audit, not a newly executed physical dynamics result or proof of general-purpose goal-driven movement. All unexamined dynamic dispatch and undiscovered integrations remain unknown. No GitHub Actions.
+
+### Muscle balance, reciprocal relaxation and variable impedance (V013 supplement)
+
+A separate source-grounded diagnosis of antagonist/synergist coordination and arm-support defaults is in [MUSCLE_BALANCE_IMPEDANCE_AND_GOAL_INTENT_PAPER.md](./MUSCLE_BALANCE_IMPEDANCE_AND_GOAL_INTENT_PAPER.md). It retains the original whole-body integration audit above intact. A verified 84×84 pair register (7,056 ordered pairs), 94 native pose cross-checks, reproduction code and independently checked force-balance ratios are distributed in the companion V013 muscle-balance ZIP, and described in [muscle_balance/README.md](./muscle_balance/README.md). This is *not* a demonstrated coactivation controller or native stiffness test.
