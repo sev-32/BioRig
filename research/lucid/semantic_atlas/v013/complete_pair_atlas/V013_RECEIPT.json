@@ -1,0 +1,100 @@
+{
+  "schema": "lucid.biorig.semantic-atlas-v013.biomechanical-coordination.v1",
+  "frozenR574SHA256": "21e0c354023badd40485840296e09034809ae4eb055fd926eff39ac0b8700701",
+  "frozenV010SHA256": "4e45e895ba51088134c95ab4b8065db193d4277e5fa18801c48c62915d88db68",
+  "sources": [
+    {
+      "alias": "neuro",
+      "archive": "LUCID_R574_GOAL_CONDITIONED_MUSCLE_INTENT_SELF_CONTAINED.zip",
+      "path": "LUCID_R552_WORKSPACE/BIOMECH_CAUSAL_RIG/lucid_bcr/neuro.py",
+      "sha256": "49243739c69abeca38daa460b154da4a33c869fdec58e3caf2a8188bcc69da4a",
+      "sourceLines": 580
+    },
+    {
+      "alias": "impedance",
+      "archive": "LUCID_R574_GOAL_CONDITIONED_MUSCLE_INTENT_SELF_CONTAINED.zip",
+      "path": "LUCID_R552_WORKSPACE/BIOMECH_CAUSAL_RIG/lucid_bcr/muscle_impedance_r518.py",
+      "sha256": "3eb2c018d8752d6a407d6c05a494e58677a82a7f644dae3e715e264f39b13f2e",
+      "sourceLines": 128
+    },
+    {
+      "alias": "load_synergy",
+      "archive": "LUCID_R574_GOAL_CONDITIONED_MUSCLE_INTENT_SELF_CONTAINED.zip",
+      "path": "LUCID_R552_WORKSPACE/BIOMECH_CAUSAL_RIG/lucid_bcr/load_bearing_synergy_r520.py",
+      "sha256": "6af28c0255523d18992f1f1680594ecc701eff579870933d44eb5a6cc645491b",
+      "sourceLines": 158
+    },
+    {
+      "alias": "adaptive_tone",
+      "archive": "LUCID_R574_GOAL_CONDITIONED_MUSCLE_INTENT_SELF_CONTAINED.zip",
+      "path": "LUCID_R552_WORKSPACE/BIOMECH_CAUSAL_RIG/lucid_bcr/adaptive_muscle_tone_r522.py",
+      "sha256": "87ab2169ce93358785732d325fbfbddc7d1dbb3e613184d6758caafbdf3aade5",
+      "sourceLines": 129
+    },
+    {
+      "alias": "memory",
+      "archive": "LUCID_R574_GOAL_CONDITIONED_MUSCLE_INTENT_SELF_CONTAINED.zip",
+      "path": "LUCID_R552_WORKSPACE/BIOMECH_CAUSAL_RIG/lucid_bcr/motor_synergy_memory_r516.py",
+      "sha256": "2fe8d69289dfbbce7168ae75d28ba902ad551a060365731db2ef4f904febe9ff",
+      "sourceLines": 86
+    },
+    {
+      "alias": "allocator",
+      "archive": "LUCID_R574_GOAL_CONDITIONED_MUSCLE_INTENT_SELF_CONTAINED.zip",
+      "path": "LUCID_R552_WORKSPACE/BIOMECH_CAUSAL_RIG/lucid_bcr/muscle_allocator_r58.py",
+      "sha256": "7339bfe3b9dca45b1be9994041fb8b275192994d627f652cdddd2007ef5ca9cb",
+      "sourceLines": 69
+    },
+    {
+      "alias": "r579",
+      "archive": "BioRig_LUCID_R579_NATIVE_SYNERGY_CODE_EVIDENCE_2026-10-12.zip",
+      "path": "research/lucid/r579/r579_synergy.py",
+      "sha256": "7a9b3d74381732d27de63ce8a470c55d93ea89c74b64885cf9daec0246cd688b",
+      "sourceLines": 131
+    },
+    {
+      "alias": "r580",
+      "archive": "BioRig_LUCID_R580_NATIVE_ADAPTIVE_SYNERGY_2026-10-12.zip",
+      "path": "research/lucid/r580/r580_adaptive_synergy.py",
+      "sha256": "d648ad45626a4ae1fca23b8912a6ee93f8cd26bce7fcc40e719cab4dc6a8ccc5",
+      "sourceLines": 189
+    },
+    {
+      "alias": "r589",
+      "archive": "BioRig_LUCID_R589_SKIN78_MUSCLE_LANDING_NATIVE_EVIDENCE_2026-10-13.zip",
+      "path": "R589/r589_arm_landing.py",
+      "sha256": "5a6a30f7ed93410abf56aa774c1e47ef5f8653735c64d506b799f59dfc1c336c",
+      "sourceLines": 166
+    }
+  ],
+  "lineSemantics": {
+    "lineCount": 1636,
+    "functionClassBlocks": 72,
+    "semanticBlockRegions": 26
+  },
+  "nativeGeometryAnalysis": {
+    "poses": 94,
+    "actuators": 84,
+    "dofs": 102,
+    "directedMusclePairs": 7056,
+    "positiveSharedPairEntries": 876,
+    "oppositionPairEntries": 726,
+    "mixedPairEntries": 642,
+    "sampleThresholdMetresPerRadian": 1e-08,
+    "bicepsToTricepsTensionBalanceRatio": {
+      "minimum": 0.752306947393077,
+      "maximum": 1.010176198462412,
+      "mean": 0.9789416983174023
+    },
+    "shoulderResidualNmUnder100NBiceps": {
+      "minimum": 0.03536311430498325,
+      "maximum": 0.24137233615557535,
+      "meanAbs": 0.07729472915337768
+    },
+    "elbowMomentResidualMaxNm": 3.469446951953614e-16,
+    "sourceV010NativeMatrixSHA256": "34c1945fa977f2e262ea8ec62b241919b43bea0e9487cf73c2808ee27b708c07",
+    "note": "Opposition and coactivation are potential mechanical relationships, not measured voluntary muscle force, neural intent or tested stiffening. Sign conventions from native tendon moment Jacobian, muscle tension assumed positive in examples."
+  },
+  "sourceFilesEdited": false,
+  "newNativePhysicsRollouts": 0
+}
