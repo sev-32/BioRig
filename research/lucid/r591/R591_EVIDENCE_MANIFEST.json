@@ -1,0 +1,129 @@
+{
+  "schema": "biorig.r591.verified-native-reciprocal-release.v1",
+  "experimentCount": 25,
+  "physicsVersion": "3.15.0",
+  "preservedBaseline": "R590 settled physical state",
+  "muscleChannelsAffected": [
+    "m_right_biceps",
+    "m_right_triceps"
+  ],
+  "originalFrozenArchiveSHA256": "21e0c354023badd40485840296e09034809ae4eb055fd926eff39ac0b8700701",
+  "sourceSHA256": {
+    "README.md": "83430b75cbc3e31b26c0862f883f999aabd5bdcb0d0da815f6d2b27ecf9d1165",
+    "r591_balanced_muscle_experiment.py": "ad6b2ba96917c8f7a6c0d58a6f278408d719a0cb1bdbd8a1eee02a558de61282",
+    "r591_render_native.py": "92741de1107ee95b5a799ba4f93c5e3f8440219de8d74d4790023227a149c594",
+    "r591_plot_telemetry.py": "f183473165fb6b5d1aa9e34a9159235e2842a0f7c0020751b870e4c0921998cc",
+    "test_r591_native.py": "b82dc2772fd484ea0377487515a1107ed1d56145ffeaf0ed0a79f2485df842b7"
+  },
+  "comparisonMetrics": {
+    "base": {
+      "initialStateSHA256": "15e1f785b88f82985b74f1cfbae27a11694f21f05047002bf692e1991ceb1533",
+      "externalDiagnosticDisturbanceNm": 2.0,
+      "maxHoldDeviationRad": 0.42570794546744106,
+      "meanTrackingErrorRad": 0.12487003258993833,
+      "maxHeadDeg": 1.1079254227731081,
+      "additionalCommandIntegral": 0.0,
+      "framesSHA256": "7c767520050f1d93c2d7be33b3fe8bbe8f1edfb781a400615b32af1583236039"
+    },
+    "single": {
+      "initialStateSHA256": "15e1f785b88f82985b74f1cfbae27a11694f21f05047002bf692e1991ceb1533",
+      "externalDiagnosticDisturbanceNm": 2.0,
+      "maxHoldDeviationRad": 0.42570794546744106,
+      "meanTrackingErrorRad": 0.06397503947847301,
+      "maxHeadDeg": 1.2115200630962697,
+      "additionalCommandIntegral": 0.05889598337174632,
+      "framesSHA256": "7414289b34ee5768505ccde133710a75a2221f669b2d6363726fb580f306d145"
+    },
+    "reciprocal": {
+      "initialStateSHA256": "15e1f785b88f82985b74f1cfbae27a11694f21f05047002bf692e1991ceb1533",
+      "externalDiagnosticDisturbanceNm": 2.0,
+      "maxHoldDeviationRad": 0.5273975556243838,
+      "meanTrackingErrorRad": 0.055429615585286966,
+      "maxHeadDeg": 1.2096669659271682,
+      "additionalCommandIntegral": 0.5446457807525648,
+      "framesSHA256": "2c5c40ccbfc7949ac242e11a7c52ede45a7597b27f261130bbc76b6698c5ecc8"
+    },
+    "paired_hold": {
+      "initialStateSHA256": "15e1f785b88f82985b74f1cfbae27a11694f21f05047002bf692e1991ceb1533",
+      "externalDiagnosticDisturbanceNm": 2.0,
+      "maxHoldDeviationRad": 0.5273975556243838,
+      "meanTrackingErrorRad": 0.12929688118359486,
+      "maxHeadDeg": 0.7566898567348742,
+      "additionalCommandIntegral": 0.5690703689666178,
+      "framesSHA256": "8fd7280221fdbdc7198127d848b7930508ab2bdaa6b55fb3f881c6f16e8f90f2"
+    },
+    "ADAPT_CO0": {
+      "initialStateSHA256": "15e1f785b88f82985b74f1cfbae27a11694f21f05047002bf692e1991ceb1533",
+      "externalDiagnosticDisturbanceNm": 2.0,
+      "maxHoldDeviationRad": 0.10622329957997514,
+      "meanTrackingErrorRad": 0.06184113367372115,
+      "maxHeadDeg": 2.824757866347352,
+      "additionalCommandIntegral": 0.08090476938265641,
+      "framesSHA256": "350040c1836364c14a00862b32e08b0d18f5284cae2d16f9f6c2b87c935352d1"
+    },
+    "ADAPT_CO.02": {
+      "initialStateSHA256": "15e1f785b88f82985b74f1cfbae27a11694f21f05047002bf692e1991ceb1533",
+      "externalDiagnosticDisturbanceNm": 2.0,
+      "maxHoldDeviationRad": 0.10497120731100665,
+      "meanTrackingErrorRad": 0.06209108116206518,
+      "maxHeadDeg": 2.8349495436957017,
+      "additionalCommandIntegral": 0.11270376544291777,
+      "framesSHA256": "3fc13060ddbb648d04922afbddf59845d268b8c91cb753a9c5ec2fd6e205d87a"
+    },
+    "RELEASE_PLUS": {
+      "initialStateSHA256": "15e1f785b88f82985b74f1cfbae27a11694f21f05047002bf692e1991ceb1533",
+      "externalDiagnosticDisturbanceNm": 2.0,
+      "maxHoldDeviationRad": 0.10336928902766804,
+      "meanTrackingErrorRad": 0.06948404294476995,
+      "maxHeadDeg": 2.7467180571874468,
+      "additionalCommandIntegral": 0.011282920231202672,
+      "relaxationIntegral": 0.05203900934469535,
+      "absCommandIntegral": 0.06332192957589801,
+      "framesSHA256": "003f3aabc3882c50d0e4986402f407e299d85ae5d13ca1a799bf594d8a4337e7"
+    },
+    "RELEASE_MINUS": {
+      "initialStateSHA256": "15e1f785b88f82985b74f1cfbae27a11694f21f05047002bf692e1991ceb1533",
+      "externalDiagnosticDisturbanceNm": -2.0,
+      "maxHoldDeviationRad": 0.10502825235723404,
+      "meanTrackingErrorRad": 0.06964270063453651,
+      "maxHeadDeg": 3.3119626934550435,
+      "additionalCommandIntegral": 0.013371704204329343,
+      "relaxationIntegral": 0.050784720692570846,
+      "absCommandIntegral": 0.06415642489690018,
+      "framesSHA256": "451da307bd6b21e4578e93d4e604a1b9cbc17f8764cb3a5debe66752ff18dbf6"
+    },
+    "RELEASE_NO": {
+      "initialStateSHA256": "15e1f785b88f82985b74f1cfbae27a11694f21f05047002bf692e1991ceb1533",
+      "externalDiagnosticDisturbanceNm": 0.0,
+      "maxHoldDeviationRad": 0.00021624357691632512,
+      "meanTrackingErrorRad": 0.06878015908365216,
+      "maxHeadDeg": 0.262836341580601,
+      "additionalCommandIntegral": 9.029135681640729e-20,
+      "relaxationIntegral": 0.04229117863719632,
+      "absCommandIntegral": 0.04229117863719632,
+      "framesSHA256": "47a36a0c66e79abbdeadcf62c0d7fc8a60a455d853d051c7a2063f86084b452a"
+    },
+    "BASE_NEG": {
+      "initialStateSHA256": "15e1f785b88f82985b74f1cfbae27a11694f21f05047002bf692e1991ceb1533",
+      "externalDiagnosticDisturbanceNm": -2.0,
+      "maxHoldDeviationRad": 0.19954096659370826,
+      "meanTrackingErrorRad": 0.12395605071630598,
+      "maxHeadDeg": 0.7503596696754343,
+      "additionalCommandIntegral": 0.0,
+      "framesSHA256": "9f76fb189a7600fd951d6b9f47da9e1939ca06e08b8c96bef7062a0993982f5d"
+    }
+  },
+  "limitations": [
+    "Elbow is controlled, while inherited pose/neck stabilizers handle other channels",
+    "Direct generalized elbow disturbance is diagnostic only",
+    "Not validated with actual held object, coupled grasp, or electromyography",
+    "Force-velocity, tendon and neural calibration is unproven",
+    "Fixed coactivation failed the tested disturbance; do not promote",
+    "Visual quality inspection cannot establish physiological validity"
+  ],
+  "meshSHA256": "88b6cacd2f7ad7fad0c5c9d9c731afcbc1388e09c5f0e817d181a62f11844a10",
+  "renderGifSHA256": "1a05e9d259365b5aaf943404948870722215d2f28d503c49c1286b3395d7b1f6",
+  "tests": "OK",
+  "noGitHubActions": true,
+  "originalSimulationSourceModified": false
+}
