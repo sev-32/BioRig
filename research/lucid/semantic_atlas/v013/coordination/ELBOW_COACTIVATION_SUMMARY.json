@@ -1,0 +1,74 @@
+[
+  {
+    "side": "left",
+    "flexor": "m_left_biceps",
+    "extensor": "m_left_triceps",
+    "bothOpposeCount": 94,
+    "bothSameCount": 0,
+    "extensorTensionPer1NFlexorMin": 0.752306947393077,
+    "extensorTensionPer1NFlexorMedian": 0.9531742792538613,
+    "extensorTensionPer1NFlexorMax": 0.953890971589213,
+    "maxElbowBalanceResidualNm": 1.734723475976807e-18,
+    "maxResidualOtherDofNmPer1NFlexor": 0.004766432263870136
+  },
+  {
+    "side": "left",
+    "flexor": "m_left_brachialis",
+    "extensor": "m_left_triceps",
+    "bothOpposeCount": 94,
+    "bothSameCount": 0,
+    "extensorTensionPer1NFlexorMin": 0.5712978657719685,
+    "extensorTensionPer1NFlexorMedian": 0.7134111835812729,
+    "extensorTensionPer1NFlexorMax": 0.7139185496314389,
+    "maxElbowBalanceResidualNm": 1.734723475976807e-18,
+    "maxResidualOtherDofNmPer1NFlexor": 0.014270374820056123
+  },
+  {
+    "side": "left",
+    "flexor": "m_left_brachioradialis",
+    "extensor": "m_left_triceps",
+    "bothOpposeCount": 94,
+    "bothSameCount": 0,
+    "extensorTensionPer1NFlexorMin": 0.5240474489941782,
+    "extensorTensionPer1NFlexorMedian": 0.8519360718896378,
+    "extensorTensionPer1NFlexorMax": 0.8531035143678788,
+    "maxElbowBalanceResidualNm": 1.734723475976807e-18,
+    "maxResidualOtherDofNmPer1NFlexor": 0.01705023661018005
+  },
+  {
+    "side": "right",
+    "flexor": "m_right_biceps",
+    "extensor": "m_right_triceps",
+    "bothOpposeCount": 94,
+    "bothSameCount": 0,
+    "extensorTensionPer1NFlexorMin": 0.755764016821077,
+    "extensorTensionPer1NFlexorMedian": 1.0097810942798806,
+    "extensorTensionPer1NFlexorMax": 1.010176198462412,
+    "maxElbowBalanceResidualNm": 3.469446951953614e-18,
+    "maxResidualOtherDofNmPer1NFlexor": 0.00846425553276057
+  },
+  {
+    "side": "right",
+    "flexor": "m_right_brachialis",
+    "extensor": "m_right_triceps",
+    "bothOpposeCount": 94,
+    "bothSameCount": 0,
+    "extensorTensionPer1NFlexorMin": 0.5698800403487511,
+    "extensorTensionPer1NFlexorMedian": 0.7493076696694765,
+    "extensorTensionPer1NFlexorMax": 0.7495869586837693,
+    "maxElbowBalanceResidualNm": 1.734723475976807e-18,
+    "maxResidualOtherDofNmPer1NFlexor": 0.01677122476411191
+  },
+  {
+    "side": "right",
+    "flexor": "m_right_brachioradialis",
+    "extensor": "m_right_triceps",
+    "bothOpposeCount": 94,
+    "bothSameCount": 0,
+    "extensorTensionPer1NFlexorMin": 0.5144648495842586,
+    "extensorTensionPer1NFlexorMedian": 0.9281712945851864,
+    "extensorTensionPer1NFlexorMax": 0.9288131884481079,
+    "maxElbowBalanceResidualNm": 1.734723475976807e-18,
+    "maxResidualOtherDofNmPer1NFlexor": 0.02078122433544944
+  }
+]
