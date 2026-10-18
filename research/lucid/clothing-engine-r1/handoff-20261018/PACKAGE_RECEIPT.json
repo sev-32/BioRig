@@ -1,0 +1,32 @@
+{
+  "schema": "biorig.lucid-clothing-handoff.v1",
+  "date": "2026-10-18",
+  "repo": "sev-32/BioRig",
+  "branch": "research/lucid-clothing-r1-clean-handoff-20261018",
+  "base_ref": "research/lucid-r575-goal-intent",
+  "archive": {
+    "filename": "LUCID_CLOTHING_ENGINE_CLEAN_HANDOFF_20261018.zip",
+    "bytes": 24913142,
+    "sha256": "738ffaa2db9c727c3b4ce331269e989c166c3b3b1ccff73c73407d457f24a047",
+    "included_in_git": false
+  },
+  "source_archive": {
+    "filename": "LUCID_CLOTHING_ENGINE_FINAL_HANDOFF_20260927.zip",
+    "bytes": 73952564,
+    "sha256": "a9f3f4a6510a5591eda6e269e3f2bd51af8a77afed42cc804f5819ed01c9edb2"
+  },
+  "manifest": {
+    "algorithm": "sha256",
+    "member_file_count": 381,
+    "verification": "original archive bytes vs curated files; ZIP CRC and fresh extraction hashes"
+  },
+  "qualifications": {
+    "json_reports_preserved": 103,
+    "original_contact_sheets": 11,
+    "js_syntax": "passed",
+    "runtime_smoke": "executed; physical gates failed in single-frame/default configuration"
+  },
+  "source_boundary": "last complete executable source predates some manifold experiments; evidence-only late findings cannot be treated as promoted source",
+  "exclusion_record": "docs/REMOVAL_LEDGER.json inside separate transfer ZIP",
+  "approval": "not visually approved; no physics promotion"
+}
