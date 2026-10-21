@@ -1,0 +1,51 @@
+{
+  "archive_sha256": "2453e61ebcfd1c2bf178045ec27bcbb82890ed68c2519d8f75a51fb9d5d87a73",
+  "method": "retrospective archived measurements only",
+  "no_native_simulation_rerun": true,
+  "r25_evidence_tests_passed": 8,
+  "r25_evidence_tests_total": 8,
+  "r26_local_diagnostic_tests_passed": 6,
+  "r26_local_diagnostic_tests_total": 6,
+  "r26_archive_self_test_passed": true,
+  "thresholds": {
+    "x_m": 0.15,
+    "abs_vx_mps": 0.25,
+    "margin_m": -0.1,
+    "abs_lumbar_deg": 15,
+    "consecutive_samples": 3
+  },
+  "cases": {
+    "baseline540": {
+      "physics_hz": 540,
+      "samples": 225,
+      "fall_s": null,
+      "first_alert_s": null,
+      "min_margin_m": -0.0750734809859463,
+      "telemetry_sha256": "b34b6a0f5b17043877cd373c2632ae96c32595a20a719a948dddd3c7a488eec1"
+    },
+    "guard540": {
+      "physics_hz": 540,
+      "samples": 195,
+      "fall_s": 6.035185185185186,
+      "first_alert_s": 5.43333,
+      "lead_s": 0.6018551851851859,
+      "alert_phase": "wds",
+      "min_margin_m": -0.7469343395540291,
+      "telemetry_sha256": "98eff48f4831436951eccaec28f734ecfe81d1e8c64c8193a08c2c4f81a891e0"
+    },
+    "guard270": {
+      "physics_hz": 270,
+      "samples": 225,
+      "fall_s": null,
+      "first_alert_s": null,
+      "min_margin_m": -0.07659937815399796,
+      "telemetry_sha256": "77404b67c89ee3cb5f0b386dec68f70fb3621e78b2e6cc0a2b5926b7b83563c7"
+    }
+  },
+  "warnings": [
+    "R26 thresholds are chosen in-sample; not generalization",
+    "R25 render requires skin_faces_u32.bin absent from code ZIPs",
+    "Visual comparison is 3-D point cloud rebuilt from archived vertex buffers, not newly simulated dynamics",
+    "R25 parent files and telemetry archive not committed in this branch; script consumes exact external ZIP"
+  ]
+}
